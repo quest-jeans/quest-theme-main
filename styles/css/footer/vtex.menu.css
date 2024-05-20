@@ -1,0 +1,43 @@
+.styledLinkContainer--container-menu-footer {
+  margin: 0;
+}
+
+.styledLinkContent--footer__menu-text {
+  color: #fff;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.styledLinkContent--container-menu-footer {
+  color: #fff;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  width: 210px;
+}
+
+.styledLinkContent--faq__menu-text {
+  color: #000000;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.styledLinkContainer--menu--item {
+  margin: 0;
+}
+
+.styledLinkContent--menu--item {
+  color: #536271 !important;
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+}

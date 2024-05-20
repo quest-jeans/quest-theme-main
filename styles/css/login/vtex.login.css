@@ -1,0 +1,37 @@
+.label,
+.profile {
+  color: #fff;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+:global(.vtex-button) {
+  display: flex;
+  align-items: center;
+}
+
+.container :global(.vtex-button)::before {
+  content: "\e900";
+  font-family: "Icons";
+  font-size: 50px;
+  color: #fff;
+}
+
+.container :global(.vtex-button)::after {
+  content: "Acceder a mi cuenta";
+  color: #fff;
+  font-family: "TitilliumWeb-Regular";
+  padding-left: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  width: 90px;
+}
+
+.container :global(.vtex-button__label) {
+  display: none;
+}

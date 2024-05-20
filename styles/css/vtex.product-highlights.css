@@ -1,0 +1,68 @@
+.productHighlightWrapper--collection {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 200px;
+}
+
+.productHighlightText {
+  background: antiquewhite;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.productHighlightText--varios,
+.productHighlightText--nuevo,
+.productHighlightText--nuevo-pdp {
+  font-family: "TitilliumWeb-Regular";
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+  padding: 3px 10px;
+  text-align: center;
+  line-height: 18px;
+}
+
+.productHighlightText--free-shipping {
+  font-family: "TitilliumWeb-Regular";
+  border-radius: 10px;
+  background: #87b9dc;
+  color: #fff;
+  font-size: 15px;
+  padding: 3px 7px;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .productHighlightText--nuevo,
+  .productHighlightText--free-shipping {
+    font-size: 11px;
+  }
+  .productHighlightText--nuevo {
+    padding: 1px 5px;
+    position: relative;
+    z-index: 2;
+    top: 30px;
+    width: 55px;
+  }
+
+  .productHighlightText--free-shipping {
+    padding: 3px 2px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    width: 60px;
+    justify-content: center;
+  }
+
+  .productHighlightText--varios {
+    padding: 1px 5px;
+    position: relative;
+    z-index: 2;
+    top: 60px;
+    width: 55px;
+  }
+}

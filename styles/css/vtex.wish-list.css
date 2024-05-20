@@ -1,0 +1,45 @@
+.wishlistIcon {
+  visibility: hidden;
+}
+
+:global(.vtex-wish-list-1-x-outline)::before {
+  content: "\e90c";
+  font-family: "Icons";
+  font-size: 45px;
+  color: #fff;
+  visibility: visible;
+  background-color: #000;
+  border-radius: 50%;
+  width: 55px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transform: scale(0.8);
+}
+
+:global(.vtex-wish-list-1-x-fill)::before {
+  content: "\e90c";
+  font-family: "Icons";
+  font-size: 45px;
+  color: #a94c4c;
+  visibility: visible;
+  background-color: #000;
+  border-radius: 50%;
+  width: 55px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wishlistIconContainer :global(.vtex-button):hover {
+  background-color: transparent !important;
+}
+
+@media screen and (max-width: 1024px) {
+  :global(.vtex-wish-list-1-x-outline)::before {
+    background-color: #333;
+  }
+}

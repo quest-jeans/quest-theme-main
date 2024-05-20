@@ -1,0 +1,63 @@
+.flexRow--container-collection-especial :global(.vtex-store-components-3-x-container)
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+
+
+.flexRow--carousel-products :global(.vtex-store-components-3-x-container){
+    max-width: 1100px !important;
+}
+
+.flexColChild--container-collection-especial{
+    display: flex;
+    justify-content: center;
+}
+
+/* .flexRow--container-collection-especial :global(.vtex-slider-layout-0-x-sliderLeftArrow){
+    background-image: url(/arquivos/landing-arrow-left.png) !important;
+    width: 40px;
+    height: 160px;
+    display: block;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    left: -45px;
+}
+
+.flexRow--container-collection-especial :global(.vtex-slider-layout-0-x-sliderRightArrow){
+    background-image: url(/arquivos/landing-arrow-right.png) !important;
+    width: 40px;
+    height: 160px;
+    display: block;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    right: -45px;
+} */
+
+.flexRow--container-collection-especial .flexRowContent--productSumary-Price {
+    display: flex;
+    justify-content: center;
+}
+
+.flexColChild--carousel-products :global(.vtex-rich-text-0-x-container--title-home){
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px){
+    .flexRow--container-collection-especial :global(.vtex-slider-layout-0-x-sliderTrackContainer) {
+        max-width: 80%;
+    }
+
+
+    .flexRow--carousel-products :global(.vtex-store-components-3-x-container):first-child{
+        max-width: 90% !important;
+    }
+
+    .flexRow--row-home-content :global(.vtex-store-components-3-x-container) {
+      padding: 0 1px;
+    }
+}
+

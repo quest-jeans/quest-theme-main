@@ -1,0 +1,112 @@
+{
+  "store.custom#blog-2-column": {
+    "blocks": [
+      "custom-metas-injection#blog2",
+      "list-context.image-list#banner-static-content",
+      "flex-layout.row#text-static-content1",
+      "flex-layout.row#content-block-text-image",
+      "flex-layout.row#content-block-image-text",
+      "flex-layout.row#content-block-text-product",
+      "flex-layout.row#text-static-content2"
+    ]
+  },
+  "custom-metas-injection#blog2": {
+    "title": "Custom Meta Tags",
+    "props": {
+      "metas": [
+        {
+          "property": "og:image",
+          "content": "https://quest.vteximg.com.br/arquivos/quest-OG.jpg"
+        }
+      ]
+    }
+  },
+
+  // CONTENIDO BLOQUE 1
+
+  "flex-layout.row#content-block-text-image": {
+    "title": "Contenedor 1",
+    "props": {
+      "blockClass": "containerRow-text-image"
+    },
+    "children": [
+      "flex-layout.row#content-text-button",
+      "flex-layout.row#content-image"
+    ]
+  },
+
+  "flex-layout.row#content-text-button": {
+    "props": {
+      "blockClass": "containerRow-text-button"
+    },
+    "children": ["flex-layout.col#content-text-button"]
+  },
+
+  "flex-layout.col#content-text-button": {
+    "props": {
+      "blockClass": "containerCol-text-button"
+    },
+    "children": ["rich-text#text-static-content1", "rich-text#boton-1-blogs"]
+  },
+
+  // CONTENIDO BLOQUE 1
+
+  // CONTENIDO BLOQUE 2
+
+  "flex-layout.row#content-block-image-text": {
+    "title": "Contenedor 2",
+    "props": {
+      "blockClass": "containerRow-text-image"
+    },
+    "children": [
+      "flex-layout.row#content-image",
+      "flex-layout.row#content-text-button-1"
+    ]
+  },
+
+  "flex-layout.row#content-text-button-1": {
+    "props": {
+      "blockClass": "containerRightRow-text-button"
+    },
+    "children": ["flex-layout.col#content-text-button-1"]
+  },
+
+  "flex-layout.col#content-text-button-1": {
+    "props": {
+      "blockClass": "containerCol-text-button"
+    },
+    "children": ["rich-text#text-static-content1", "rich-text#boton-2-blogs"]
+  },
+
+  // CONTENIDO BLOQUE 2
+
+  // CONTENIDO BLOQUE 3
+
+  "flex-layout.row#content-block-text-product": {
+    "title": "Contenedor 3",
+    "props": {
+      "blockClass": "containerRow-text-product"
+    },
+    "children": [
+      "rich-text#text-static-content1",
+      "flex-layout.row#text-product-blog-2"
+    ]
+  },
+
+  "flex-layout.row#text-product-blog-2": {
+    "title": "Productos",
+    "props": {
+      "blockClass": "vitrinaProducBlog"
+    },
+    "children": ["list-context.product-list#collection-blog-2"]
+  },
+
+  // CONTENIDO BLOQUE 3
+
+  "flex-layout.row#content-image": {
+    "props": {
+      "blockClass": "containerRow-image"
+    },
+    "children": ["image#blogs"]
+  }
+}

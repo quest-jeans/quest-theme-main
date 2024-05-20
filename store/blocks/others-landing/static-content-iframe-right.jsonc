@@ -1,0 +1,79 @@
+{
+  "store.custom#static-content-text-iframe": {
+    "title": "Contenido Estático Iframe",
+    "blocks": [
+      "custom-metas-injection#static-content-text-iframe",
+      "flex-layout.row#static-content-text-iframe"
+    ]
+  },
+  "custom-metas-injection#static-content-text-iframe": {
+    "title": "Custom Meta Tags - Contenido Estático",
+    "props": {
+      "metas": [
+        {
+          "property": "og:image",
+          "content": ""
+        }
+      ]
+    }
+  },
+  "flex-layout.row#static-content-text-iframe": {
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "blockClass": "iframeRow-static-content",
+      "colGap": 5
+    },
+    "children": [
+      "flex-layout.col#static-content-text-iframe-1",
+      "flex-layout.col#static-content-text-iframe-2"
+    ]
+  },
+
+  "flex-layout.col#static-content-text-iframe-2": {
+    "props": {
+      "blockClass": "iframeCol-static-content"
+    },
+    "children": ["iframe#static-content-text-iframe"]
+  },
+
+  "iframe#static-content-text-iframe": {
+    "title": "Iframe",
+    "props": {
+      "src": "",
+      "width": "100%",
+      "height": 600,
+      "blockClass": ["iframe-static-content"],
+      "htmlId": "iframe-static-content",
+      "className": "iframe-static-content"
+    }
+  },
+
+  "flex-layout.col#static-content-text-iframe-1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "iframeCol-static-content"
+    },
+    "children": [
+      "rich-text#static-content-text-iframe1",
+      "rich-text#static-content-text-iframe2"
+    ]
+  },
+
+  "rich-text#static-content-text-iframe1": {
+    "title": "Texto Centrado",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur",
+      "blockClass": "text-static-content-center"
+    }
+  },
+
+  "rich-text#static-content-text-iframe2": {
+    "title": "Texto Justificado",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur, mi risus vestibulum nisl, a pulvinar magna nunc sed ligula. Curabitur eget elementum ex. Quisque quam dolor, gravida ullamcorper ante eu, tincidunt auctor turpis. Aenean sodales suscipit mauris eu scelerisque. Morbi lacinia vel ligula ornare lobortis. Suspendisse potenti. Maecenas commodo elementum metus et tincidunt. In hac habitasse platea dictumst. Vestibulum iaculis diam at libero rutrum, a faucibus quam faucibus. Quisque venenatis rhoncus facilisis. Sed convallis metus arcu. Aliquam ornare nulla vitae bibendum placerat. In lorem eros, mollis nec tincidunt placerat, ultrices nec nibh. Integer quis felis imperdiet, semper lorem non, suscipit mi. Donec suscipit eros at odio blandit mattis",
+      "blockClass": "text-static-content"
+    }
+  }
+}

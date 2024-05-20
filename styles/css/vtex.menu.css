@@ -1,0 +1,64 @@
+.menuContainer--menu-header .styledLinkContent {
+  color: #000;
+  text-align: center;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 5px 10px;
+}
+
+.styledLinkContent--footer__menu-list {
+  color:#fff;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menuContainerNav--footer__menu-list {
+  background-color: #0C0C0C;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.styledLinkContent--menu--itemtext {
+  color: #536271 !important;
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+}
+
+.submenu--container-submenu-item {
+  max-width: 1500px;
+  margin: 10px auto;
+}
+
+.submenuWrapper--container-submenu-item--isOpen {
+  box-shadow: -1px -4px 11px -1px rgba(131, 131, 131, 0.75);
+  -webkit-box-shadow: inset -3px 5px 11px -1px rgba(131, 131, 131, 0.75);
+  -moz-box-shadow: -1px -4px 11px -1px rgba(131, 131, 131, 0.75);
+  padding: 0;
+}
+
+.menuContainer--menu-header .menuItem--isOpen .styledLinkContent {
+  color: #fff;
+  background-color: #333;
+  padding: 5px 10px;
+}
+
+.styledLinkContent--menu--item {
+  background-color: #fff !important;
+  padding: 5px 0 !important;
+}
+
+.styledLinkContent {
+  white-space: normal;
+}
+
+@media screen and (min-width: 1366px) {
+  .submenu--container-submenu-item {
+    max-width: 1280px;
+  }
+}

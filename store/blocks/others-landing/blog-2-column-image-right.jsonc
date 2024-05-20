@@ -1,0 +1,64 @@
+{
+  "store.custom#blog-2-column-image-right": {
+    "blocks": [
+      "custom-metas-injection#blog2-image-right",
+      "list-context.image-list#banner-static-content",
+      "flex-layout.row#text-static-content1",
+      "flex-layout.row#content-block-text-image-right-1",
+      "flex-layout.row#content-block-text-image-right-2",
+      "flex-layout.row#content-block-text-image-right-3",
+      "flex-layout.row#content-block-text-product"
+    ]
+  },
+  "custom-metas-injection#blog2-image-right": {
+    "title": "Custom Meta Tags",
+    "props": {
+      "metas": [
+        {
+          "property": "og:image",
+          "content": "https://quest.vteximg.com.br/arquivos/quest-OG.jpg"
+        }
+      ]
+    }
+  },
+
+  // CONTENIDO BLOQUE 1
+
+  "flex-layout.row#content-block-text-image-right-1": {
+    "title": "Contenedor 1",
+    "props": {
+      "blockClass": "containerRow-text-image"
+    },
+    "children": [
+      "flex-layout.row#text-static-content1",
+      "flex-layout.row#content-image"
+    ]
+  },
+  // CONTENIDO BLOQUE 1
+
+  // CONTENIDO BLOQUE 2
+  "flex-layout.row#content-block-text-image-right-2": {
+    "title": "Contenedor 2",
+    "props": {
+      "blockClass": "containerRow-text-image"
+    },
+    "children": [
+      "flex-layout.row#text-static-content2",
+      "flex-layout.row#content-image"
+    ]
+  },
+  // CONTENIDO BLOQUE 2
+
+  // CONTENIDO BLOQUE 3
+  "flex-layout.row#content-block-text-image-right-3": {
+    "title": "Contenedor 3",
+    "props": {
+      "blockClass": "containerRow-text-image"
+    },
+    "children": [
+      "flex-layout.row#text-static-content3",
+      "flex-layout.row#content-image"
+    ]
+  }
+  // CONTENIDO BLOQUE 3
+}

@@ -1,0 +1,348 @@
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+.skuSelectorContainer:first-child {
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+  .label {
+    font-size: 40px;
+  }
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.image {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.discountInsideContainer {
+  right: 3%;
+  top: 100%;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  background-color: #ff0000;
+  font-weight: bold !important;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .discountInsideContainer {
+    right: 0%;
+    font-size: 11px;
+    padding: 1px 3px;
+  }
+}
+
+/* BEGIN - header */
+.searchIcon {
+  display: none;
+}
+
+.searchBarIcon--search {
+  padding: 0;
+}
+
+.searchBarContainer {
+  width:765px;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-input-prefix__group) {
+  border-radius: 50px;
+  border: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .logoContainer--logo {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .autoCompleteOuterContainer :global(.vtex-input__suffix) {
+    border-radius: 0 25px 25px 0;
+    background: #fff;
+    padding: 4px;
+  }
+  .autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input) {
+    border-radius: 25px 0 0 25px;
+    background: #fff;
+  }
+  .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    border-color: transparent;
+    height: 46px;
+  }
+}
+
+/* BEGIN - header */
+
+/* BEGIN - minicart */
+
+.imageElement--image__minicart__empty {
+  max-width: 80%;
+  margin: 60px auto;
+}
+
+/* END - minicart */
+
+/* BEGIN - home */
+
+.imageElement--media-banner,
+.imageElement--image-categories,
+.imageElement--image-banner-extra {
+  width: 100vw;
+}
+
+.imageElement--home__collection {
+  padding: 0 5px;
+}
+
+.imageElement--image-category-1,
+.imageElement--image-category-4 {
+  transform: scale(0.99);
+  transition: all 0.3s;
+}
+
+.imageElement--image-category-1:hover,
+.imageElement--image-category-2:hover,
+.imageElement--image-category-3:hover,
+.imageElement--image-category-4:hover {
+  transform: scale(1.1);
+
+}
+
+.imageElement--image-category-2,
+.imageElement--image-category-3 {
+  transform: scale(0.98);
+  transition: all 0.3s;
+}
+
+@media screen and (max-width: 1024px) {
+  .imageElement--image-benefits {
+    padding-right: 20px;
+  }
+
+  .imageElement--home__collection {
+    padding: 0;
+  }
+}
+
+/* END - home */
+
+/* BEGIN - footer */
+
+.imageElement--icon-social-networks {
+  margin: 0 10px;
+}
+
+/* END - footer */
+
+/* BEGIN - pdp */
+
+.productBrand--quickview {
+  color: #000;
+  font-family: "CitrusGothic-Regular";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.skuSelectorName {
+  color: #000;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.skuSelectorName::before {
+  content: "Selecciona tu ";
+}
+
+.skuSelectorItem {
+  border-radius: 10px;
+}
+
+.skuSelectorInternalBox {
+  border-radius: 10px;
+}
+
+.skuSelectorItem--selected .skuSelectorItemTextValue {
+  color: #fff;
+}
+
+.skuSelectorItem--selected .skuSelectorInternalBox {
+  border: none;
+}
+
+.skuSelectorItem--selected .frameAround {
+  border: 1px solid #000;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.productDescriptionTitle {
+  margin: 20px 0 0 0;
+  color: #000;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.productDescriptionText {
+  color: #333;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.diagonalCross {
+  background-color: #f5f5f5;
+}
+
+.skuSelectorSubcontainer--color {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .skuSelectorItem {
+    width: 120px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 389px) {
+  .skuSelectorItem {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 413px) {
+  .skuSelectorItem {
+    width: 115px;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 430px) {
+  .skuSelectorItem {
+    width: 120px;
+  }
+}
+
+/* END - pdp */
+
+/* BEGIN - minicart */
+.imageElement--image-minicart__empty {
+  max-width: 250px;
+  margin: 60px auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--content__minicart__footer) .containe {
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* END - minicart */

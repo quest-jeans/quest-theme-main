@@ -1,0 +1,146 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+
+.sliderLayoutContainer--carousel {
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+
+.sliderTrackContainer {
+  max-width: 100%;
+}
+
+.paginationDotsContainer {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  bottom: -15px;
+}
+
+.paginationDotsContainer--carousel {
+  bottom: -35px;
+}
+
+.paginationDot {
+  background-color: #ffffff;
+  width: 0.9rem !important;
+  height: 0.9rem !important;
+  border: 2px solid #000;
+}
+
+.paginationDot--isActive {
+  background-color: #000;
+  width: 1rem !important;
+  height: 1rem !important;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+  min-height: 550px;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  min-height: 550px;
+}
+
+/* BEGIN - header */
+
+.sliderLayoutContainer--sliderHeaderTop {
+  background-color: #555;
+}
+
+/* END - header */
+
+/* BEGIN - home */
+
+.sliderLayoutContainer--benefit-mobile {
+  background-color: #000;
+}
+
+.caretIcon {
+  color: #fff;
+  background-color: #44444499;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.sliderLayoutContainer--benefit-mobile {
+  margin-top: 40px;
+  height: 120px;
+}
+
+.sliderRightArrow {
+  right: -50px;
+}
+
+.sliderLeftArrow {
+  left: -50px;
+}
+
+.sliderRightArrow--carousel {
+  right: 0px;
+}
+
+.sliderLeftArrow--carousel {
+  left: 0px;
+}
+
+.sliderRightArrow--sliderProducBlog2 {
+  right: -2px;
+}
+
+.sliderLeftArrow--sliderProducBlog2 {
+  left: -2px;
+}
+
+@media screen and (max-width: 1024px) {
+  .sliderRightArrow {
+    right: 0px;
+  }
+
+  .sliderLeftArrow {
+    left: 0px;
+  }
+}
+
+/* END - home */
+
+/* BEGIN - product */
+
+.slide--home__shelf {
+  padding: 2px !important;
+}
+
+.slide--home__shelf :global(.vtex-product-summary-2-x-containerNormal) {
+  width: 100%;
+  max-width: 700px !important;
+}
+
+/* END - product */
+
+/* BEGIN - landing others */
+
+.sliderLayoutContainer--carousel--static-content-discount {
+  margin: 10px 0 25px 0;
+}
+
+.paginationDotsContainer--carousel--static-content-discount {
+  bottom: -25%;
+}
+
+.imageElement--carousel--static-content-discount {
+  width: 100%;
+  max-width: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+  .sliderTrack--carousel--static-content-discount {
+    gap: 10px;
+  }
+}
+/* END - landing others */

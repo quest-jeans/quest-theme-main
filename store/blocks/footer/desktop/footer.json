@@ -1,0 +1,228 @@
+{
+  "footer": {
+    "title": "Footer",
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "title": "Footer Desktop",
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-menu-1",
+      "vtex.menu@2.x:menu#footer-menu-2",
+      "vtex.menu@2.x:menu#footer-menu-3",
+      "vtex.menu@2.x:menu#footer-menu-4",
+      "vtex.menu@2.x:menu#footer-menu-5",
+      "vtex.menu@2.x:menu#footer-menu-6"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "props": {
+      "blockClass": "container-payment-methods-social-networks"
+    },
+    "children": ["flex-layout.row#payment-methods-social-networks"]
+  },
+  "flex-layout.row#payment-methods-social-networks": {
+    "title": "Metodos de pago - Redes Sociales",
+    "props": {
+      "blockClass": "paymentRow-methods-social-networks"
+    },
+    "children": [
+      "flex-layout.row#logo-footer-dk",
+      "flex-layout.row#superIntendecia",
+      "flex-layout.col#payment-methods",
+      "flex-layout.col#social-networks"
+    ]
+  },
+
+  "flex-layout.row#logo-footer-dk": {
+    "title": "Logo Footer",
+    "props": {
+      "blockClass": "rowLogo-footer-desktop"
+    },
+    "children": ["logo#footer-desktop"]
+  },
+  "logo#footer-desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/svg/Logo-Quest-White.svg",
+      "width": "146",
+      "height": "40"
+    }
+  },
+
+  "flex-layout.row#superIntendecia": {
+    "title": "Super Intendencia",
+    "props": {
+      "blockClass": "rowSuperIntendecia"
+    },
+    "children": ["flex-layout.col#superIntendecia"]
+  },
+  "flex-layout.col#superIntendecia": {
+    "props": {
+      "blockClass": "colSuperIntendecia"
+    },
+    "children": ["rich-text#superIntendecia", "image#superIntendecia"]
+  },
+
+  "rich-text#superIntendecia": {
+    "title": "Texto Super Intendencia",
+    "props": {
+      "text": "Vigilado por:",
+      "blockClass": ["footer-superIntendecia", "title-footer2"]
+    }
+  },
+
+  "image#superIntendecia": {
+    "title": "Logo PCI PSS",
+    "props": {
+      "src": "assets/images/watched-by.png",
+      "maxHeight": 35,
+      "blockClass": "image-footer"
+    }
+  },
+
+  "flex-layout.col#payment-methods": {
+    "title": "Metodos de Pago",
+    "props": {
+      "blockClass": "content-footer",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#text-payment-methods",
+      "responsive-layout.desktop#payment-methods",
+      "responsive-layout.mobile#payment-methods"
+    ]
+  },
+  "rich-text#text-payment-methods": {
+    "title": "Text Metodos de Pago",
+    "props": {
+      "blockClass": ["text-payment-methods", "text-content-footer"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Medios de pago disponibles:"
+    }
+  },
+
+  "responsive-layout.desktop#payment-methods": {
+    "children": ["flex-layout.row#payment-methods"]
+  },
+
+  "responsive-layout.mobile#payment-methods": {
+    "children": ["flex-layout.row#payment-methods-mobile"]
+  },
+
+  "flex-layout.row#payment-methods": {
+    "title": "Iconos Redes Sociales",
+    "props": {
+      "blockClass": "container-payment-methods"
+    },
+    "children": ["image#payment-methods"]
+  },
+  "image#payment-methods": {
+    "title": "Icon Payment methods",
+    "props": {
+      "blockClass": "icon-payment-methods",
+      "src": "https://quest.vteximg.com.br/arquivos/Quest-DK-MediosdePago.png",
+      "maxHeight": 200
+    }
+  },
+
+  "flex-layout.row#payment-methods-mobile": {
+    "title": "Iconos Redes Sociales",
+    "props": {
+      "blockClass": "container-payment-methods"
+    },
+    "children": ["image#payment-methods-mobile"]
+  },
+  "image#payment-methods-mobile": {
+    "title": "Icon Payment methods",
+    "props": {
+      "blockClass": "icon-payment-methods",
+      "src": "https://quest.vteximg.com.br/arquivos/Quest-MB-MediosdePago.png",
+      "maxHeight": 150
+    }
+  },
+
+  "flex-layout.col#social-networks": {
+    "title": "Redes Sociales",
+    "props": {
+      "blockClass": "content-footer",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#text-social-networks",
+      "flex-layout.row#social-networks"
+    ]
+  },
+  "rich-text#text-social-networks": {
+    "title": "Text Redes Sociales",
+    "props": {
+      "blockClass": ["text-social-networks", "text-content-footer"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Síguenos en nuestras redes:"
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "title": "Copyright - Power By",
+    "children": ["rich-text#footer", "flex-layout.row#footer-1"],
+    "props": {
+      "blockClass": "credits-powered"
+    }
+  },
+  "rich-text#footer": {
+    "title": "Texto Copyright DK",
+    "props": {
+      "text": "Calle 64A # 5-94, Brisas del Guabito, Cali - Colombia servicioalcliente@quest.com.co - 602 489 5000 \n Todos los derechos reservados - NCS S.A.S",
+      "blockClass": "text-copyright"
+    }
+  },
+
+  "flex-layout.row#footer-1": {
+    "title": "Power By",
+    "props": {
+      "blockClass": "vtex__massive",
+      "colSizing": "auto"
+    },
+    "children": ["image#sitePCI", "image#massive", "image#vtex"]
+  },
+
+  "image#sitePCI": {
+    "title": "Logo PCI PSS",
+    "props": {
+      "src": "assets/images/site-pci-dss.png",
+      "maxHeight": 40,
+      "blockClass": "image-footer-powered"
+    }
+  },
+  "image#massive": {
+    "title": "Logo Massive",
+    "props": {
+      "src": "assets/images/powered-massive.png",
+      "maxHeight": 40,
+      "blockClass": "image-footer-powered"
+    }
+  },
+  "image#vtex": {
+    "title": "Logo Vtex",
+    "props": {
+      "src": "assets/images/technology-vtex.png",
+      "maxHeight": 40,
+      "blockClass": "image-footer-powered"
+    }
+  }
+}

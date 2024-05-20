@@ -1,0 +1,137 @@
+.listPrice {
+  color: #444;
+  text-align: center;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 20px !important;
+  font-weight: 400;
+  margin-bottom: 0 !important;
+}
+
+.sellingPrice--summary--hasListPrice {
+  padding-right: 10px;
+}
+
+.sellingPrice {
+  color: #444;
+  text-align: center;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 20px;
+  font-weight: 700;
+}
+.currencyContainer--price-product-list {
+  color: #828282;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.currencyContainer--price-product-selling {
+  color: #000;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.installments {
+  color: #727273;
+  margin-bottom: 1rem;
+}
+
+.savings {
+  font-weight: 500;
+  color: #79b03a;
+}
+
+.savings--summary {
+  background: #8bc34a;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #ffffff;
+}
+
+.savings-discount--summary {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #ffffff;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.listPrice--summary {
+  margin-bottom: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.installments--summary {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+}
+
+.savings--summaryPercentage {
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+}
+
+.savingsPercentage--summaryPercentage {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #ffffff;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  background-color: #ff0000;
+  border-radius: 10px;
+}
+
+.savingsPercentage--summaryPercentage::before {
+  content: "-";
+  padding-right: 3px;
+}
+
+.currencyDecimal,
+.currencyFraction {
+  display: none;
+}
+
+.savings--discountInsideContainer {
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  background-color: #ff0000;
+  font-weight: bold !important;
+  border-radius: 10px;
+  padding: 4px 10px;
+}
+
+@media screen and (max-width: 1024px) {
+
+
+  .currencyContainer--price-product-selling,
+  .currencyContainer--price-product-list {
+    font-size: 21px !important;
+  }
+
+  .savings--discountInsideContainer {
+    width: 35% !important;
+  }
+
+  .savingsPercentage--discountInsideContainer {
+    padding-left: 5px;
+  }
+
+  .sellingPriceValue--price-product-selling {
+    display: flex;
+  }
+  .listPriceValue--summary,
+  .sellingPriceValue--summary {
+    font-size: 14px;
+  }
+}

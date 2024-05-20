@@ -1,0 +1,43 @@
+{
+  "store.custom#landing-static-content-how-to-buy": {
+    "title": "Contenido Estático",
+    "blocks": [
+      "custom-metas-injection#static-content-how-to-buy",
+      "list-context.image-list#banner-static-content",
+      "flex-layout.row#image-static-content",
+      "flex-layout.row#text-static-content1",
+      "flex-layout.row#text-static-content2",
+      "flex-layout.row#dropdown-faq-content-1",
+      "flex-layout.row#text-static-content3",
+      "flex-layout.row#dropdown-faq-content-2",
+      "flex-layout.row#text-static-content4",
+      "flex-layout.row#dropdown-faq-content-3"
+    ]
+  },
+  "custom-metas-injection#static-content-how-to-buy": {
+    "title": "Custom Meta Tags - Contenido Estático",
+    "props": {
+      "metas": [
+        {
+          "property": "og:image",
+          "content": ""
+        }
+      ]
+    }
+  },
+  "flex-layout.row#image-static-content": {
+    "title": "Imagenes",
+    "props": {
+      "fullwidth": true,
+      "blockClass": "containerImage-statis-content"
+    },
+    "children": [
+      "list-context.image-list#image-content-static",
+      "list-context.image-list#image-content-static-1",
+      "list-context.image-list#image-content-static-2",
+      "list-context.image-list#image-content-static-3",
+      "list-context.image-list#image-content-static-4",
+      "list-context.image-list#image-content-static-5"
+    ]
+  }
+}

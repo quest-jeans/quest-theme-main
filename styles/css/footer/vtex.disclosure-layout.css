@@ -1,0 +1,11 @@
+@media screen and (max-width: 1024px) {
+  .trigger--footer__terms {
+    width: 100%;
+    padding: 0 15px;
+    background-color: #000;
+    border-bottom: 1px solid #020617 !important;
+    border: none;
+    padding: 10px 0px;
+    max-height: 35px;
+  }
+}

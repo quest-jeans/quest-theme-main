@@ -1,0 +1,27 @@
+.summaryItemPrice {
+  color: #666;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.summaryItemLabel {
+  color: #666;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child {
+  font-size: 16px;
+  color: #666666;
+  line-height: 24px;
+  font-weight: bold !important;
+  font-weight: 700 !important;
+  border-top: 1px solid #666666;
+  padding-top: 5px;
+  margin-top: 5px;
+}

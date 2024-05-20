@@ -1,0 +1,117 @@
+{
+  "add-to-cart-button": {
+    "props": {
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button"
+    }
+  },
+
+  "minicart.v2": {
+    "title": "Minicarrito",
+    "props": {
+      "blockClass": "minicart",
+      "variation": "drawer",
+      "drawerSlideDirection": "rightToLeft",
+      "linkVariationUrl": "",
+      "maxDrawerWidth": 360,
+      "openOnHover": false,
+      "quantityDisplay": "not-empty",
+      "itemCountMode": "",
+      "backdropMode": "visible",
+      "customPixelEventId": "add-to-cart-button",
+      "customPixelEventName": "addToCart"
+    },
+    "children": ["minicart-base-content"]
+  },
+  "minicart-base-content": {
+    "title": "Contenedor",
+    "blocks": ["minicart-empty-state"],
+    "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+  },
+  "minicart-empty-state": {
+    "title": "Carrito Vacío",
+    "children": [
+      "image#minicart_empty",
+      "rich-text#text-minicart-empty",
+      "rich-text#button-minicart-empty"
+    ]
+  }, "image#minicart_empty": {
+    "title": "Imagen",
+    "props": {
+      "blockClass": "image__minicart__empty",
+      "src": "assets/images/Empty-Car.png",
+      "maxHeight": 200
+    }
+  },
+  "rich-text#text-minicart-empty": {
+    "title": "Texto",
+    "props": {
+      "blockClass": "text__minicart__empty",
+      "text": "**Tu carrito está vació**Tu carrito de compras está vacío"
+    }
+  },
+  "rich-text#button-minicart-empty": {
+    "title": "Comprar",
+    "props": {
+      "text": "[Elegir productos](/)",
+      "blockClass": "go__to__continue"
+    }
+  },
+  "minicart-product-list": {
+    "title": "Lista",
+    "props": {
+      "blockClass": "content__minicart__products"
+    },
+    "blocks": ["product-list#main"]
+  },
+  "flex-layout.row#minicart-footer": {
+    "title": "Contenido",
+    "props": {
+      "blockClass": "content__minicart__footer",
+      "width": "100%"
+    },
+    "children": [
+      "toggle-layout#store_promo_term",
+      "minicart-summary",
+      "minicart-checkout-button",
+      "drawer-close-button"
+    ]
+  },
+  "toggle-layout#store_promo_term": {
+    "title": "Termometro promocional M/O",
+    "children": [
+      "custom-freeshipping"
+    ]
+  },
+  "minicart-summary": {
+    "title": "Checkout",
+    "blocks": ["checkout-summary.compact"]
+  },
+  "checkout-summary.compact": {
+    "title": "Checkout",
+    "children": ["summary-totalizers"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts", "Tax"]
+    }
+  },
+  "summary-totalizers": {
+    "title": "Resumen Precios",
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": true,
+      "showTax": true
+    }
+  },
+  "minicart-checkout-button": {
+    "title": "Botón Cerrar Compra",
+    "props": {
+      "blockClass": "botton__close__buy"
+    }
+  },
+  "drawer-close-button": {
+    "title": "Boton Cerrar Carrito",
+    "props": {
+      "blockClass": "close__button__minicart"
+    }
+  }
+}

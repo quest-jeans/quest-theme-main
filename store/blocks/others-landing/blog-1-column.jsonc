@@ -1,0 +1,43 @@
+{
+  "store.custom#blog-1-column": {
+    "blocks": [
+      "custom-metas-injection#blog1",
+
+      "list-context.image-list#banner-static-content",
+      "flex-layout.row#text-static-content1",
+      "flex-layout.row#image-static-content-blog",
+      "flex-layout.row#text-static-content2",
+      "flex-layout.row#text-product",
+      "flex-layout.row#text-static-content3"
+    ]
+  },
+  "custom-metas-injection#blog1": {
+    "title": "Custom Meta Tags",
+    "props": {
+      "metas": [
+        {
+          "property": "og:image",
+          "content": "https://quest.vteximg.com.br/arquivos/quest-OG.jpg"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#image-static-content-blog": {
+    "props": {
+      "fullwidth": true,
+      "blockClass": "containerImage-statis-content"
+    },
+    "children": ["list-context.image-list#image-content-static"]
+  },
+
+  // PRODUCTO
+  "flex-layout.row#text-product": {
+    "title": "Productos",
+    "props": {
+      "blockClass": "vitrinaProducBlog"
+    },
+    "children": ["list-context.product-list#collection-blog"]
+  }
+  // PRODUCTO
+}

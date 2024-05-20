@@ -1,0 +1,15 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "menu-header"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu1",
+      "vtex.menu@2.x:menu#category-menu2",
+      "vtex.menu@2.x:menu#category-menu3",
+      "vtex.menu@2.x:menu#category-menu4",
+      "vtex.menu@2.x:menu#category-menu5"
+    ]
+  }
+}

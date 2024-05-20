@@ -1,0 +1,47 @@
+{
+    "responsive-layout.tablet#landing-coming-soon":{
+        "title": "Tablet",
+        "children": [
+            "flex-layout.row#landing-video",
+            "flex-layout.row#landing-image-player",
+            "flex-layout.row#landing-since",
+            "flex-layout.row#landing-carousel-image",
+            "flex-layout.row#landing-text-invitacion",
+            "flex-layout.row#landing-image-form",
+            "flex-layout.row#landing-banner-footer",
+            "flex-layout.row#newsletterCustom"
+        ]
+    },
+    "responsive-layout.mobile#landing-coming-soon":{
+        "title": "Mobile",
+        "children": [
+            "flex-layout.row#landing-video",
+            "flex-layout.row#landing-image-player",
+            "flex-layout.row#landing-since",
+            "flex-layout.row#landing-carousel-image",
+            "flex-layout.row#landing-text-invitacion",
+            "flex-layout.row#landing-image-form",
+            "flex-layout.row#landing-banner-footer",
+            "flex-layout.row#newsletterCustom"
+        ]
+    },
+    "flex-layout.row#landing-image-player":{
+        "title": "Jugador",
+        "children":[
+            "image#landing-player"
+        ],
+        "props":{
+            "blockClass": "landing-image-player",
+            "marginBottom": "8",
+            "marginTop": "8"
+        }
+    },
+
+    "image#landing-player": {
+        "title": "Jugador",
+        "props": {
+          "src": "/arquivos/jugador-landing-lerma.png",
+          "blockClass": "texto-logo-quest-name"
+        }
+    }
+}

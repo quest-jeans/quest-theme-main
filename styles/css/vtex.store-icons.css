@@ -1,0 +1,94 @@
+.expandIcon {
+  color: #727273;
+}
+
+:global(.vtex-minicart-2-x-minicartIconContainer)::before {
+  content: "\e938";
+  font-family: "Icons";
+  font-size: 40px;
+  color: #ffffff;
+}
+
+:global(.vtex-minicart-2-x-closeIconButton)::before {
+  content: "\e902";
+  font-family: "Icons";
+  font-size: 25px;
+  color: #ffffff;
+}
+
+:global(.vtex-store-components-3-x-searchBarIcon--search)::before {
+  content: "\e90a";
+  font-family: "Icons";
+  font-size: 45px;
+  color: #000;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--footer__terms--hidden)
+  :global(.vtex-menu-2-x-styledLinkContent--footer__menu-text)::after {
+  content: "\e90e";
+  font-family: "Icons";
+  font-size: 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--footer__terms--visible)
+  :global(.vtex-menu-2-x-styledLinkContent--footer__menu-text)::after {
+  content: "\e90f";
+  font-family: "Icons";
+  font-size: 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--title-dropdown-faq--hidden)
+  :global(.vtex-menu-2-x-styledLinkContent--faq__menu-text)::after {
+  content: "\e90e";
+  font-family: "Icons";
+  font-size: 15px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--container-title__faq--visible)
+  :global(.vtex-rich-text-0-x-container--title-faq-menu)::after {
+  content: "\e90f";
+  font-family: "Icons";
+  font-size: 15px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--container-title__faq--hidden)
+  :global(.vtex-rich-text-0-x-container--title-faq-menu)::after {
+  content: "\e90e";
+  font-family: "Icons";
+  font-size: 15px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--title-dropdown-faq--visible)
+  :global(.vtex-menu-2-x-styledLinkContent--faq__menu-text)::after {
+  content: "\e90f";
+  font-family: "Icons";
+  font-size: 15px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  :global(.vtex-store-components-3-x-searchBarIcon--search)::before {
+    font-size: 60px;
+  }
+
+  :global(.vtex-store-drawer-0-x-closeIconButton--close__button__minicart) {
+    width: 92% !important;
+  }
+}

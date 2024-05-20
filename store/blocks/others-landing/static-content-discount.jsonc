@@ -1,0 +1,115 @@
+{
+  "store.custom#static-content-discount": {
+    "title": "Contenido Landing descuentos",
+    "blocks": [
+      "custom-metas-injection#static-content-discount",
+      "flex-layout.row#banner-static-content-discount",
+      "search-result-layout.customQuery#static-content-discount"
+    ]
+  },
+  "custom-metas-injection#static-content-discount": {
+    "title": "Custom Meta Tags - Contenido Estático",
+    "props": {
+      "metas": [
+        {
+          "property": "og:image",
+          "content": ""
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#banner-static-content-discount": {
+    "title": "Imagenes",
+    "props": {
+      "blockClass": "rowContainer-Banner-discount"
+    },
+    "children": ["flex-layout.col#banner-static-content-discount"]
+  },
+  "flex-layout.col#banner-static-content-discount": {
+    "props": {
+      "blockClass": "colContainer-Banner-discount",
+      "preventVerticalStretch": true
+    },
+    "children": ["list-context.image-list#banner-static-content-discount"]
+  },
+
+  "list-context.image-list#banner-static-content-discount": {
+    "title": "Banner",
+    "children": ["slider-layout#static-content-discount"],
+    "props": {
+      "preload": true,
+      "height": 200,
+      "images": [{}]
+    }
+  },
+
+  "slider-layout#static-content-discount": {
+    "title": "Slide",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 3
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "carousel--static-content-discount",
+      "fullWidth": true
+    }
+  },
+
+  "search-result-layout.customQuery#static-content-discount": {
+    "title": "Coleccion",
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "facetsBehavior": "Static",
+        "simulationBehavior": "skip",
+        "skusFilter": "ALL",
+        "queryField": "1346",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#static-content-discount",
+      "search-result-layout.mobile#static-content-discount",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#static-content-discount": {
+    "title": "Desktop",
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid",
+      "blockClass": "search-layout-desktop"
+    }
+  },
+  "search-result-layout.mobile#static-content-discount": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "defaultGalleryLayout": "grid"
+    }
+  }
+}

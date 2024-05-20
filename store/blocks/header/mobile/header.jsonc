@@ -1,0 +1,124 @@
+{
+  "header-layout.mobile": {
+    "title": "Header Mobile",
+    "props": {
+      "blockClass": "header__mobile"
+    },
+    "children": [
+      "sticky-layout#header-mobile",
+      "flex-layout.row#promobar-header"
+    ]
+  },
+
+  "sticky-layout#header-mobile": {
+    "props": {
+      "position": "top"
+    },
+    "children": [
+      "flex-layout.row#content-header-mobile",
+      "header-row#search-bar"
+    ]
+  },
+
+  "flex-layout.row#content-header-mobile": {
+    "title": "Contenido Header Mobile",
+    "children": [
+      "app-menu",
+      // "flex-layout.col#spacer",
+      "logo",
+      "flex-layout.row#custom-search",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#custom-search": {
+    "title": "Search Mobile",
+    "props": {
+      "blockClass": "custom-search-icon"
+    },
+    "children": ["search-mobile-bar-custom"]
+  },
+
+  "app-menu": {
+    "title": "Custom Menu",
+    "children": ["flex-layout.row#header-custom-search"]
+  },
+
+  "flex-layout.row#header-custom-search": {
+    "title": "Contenido Header Menu Cutom",
+    "props": {
+      "blockClass": "Rowheader-custom-search",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#header-custom-search"]
+  },
+
+  "flex-layout.col#header-custom-search": {
+    "props": {
+      "blockClass": "Colheader-custom-search"
+    },
+    "children": [
+      "flex-layout.row#header-login",
+      "flex-layout.row#header-searchbar"
+    ]
+  },
+
+  "flex-layout.row#header-login": {
+    "title": "Contenido Header Menu Cutom",
+    "props": {
+      "blockClass": "Rowheader-login"
+    },
+    "children": ["rich-text#login"]
+  },
+
+  "flex-layout.row#header-searchbar": {
+    "title": "Contenido Header Menu Cutom",
+    "props": {
+      "blockClass": "Rowheader-searchBar-mb"
+    },
+    "children": ["search-bar"]
+  },
+
+  "rich-text#login": {
+    "title": "Menu Login",
+    "props": {
+      "blockClass": "menuLogin",
+      "text": "[Iniciar Sesión](https://www.quest.com.co/registration)"
+    }
+  },
+
+  "header-row#search-bar": {
+    "props": {
+      "blockClass": "container-search--mobile"
+    },
+    "children": ["flex-layout.row#search-bar"]
+  },
+  "flex-layout.row#search-bar": {
+    "props": {
+      "blockClass": ["containerRow-search--mobile", "search-bar-mobile-view"],
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "htmlId": "search-bar-mobile"
+    },
+    "children": ["search-bar"]
+  }
+}

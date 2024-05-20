@@ -1,0 +1,248 @@
+{
+  // ESPECIFICACION ROPA
+  "product-specification-group#table-quest-especificaciones-1": {
+    "props": {
+      "blockClass": "productSpecificationGroupTable",
+      "filter": {
+        "type": "show",
+        "specificationGroups": ["Especificaciones Ropa"]
+      }
+    },
+    "children": ["flex-layout.row#spec-group-ropa"]
+  },
+
+  "flex-layout.row#spec-group-ropa": {
+    "props": {
+      "blockClass": "productSpecificationGroup"
+    },
+    "children": ["flex-layout.col#spec-group-ropa"]
+  },
+
+  "flex-layout.col#spec-group-ropa": {
+    "props": {
+      "blockClass": "productSpecificationGroupCol"
+    },
+    "children": [
+      "flex-layout.row#spec-group-name-ropa",
+      "product-specification#ropa"
+    ]
+  },
+
+  "flex-layout.row#spec-group-name-ropa": {
+    "props": {
+      "blockClass": "productSpecificationGroupName-1"
+    },
+    "children": ["product-specification-text#group-ropa"]
+  },
+
+  "product-specification-text#group-ropa": {
+    "props": {
+      "message": "{groupName}",
+      "blockClass": "productSpecificationName-ropa"
+    }
+  },
+
+  "product-specification#ropa": {
+    "children": ["flex-layout.row#spec-item-ropa"]
+  },
+
+  "flex-layout.row#spec-item-ropa": {
+    "props": {
+      "blockClass": "productSpecification-ropa",
+      "paddingTop": 1,
+      "paddingBottom": 1
+    },
+    "children": [
+      "flex-layout.col#spec-name-ropa",
+      "flex-layout.col#spec-value-ropa"
+    ]
+  },
+  "flex-layout.col#spec-name-ropa": {
+    "props": {
+      "blockClass": "productSpecificationName-ropa",
+      "width": {
+        "mobile": "50%",
+        "desktop": "50%"
+      }
+    },
+    "children": ["product-specification-text#specification-ropa"]
+  },
+
+  "flex-layout.col#spec-value-ropa": {
+    "props": {
+      "blockClass": "productSpecificationValue-ropa"
+    },
+    "children": ["product-specification-values#ropa"]
+  },
+  "product-specification-values#ropa": {
+    "children": ["product-specification-text#value-ropa"]
+  },
+
+  "product-specification-text#specification-ropa": {
+    "props": {
+      "message": "{specificationName}",
+      "blockClass": "specification-name"
+    }
+  },
+  "product-specification-text#value-ropa": {
+    "props": {
+      "message": "{specificationValue}",
+      "blockClass": "specification-value"
+    }
+  },
+
+  // ESPECIFICACION ROPA
+
+  // INFORMACION ADICIONAL
+
+  "product-specification-group#table-quest-especificaciones-2": {
+    "props": {
+      "blockClass": "productSpecificationGroupTable",
+      "filter": {
+        "type": "show",
+        "specificationGroups": ["Información Adicional"]
+      }
+    },
+    "children": ["flex-layout.row#spec-group-descripcion"]
+  },
+
+  "flex-layout.row#spec-group-descripcion": {
+    "props": {
+      "blockClass": "productSpecificationGroup"
+    },
+    "children": ["flex-layout.col#spec-group-descripcion"]
+  },
+
+  "flex-layout.col#spec-group-descripcion": {
+    "children": [
+      "flex-layout.row#spec-group-name-descripcion",
+      "product-specification"
+    ]
+  },
+
+  "flex-layout.row#spec-group-name-descripcion": {
+    "props": {
+      "blockClass": "productSpecificationGroupName-2"
+    },
+    "children": ["product-specification-text#group-descripcion"]
+  },
+
+  "product-specification-text#group-descripcion": {
+    "props": {
+      "message": "{groupName}",
+      "blockClass": "productSpecificationName-descripcion"
+    }
+  },
+
+  // INFORMACION ADICIONAL
+
+  // CUIDADOS
+
+  "product-specification-group#table-quest-especificaciones-3": {
+    "props": {
+      "blockClass": "productSpecificationGroupTable",
+      "filter": {
+        "type": "show",
+        "specificationGroups": ["Cuidados"]
+      }
+    },
+    "children": ["cuidados"]
+  },
+
+  "flex-layout.row#spec-group-cuidados": {
+    "props": {
+      "blockClass": "productSpecificationGroup"
+    },
+    "children": ["flex-layout.col#spec-group-cuidados"]
+  },
+
+  "flex-layout.col#spec-group-cuidados": {
+    "children": [
+      "flex-layout.row#spec-group-name-cuidados",
+      "product-specification"
+    ]
+  },
+
+  "flex-layout.row#spec-group-name-cuidados": {
+    "props": {
+      "blockClass": "productSpecificationGroupName-3"
+    },
+    "children": ["product-specification-text#group-cuidados"]
+  },
+
+  "product-specification-text#group-cuidados": {
+    "props": {
+      "message": "{groupName}",
+      "blockClass": "productSpecificationName-cuidados"
+    }
+  },
+
+  // CUIDADOS
+
+  "product-specification": {
+    "children": ["flex-layout.row#spec-item"]
+  },
+
+  "flex-layout.row#spec-item": {
+    "props": {
+      "blockClass": "productSpecification"
+    },
+    "children": ["flex-layout.col#spec-name", "flex-layout.col#spec-value"]
+  },
+  "flex-layout.col#spec-name": {
+    "props": {
+      "blockClass": "productSpecificationName"
+    },
+    "children": ["product-specification-text#specification"]
+  },
+
+  "flex-layout.col#spec-value": {
+    "props": {
+      "blockClass": "productSpecificationValue"
+    },
+    "children": ["product-specification-values"]
+  },
+  "product-specification-values": {
+    "children": ["product-specification-text#value"]
+  },
+
+  "product-specification-text#specification": {
+    "props": {
+      "message": "{specificationName}"
+    }
+  },
+  "product-specification-text#value": {
+    "props": {
+      "message": "{specificationValue}"
+    }
+  },
+
+  // GENERAL
+
+  "flex-layout.row#spec-group": {
+    "props": {
+      "blockClass": "productSpecificationGroup"
+    },
+    "children": ["flex-layout.col#spec-group"]
+  },
+
+  "flex-layout.col#spec-group": {
+    "children": ["flex-layout.row#spec-group-name", "product-specification"]
+  },
+
+  "flex-layout.row#spec-group-name": {
+    "props": {
+      "blockClass": "productSpecificationGroupName"
+    },
+    "children": ["product-specification-text#group"]
+  },
+
+  "product-specification-text#group": {
+    "props": {
+      "message": "{groupName}",
+      "blockClass": "productSpecificationName"
+    }
+  }
+
+  // GENERAL
+}

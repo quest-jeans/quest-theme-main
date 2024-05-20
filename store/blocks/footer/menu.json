@@ -1,0 +1,115 @@
+{
+  "vtex.menu@2.x:menu#footer-menu-1": {
+    "title": "Menu Footer 1 - MO",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container-menu-footer"
+    },
+    "children": ["rich-text#title-item-footer-1"]
+  },
+
+  "vtex.menu@2.x:menu#footer-menu-2": {
+    "title": "Menu Footer 2 - MO",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container-menu-footer"
+    },
+    "children": ["rich-text#title-item-footer-2"]
+  },
+
+  "vtex.menu@2.x:menu#footer-menu-3": {
+    "title": "Menu Footer 3 - MO",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container-menu-footer"
+    },
+    "children": ["rich-text#title-item-footer-3"]
+  },
+
+  "vtex.menu@2.x:menu#footer-menu-4": {
+    "title": "Menu Footer 4 - MO",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container-menu-footer"
+    },
+    "children": ["rich-text#title-item-footer-4"]
+  },
+
+  "vtex.menu@2.x:menu#footer-menu-5": {
+    "title": "Menu Footer 5 - MO",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container-menu-footer"
+    },
+    "children": ["rich-text#title-item-footer-5"]
+  },
+
+  "vtex.menu@2.x:menu#footer-menu-6": {
+    "title": "Menu Footer 6 - MO",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container-menu-footer"
+    },
+    "children": ["rich-text#title-item-footer-6"]
+  },
+
+  "rich-text#title-item-footer-1": {
+    "title": "Titulo Menú Footer",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "blockClass": "title-item-footer",
+      "text": "Acerca de Quest"
+    }
+  },
+
+  "rich-text#title-item-footer-2": {
+    "title": "Titulo Menú Footer",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "blockClass": "title-item-footer",
+      "text": "Enlaces de interés"
+    }
+  },
+
+  "rich-text#title-item-footer-3": {
+    "title": "Titulo Menú Footer",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "blockClass": "title-item-footer",
+      "text": "Necesitas ayuda"
+    }
+  },
+
+  "rich-text#title-item-footer-4": {
+    "title": "Titulo Menú Footer",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "blockClass": "title-item-footer",
+      "text": "Términos y condiciones"
+    }
+  },
+
+  "rich-text#title-item-footer-5": {
+    "title": "Titulo Menú Footer",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "blockClass": "title-item-footer",
+      "text": "Servicio al cliente"
+    }
+  },
+
+  "rich-text#title-item-footer-6": {
+    "title": "Titulo Menú Footer",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "blockClass": "title-item-footer",
+      "text": "Blog"
+    }
+  }
+}

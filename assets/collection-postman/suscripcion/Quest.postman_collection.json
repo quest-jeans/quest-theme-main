@@ -1,0 +1,254 @@
+{
+	"info": {
+		"_postman_id": "51d76d0e-df29-4d08-aa51-85a3c3ba1549",
+		"name": "Quest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "LANDING - Save schema by name- VTEXIO Form",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-vtex-api-appKey",
+						"value": "{{X-VTEX-API-AppKey}}",
+						"disabled": true
+					},
+					{
+						"key": "x-vtex-api-appToken",
+						"value": "{{X-VTEX-API-AppToken}}",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "VtexIdclientAutCookie",
+						"value": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjEwOUIzQzE2RkQ4QzNCQ0Q1ODdCNkUxNTI3MzAwMTM5OTBEMTM0MkUiLCJ0eXAiOiJqd3QifQ.eyJzdWIiOiJzb3BvcnRlQG1hc3NpdmVzcGFjZS5yb2NrcyIsImFjY291bnQiOiJxdWVzdCIsImF1ZGllbmNlIjoiYWRtaW4iLCJzZXNzIjoiMTRlYjRhYWEtZTcxOC00ZDVkLWIyNDctNTBhMTljNTQ0OWE5IiwiZXhwIjoxNzEyNTMyODE0LCJ0eXBlIjoidXNlciIsInVzZXJJZCI6ImQ5MDJhMGZhLTIwOGQtNDNiMy04YThhLWUwZmY2ODllYjFhNiIsImlhdCI6MTcxMjQ0NjQxNCwiaXNzIjoidG9rZW4tZW1pdHRlciIsImp0aSI6ImRhZWNiZTI4LWNkNzktNGU0Ny1iZDVhLWVkMDU3MmIyOTM3YiJ9.-sB-KYFxEY5rgOL2FAEiYlWO2NKrk-2pogww2j5_hI8egTSmlCWz7Y9V_2AwvCW9LE7ikRuNdFlPi_LH3h7bnA"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"title\": \"Landing suscripción\",\r\n\t\"type\": \"object\",\r\n\t\"properties\": {\r\n\t    \"name\": {\r\n\t      \"type\": \"string\",\r\n\t      \"title\": \"Nombre completo\",\r\n\t      \"description\": \"Nombre completo\"\r\n\t    },\r\n\t    \"email\": {\r\n\t      \"type\": \"string\",\r\n\t      \"format\": \"email\",\r\n\t      \"title\": \"Correo electrónico\"\r\n\t    },\r\n\t    \"phone\": {\r\n\t      \"type\": \"string\",\r\n\t      \"title\": \"Teléfono de contacto\",\r\n\t      \"description\": \"Teléfono de contacto\"\r\n\t    }\r\n\t},\r\n\t\"required\": [\r\n\t    \"name\",\r\n\t    \"email\",\r\n\t    \"phone\"\r\n\t],\r\n\t\r\n\t\"v-security\": {\r\n\t  \"publicWrite\": [ \"publicForWrite\" ],\r\n\t  \"publicJsonSchema\": true\r\n\t}\r\n  \r\n}"
+				},
+				"url": {
+					"raw": "https://quest.vtexcommercestable.com.br/api/dataentities/landingsuscription/schemas/formlandingsuscription",
+					"protocol": "https",
+					"host": [
+						"quest",
+						"vtexcommercestable",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"dataentities",
+						"landingsuscription",
+						"schemas",
+						"formlandingsuscription"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LANDING - Get schemas",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-vtex-api-appKey",
+						"value": "{{X-VTEX-API-AppKey}}",
+						"disabled": true
+					},
+					{
+						"key": "x-vtex-api-appToken",
+						"value": "{{X-VTEX-API-AppToken}}",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "VtexIdclientAutCookie",
+						"value": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjEwOUIzQzE2RkQ4QzNCQ0Q1ODdCNkUxNTI3MzAwMTM5OTBEMTM0MkUiLCJ0eXAiOiJqd3QifQ.eyJzdWIiOiJzb3BvcnRlQG1hc3NpdmVzcGFjZS5yb2NrcyIsImFjY291bnQiOiJxdWVzdCIsImF1ZGllbmNlIjoiYWRtaW4iLCJzZXNzIjoiMTRlYjRhYWEtZTcxOC00ZDVkLWIyNDctNTBhMTljNTQ0OWE5IiwiZXhwIjoxNzEyNTMyODE0LCJ0eXBlIjoidXNlciIsInVzZXJJZCI6ImQ5MDJhMGZhLTIwOGQtNDNiMy04YThhLWUwZmY2ODllYjFhNiIsImlhdCI6MTcxMjQ0NjQxNCwiaXNzIjoidG9rZW4tZW1pdHRlciIsImp0aSI6ImRhZWNiZTI4LWNkNzktNGU0Ny1iZDVhLWVkMDU3MmIyOTM3YiJ9.-sB-KYFxEY5rgOL2FAEiYlWO2NKrk-2pogww2j5_hI8egTSmlCWz7Y9V_2AwvCW9LE7ikRuNdFlPi_LH3h7bnA"
+					}
+				],
+				"url": {
+					"raw": "https://quest.vtexcommercestable.com.br/api/dataentities/landingsuscription/schemas",
+					"protocol": "https",
+					"host": [
+						"quest",
+						"vtexcommercestable",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"dataentities",
+						"landingsuscription",
+						"schemas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LANDING - Vtable",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "VtexIdclientAutCookie",
+						"value": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjEwOUIzQzE2RkQ4QzNCQ0Q1ODdCNkUxNTI3MzAwMTM5OTBEMTM0MkUiLCJ0eXAiOiJqd3QifQ.eyJzdWIiOiJzb3BvcnRlQG1hc3NpdmVzcGFjZS5yb2NrcyIsImFjY291bnQiOiJxdWVzdCIsImF1ZGllbmNlIjoiYWRtaW4iLCJzZXNzIjoiMTRlYjRhYWEtZTcxOC00ZDVkLWIyNDctNTBhMTljNTQ0OWE5IiwiZXhwIjoxNzEyNTMyODE0LCJ0eXBlIjoidXNlciIsInVzZXJJZCI6ImQ5MDJhMGZhLTIwOGQtNDNiMy04YThhLWUwZmY2ODllYjFhNiIsImlhdCI6MTcxMjQ0NjQxNCwiaXNzIjoidG9rZW4tZW1pdHRlciIsImp0aSI6ImRhZWNiZTI4LWNkNzktNGU0Ny1iZDVhLWVkMDU3MmIyOTM3YiJ9.-sB-KYFxEY5rgOL2FAEiYlWO2NKrk-2pogww2j5_hI8egTSmlCWz7Y9V_2AwvCW9LE7ikRuNdFlPi_LH3h7bnA"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"name\":\"landingsuscription\",\r\n   \"title\":\"Registros Formulario de Landing\",\r\n   \"tables\":[\r\n      {\r\n         \"id\":\"main\",\r\n         \"title\":\"Suscripciones\",\r\n         \"entity\":\"landingsuscription\",\r\n         \"model\":\"formlandingsuscription\",\r\n         \"fields\":{\r\n            \"id\":{\r\n               \"width\":10\r\n            },\r\n            \"email\":{\r\n               \"width\":200\r\n            },\r\n            \"name\":{\r\n               \"width\":300\r\n            },\r\n            \"phone\":{\r\n               \"width\":100\r\n            }\r\n         },\r\n         \"list\":[\r\n            \"email\",\r\n            \"name\",\r\n            \"phone\"\r\n         ],\r\n         \"editor\":{\r\n            \"settings\":{\r\n               \"sections\":[\r\n                  {\r\n                     \"name\":\"Datos de contacto\",\r\n                     \"fields\":[\r\n                        \"email\",\r\n\t\t\t            \"name\",\r\n\t\t\t            \"phone\"\r\n                     ]\r\n                  }\r\n               ]\r\n            }\r\n         }\r\n      }\r\n   ]\r\n}"
+				},
+				"url": {
+					"raw": "https://quest.vtexcommercestable.com.br/api/dataentities/vtable/documents/landingsuscription?_schema=formlandingsuscription",
+					"protocol": "https",
+					"host": [
+						"quest",
+						"vtexcommercestable",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"dataentities",
+						"vtable",
+						"documents",
+						"landingsuscription"
+					],
+					"query": [
+						{
+							"key": "_schema",
+							"value": "formlandingsuscription"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Vtable Get Schema ALL",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "VtexIdclientAutCookie",
+						"value": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjEwOUIzQzE2RkQ4QzNCQ0Q1ODdCNkUxNTI3MzAwMTM5OTBEMTM0MkUiLCJ0eXAiOiJqd3QifQ.eyJzdWIiOiJzb3BvcnRlQG1hc3NpdmVzcGFjZS5yb2NrcyIsImFjY291bnQiOiJxdWVzdCIsImF1ZGllbmNlIjoiYWRtaW4iLCJzZXNzIjoiMTRlYjRhYWEtZTcxOC00ZDVkLWIyNDctNTBhMTljNTQ0OWE5IiwiZXhwIjoxNzEyNTMyODE0LCJ0eXBlIjoidXNlciIsInVzZXJJZCI6ImQ5MDJhMGZhLTIwOGQtNDNiMy04YThhLWUwZmY2ODllYjFhNiIsImlhdCI6MTcxMjQ0NjQxNCwiaXNzIjoidG9rZW4tZW1pdHRlciIsImp0aSI6ImRhZWNiZTI4LWNkNzktNGU0Ny1iZDVhLWVkMDU3MmIyOTM3YiJ9.-sB-KYFxEY5rgOL2FAEiYlWO2NKrk-2pogww2j5_hI8egTSmlCWz7Y9V_2AwvCW9LE7ikRuNdFlPi_LH3h7bnA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "quest.vtexcommercestable.com.br/api/dataentities/vtable/search?_schema=app&_fields=_all",
+					"host": [
+						"quest",
+						"vtexcommercestable",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"dataentities",
+						"vtable",
+						"search"
+					],
+					"query": [
+						{
+							"key": "_schema",
+							"value": "app"
+						},
+						{
+							"key": "_fields",
+							"value": "_all"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Schema",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "VtexIdclientAutCookie",
+						"value": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjEwOUIzQzE2RkQ4QzNCQ0Q1ODdCNkUxNTI3MzAwMTM5OTBEMTM0MkUiLCJ0eXAiOiJqd3QifQ.eyJzdWIiOiJzb3BvcnRlQG1hc3NpdmVzcGFjZS5yb2NrcyIsImFjY291bnQiOiJxdWVzdCIsImF1ZGllbmNlIjoiYWRtaW4iLCJzZXNzIjoiMTRlYjRhYWEtZTcxOC00ZDVkLWIyNDctNTBhMTljNTQ0OWE5IiwiZXhwIjoxNzEyNTMyODE0LCJ0eXBlIjoidXNlciIsInVzZXJJZCI6ImQ5MDJhMGZhLTIwOGQtNDNiMy04YThhLWUwZmY2ODllYjFhNiIsImlhdCI6MTcxMjQ0NjQxNCwiaXNzIjoidG9rZW4tZW1pdHRlciIsImp0aSI6ImRhZWNiZTI4LWNkNzktNGU0Ny1iZDVhLWVkMDU3MmIyOTM3YiJ9.-sB-KYFxEY5rgOL2FAEiYlWO2NKrk-2pogww2j5_hI8egTSmlCWz7Y9V_2AwvCW9LE7ikRuNdFlPi_LH3h7bnA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://quest.vtexcommercestable.com.br/api/dataentities/contact/schemas/formladingsuscription",
+					"protocol": "https",
+					"host": [
+						"quest",
+						"vtexcommercestable",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"dataentities",
+						"contact",
+						"schemas",
+						"formladingsuscription"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LANDING - Trigger Vtex IO SEND EMAIL",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "VtexIdclientAutCookie",
+						"value": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjM5OTkxQjREQTRBMEZGODRFMjQ1NEU1MEM4MDY4QTNBRTkxOEMzOEMiLCJ0eXAiOiJqd3QifQ.eyJzdWIiOiJ0ZS5heXVkYW1vc0BhbnRpc2Fjc29yLmNvbSIsImFjY291bnQiOiJhbm5jaGVyeW14IiwiYXVkaWVuY2UiOiJhZG1pbiIsInNlc3MiOiI5NmJhY2E0Zi0xZDFlLTQ5ZGItOTI2OS0wZDMxYjhmZDMyN2IiLCJleHAiOjE3MTIzMjUyMTksInR5cGUiOiJ1c2VyIiwidXNlcklkIjoiMTU5ZmQ5MGYtNzZjZi00YjNmLWIwYmQtYmU0OTAwZjBkZDU3IiwiaWF0IjoxNzEyMjM4ODE5LCJpc3MiOiJ0b2tlbi1lbWl0dGVyIiwianRpIjoiNTY1ZDgzYjItZTQxYi00ZjIxLTk4MjMtNDVkOGViNWI1NWYzIn0.MjzdtqJRWI1oNfuCfHe8qwEl_6LyO9lsX22UkJUEn1T_1iVLFZvHe5Jsg8pYyLndCNgoeOvkZNFqC7-EK7FrfA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \t\"properties\": {},\r\n    \t\"v-triggers\": [\r\n    \t\t{\r\n    \t\t\t\"name\": \"send-email-mayorista\",\r\n    \t\t\t\"active\": true,\r\n    \t\t\t\"action\": {\r\n                    \"type\": \"email\",\r\n                    \"provider\": \"default\",\r\n                    \"subject\": \"¡Se registró en el formulario de mayorista!\",\r\n                    \"to\": [\r\n                        \"ventasmx@annchery.org\",\r\n                        \"maria.barrera@annchery.com.co\"\r\n                    ],\r\n                    \"replyTo\": \"no-reply@annchery.mx\",\r\n                    \"body\": \"Hola<br>Han realizado un registro en el formulario de mayoristas:<br>Nombre = {!name}<br>Email = {!email}<br>Tipo de empresa = {!companyType}<br>Mensaje = {!message}<br>Ciudad = {!city}<br>Teléfono = {!phone}<br>Empresa = {!company}<br><br>Gracias!!\"\r\n                }\r\n    \t\t}\r\n    \t]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://anncherymx.vtexcommercestable.com.br/api/dataentities/ladingsuscription/schemas/triggerHttpPost",
+					"protocol": "https",
+					"host": [
+						"anncherymx",
+						"vtexcommercestable",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"dataentities",
+						"ladingsuscription",
+						"schemas",
+						"triggerHttpPost"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

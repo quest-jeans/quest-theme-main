@@ -1,0 +1,59 @@
+{
+    "store.custom#landing-coming-soon-v2": {
+        "title": "Landing coming soon",
+        "children": [
+            "landing-move-elements",
+            "responsive-layout.desktop#landing-coming-soon-v2",
+            "responsive-layout.mobile#landing-coming-soon-v2",
+            "responsive-layout.tablet#landing-coming-soon-v2"
+        ],
+        "props":{
+            "blockClass": [
+                "landing-coming-soon",
+                "landing-coming-soon-v2"
+            ]
+        }
+    },
+    "responsive-layout.desktop#landing-coming-soon-v2":{
+        "title": "Desktop",
+        "children": [
+            "flex-layout.row#landing-video",
+            "flex-layout.row#landing-since-v2",
+            "flex-layout.row#landing-video-v2",
+            "flex-layout.row#landing-carousel-image",
+            "flex-layout.row#landing-text-invitacion",
+            "flex-layout.row#landing-image-form-v2",
+            "flex-layout.row#landing-banner-footer",
+            "flex-layout.row#newsletterCustom"
+        ]
+    },
+    "responsive-layout.tablet#landing-coming-soon-v2":{
+        "title": "Tablet",
+        "children": [
+            "flex-layout.row#landing-video",
+            "flex-layout.row#landing-image-player",
+            "flex-layout.row#landing-since-v2",
+            "flex-layout.row#landing-video-v2",
+            "flex-layout.row#landing-carousel-image",
+            "flex-layout.row#landing-text-invitacion",
+            "flex-layout.row#landing-image-form-v2",
+            "flex-layout.row#landing-banner-footer",
+            "flex-layout.row#newsletterCustom"
+        ]
+    },
+    "responsive-layout.mobile#landing-coming-soon-v2":{
+        "title": "Mobile",
+        "children": [
+            "flex-layout.row#landing-video",
+            "flex-layout.row#landing-image-player",
+            "flex-layout.row#landing-since-v2",
+            "flex-layout.row#landing-video-v2",
+            "flex-layout.row#landing-carousel-image",
+            "flex-layout.row#landing-text-invitacion",
+            "flex-layout.row#landing-image-form-v2",
+            "flex-layout.row#landing-banner-footer",
+            "flex-layout.row#newsletterCustom"
+        ]
+    }
+  }
+  

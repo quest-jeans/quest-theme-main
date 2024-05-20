@@ -1,0 +1,132 @@
+{
+  "store.custom#collection-text": {
+    "title": "Contenido",
+    "blocks": [
+      "custom-metas-injection#collection_page",
+      "list-context.image-list#banner-principal-collections",
+      "rich-text#title-collection",
+      "search-result-layout.customQuery#collection"
+    ]
+  },
+
+  // META TAG
+  "custom-metas-injection#collection_page": {
+    "title": "Custom Meta Tags",
+    "props": {
+      "metas": [
+        {
+          "property": "og:image",
+          "content": ""
+        }
+      ]
+    }
+  },
+
+  // META TAG
+
+  // BANNER PRINCIPAL
+  "list-context.image-list#banner-principal-collections": {
+    "title": "Banner",
+    "children": ["slider-layout#slide-images"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "",
+          "mobileImage": ""
+        }
+      ]
+    }
+  },
+  "slider-layout#slide-images": {
+    "title": "Slider Home",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "fullWidth": true,
+      "blockClass": "slide-collection"
+    }
+  },
+
+  // BANNER PRINCIPAL
+  // TITULO
+  "rich-text#title-collection": {
+    "title": "Titulo Coleccion",
+    "props": {
+      "text": "Titulo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titleCollection"
+    }
+  },
+  // TITULO
+  // PRODUCT LIST
+  "search-result-layout.customQuery#collection": {
+    "title": "Coleccion",
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 8,
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "facetsBehavior": "Static",
+        "simulationBehavior": "skip",
+        "skusFilter": "ALL",
+        "queryField": "1784",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#collection",
+      "search-result-layout.mobile#collection",
+      "search-not-found-layout"
+    ]
+  },
+
+  "search-result-layout.desktop#collection": {
+    "title": "Desktop",
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#result",
+      "flex-layout.row#search-result-suggestion"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid",
+      "blockClass": "search-layout-desktop"
+    }
+  },
+  "search-result-layout.mobile#collection": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#fetchmore",
+      "flex-layout.row#search-result-suggestion"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "defaultGalleryLayout": "grid"
+    }
+  },
+  // PRODUCT LIST
+  "flex-layout.row#searchtitle": {
+    "props": {
+      "blockClass": "containerRow-search-title"
+    },
+    "children": ["search-title.v2"]
+  }
+}

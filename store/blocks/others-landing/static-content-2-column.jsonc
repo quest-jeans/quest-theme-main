@@ -1,0 +1,57 @@
+{
+  "store.custom#landing-static-content-2-column": {
+    "title": "Contenido Estático",
+    "blocks": [
+      "custom-metas-injection#static-content-2-column",
+      "list-context.image-list#banner-static-content",
+      "flex-layout.row#text-static-content1",
+      "flex-layout.row#static-content-2_j",
+      "flex-layout.row#static-content-2_c",
+      "flex-layout.row#static-content-2_i",
+      "flex-layout.row#text-static-content-1-1"
+    ]
+  },
+  "custom-metas-injection#static-content-2-column": {
+    "title": "Custom Meta Tags - Contenido Estático",
+    "props": {
+      "metas": [
+        {
+          "property": "og:image",
+          "content": ""
+        }
+      ]
+    }
+  },
+  "flex-layout.row#static-content-2_j": {
+    "title": "Contenedor Justificado",
+    "props": {
+      "blockClass": "containerText-statis-content"
+    },
+    "children": [
+      "rich-text#text-static-content1_justified",
+      "rich-text#text-static-content2_justified"
+    ]
+  },
+
+  "flex-layout.row#static-content-2_c": {
+    "title": "Contenedor Centrado",
+    "props": {
+      "blockClass": "containerText-statis-content"
+    },
+    "children": [
+      "rich-text#text-static-content1_center",
+      "rich-text#text-static-content2_center"
+    ]
+  },
+
+  "flex-layout.row#static-content-2_i": {
+    "title": "Contenedor Izquierda",
+    "props": {
+      "blockClass": "containerText-statis-content"
+    },
+    "children": [
+      "rich-text#text-static-content1_left",
+      "rich-text#text-static-content2_left"
+    ]
+  }
+}

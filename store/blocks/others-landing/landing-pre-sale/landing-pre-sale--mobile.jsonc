@@ -1,0 +1,28 @@
+{
+    "responsive-layout.tablet#landing-pre-sale":{
+        "title": "Tablet",
+        "children": [
+            "flex-layout.row#landing-video",
+            "flex-layout.row#landing-image-player",
+            "flex-layout.row#landing-since",
+            "flex-layout.row#landing-carousel-image",
+            "flex-layout.row#landing-banner-footer",
+            "flex-layout.row#carousel-products",
+            "flex-layout.row#collection-complementos",
+            "flex-layout.row#newsletterCustom"
+        ]
+    },
+    "responsive-layout.mobile#landing-pre-sale":{
+        "title": "Mobile",
+        "children": [
+            "flex-layout.row#landing-video",
+            "flex-layout.row#landing-image-player",
+            "flex-layout.row#landing-since",
+            "flex-layout.row#landing-carousel-image",
+            "flex-layout.row#landing-banner-footer",
+            "flex-layout.row#carousel-products",
+            "flex-layout.row#collection-complementos",
+            "flex-layout.row#newsletterCustom"
+        ]
+    }
+}

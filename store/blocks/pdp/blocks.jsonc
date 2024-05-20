@@ -1,0 +1,177 @@
+{
+  // IMAGES PDP MOBILE
+
+  "responsive-layout.desktop#product-images": {
+    "children": ["product-images#pdp"]
+  },
+  "responsive-layout.mobile#product-images": {
+    "children": [
+      "responsive-layout.mobile#product-name-mobile",
+      "flex-layout.row#flags-pdp",
+      "flex-layout.row#flags-pdp-images",
+      "flex-layout.row#main-wishlist-mobile",
+      "product-images#mobile"
+    ]
+  },
+  "product-images#pdp": {
+    "title": "Imagenes del Producto",
+    "props": {
+      "displayThumbnailsArrows": true,
+      "zoomMode": "in-place-hover",
+      "maxHeight": 700,
+      "showPaginationDots": false,
+      "aspectRatio": "1:1",
+      "thumbnailAspectRatio": "16:9",
+      "hiddenImages": ["labelColor"]
+    }
+  },
+
+  "flex-layout.row#flags-pdp": {
+    "props":{
+      "fullWidth": false,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "contentRow-price-flag"
+    },
+    "children": [
+      "product-list-price#product",
+      "product-selling-price#product",
+      "product-price-savings#pdp"
+    ]
+  },
+
+  "product-price-savings#pdp": {
+    "title": "Descuento",
+    "props": {
+      "blockClass": ["discountInsideContainer"],
+      "message": " -{savingsPercentage}"
+    }
+  },
+  "product-images#mobile": {
+    "title": "Imagenes del Producto - Mobile",
+    "props": {
+      "showPaginationDots": true,
+      "showNavigationArrows": true,
+      "displayThumbnailsArrows": true,
+      "zoomMode": "in-place-hover",
+      "maxHeight": 1000,
+      "thumbnailsOrientation": "horizontal",
+      "thumbnailVisibility": "visible",
+      "hiddenImages": ["labelColor"]
+    }
+  },
+  "flex-layout.row#main-wishlist-mobile": {
+    "props": {
+      "blockClass": "container--wishlist-mobile"
+    },
+    "children": ["add-to-list-btn#main-wishlist"]
+  },
+
+  // IMAGES PDP MOBILE
+
+  // CLASIFICACION - BOTON LISTA
+  "add-to-list-btn#main-wishlist": {
+    "props": {
+      "toastURL": "/wishlist"
+    }
+  },
+  // CLASIFICACION - BOTON LISTA
+
+  // TAG
+
+  "vtex.product-highlights@2.x:product-highlights#basicos": {
+    "title": "Flags Basicos",
+    "props": {
+      "blockClass": "flag-New",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Básicos"]
+      }
+    },
+    "children": ["product-highlight-text#basicos"]
+  },
+  "product-highlight-text#basicos": {
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "nuevo"
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#basicos-qst": {
+    "title": "Flags Básicos QST",
+    "props": {
+      "blockClass": "flag-New",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Básicos QST"]
+      }
+    },
+    "children": ["product-highlight-text#basicos-qst"]
+  },
+  "product-highlight-text#basicos-qst": {
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "nuevo"
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#nuevo-pdp": {
+    "title": "Flags Básicos",
+    "props": {
+      "blockClass": "flag-New-pdp",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Nuevo"]
+      }
+    },
+    "children": ["product-highlight-text#nuevo-pdp"]
+  },
+  "product-highlight-text#nuevo-pdp": {
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "nuevo-pdp"
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#free-shipping": {
+    "title": "Flags Básicos",
+    "props": {
+      "blockClass": "flag-free-shipping",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Nuevo"]
+      }
+    },
+    "children": ["product-highlight-text#free-shipping"]
+  },
+  "product-highlight-text#free-shipping": {
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "free-shipping"
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#varios": {
+    "title": "Flags Varios",
+    "props": {
+      "blockClass": "flag-varios",
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["3X2"]
+      }
+    },
+    "children": ["product-highlight-text#varios"]
+  },
+  "product-highlight-text#varios": {
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "varios"
+    }
+  }
+
+  // TAG
+}

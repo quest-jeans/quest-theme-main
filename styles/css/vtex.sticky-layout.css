@@ -1,0 +1,37 @@
+.wrapper--sticky-header--stuck :global(.vtex-input-prefix__group) {
+  height: 28px;
+  transition: all 0.2s;
+}
+
+.wrapper--sticky-header--stuck .container :global(.vtex-button)::before {
+  font-size: 38px;
+  transition: all 0.2s;
+}
+
+.wrapper--sticky-header--stuck .container :global(.vtex-button)::after {
+  font-size: 13px;
+  transition: all 0.2s;
+}
+
+.wrapper--sticky-header--stuck
+  :global(.vtex-store-components-3-x-searchBarIcon--search)::before {
+  font-size: 35px;
+  transition: all 0.2s;
+}
+
+.wrapper--sticky-header--stuck
+  :global(.vtex-minicart-2-x-minicartIconContainer)::before {
+  font-size: 32px;
+  transition: all 0.2s;
+}
+
+.wrapper--sticky-header--stuck
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  height: 52px !important;
+  transition: all 0.2s;
+}
+
+.wrapper--sticky-header--stuck :global(.vtex-menu-2-x-styledLinkContent) {
+  font-size: 14px !important;
+  transition: all 0.2s;
+}

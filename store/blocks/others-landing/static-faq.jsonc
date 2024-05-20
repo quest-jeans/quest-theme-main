@@ -1,0 +1,273 @@
+{
+  "store.custom#landing-static-content-faq": {
+    "title": "Contenido Estático",
+    "blocks": [
+      "custom-metas-injection#static-content-faq",
+      "list-context.image-list#banner-static-content",
+      "flex-layout.row#text-static-content1",
+      "flex-layout.row#dropdown-faq-content-1",
+      "flex-layout.row#text-static-content2",
+      "flex-layout.row#dropdown-faq-content-2",
+      "flex-layout.row#text-static-content3",
+      "flex-layout.row#dropdown-faq-content-3"
+    ]
+  },
+  "custom-metas-injection#static-content-faq": {
+    "title": "Custom Meta Tags - Contenido Estático",
+    "props": {
+      "metas": [
+        {
+          "property": "og:image",
+          "content": ""
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#dropdown-faq-content-1": {
+    "title": "Lista Desplegable 1",
+    "props": {
+      "blockClass": "container-dropdown-list-faq"
+    },
+    "children": ["disposition-layout#dropdown-faq-content-1"]
+  },
+
+  "disposition-layout#dropdown-faq-content-1": {
+    "title": "Mostrar / Ocultar / Reorganizar",
+    "children": [
+      "disclosure-layout#faq-menu-1",
+      "disclosure-layout#faq-menu-2",
+      "disclosure-layout#faq-menu-3",
+      "disclosure-layout#faq-menu-4",
+      "disclosure-layout#faq-menu-5",
+      "disclosure-layout#faq-menu-6"
+    ],
+    "props": {
+      "disposition": [
+        {
+          "order": 1,
+          "__editorItemTitle": "Item 1"
+        },
+        {
+          "order": 2,
+          "__editorItemTitle": "Item 2"
+        },
+        {
+          "order": 3,
+          "__editorItemTitle": "Item 3"
+        },
+        {
+          "order": 4,
+          "__editorItemTitle": "Item 4"
+        },
+        {
+          "order": 5,
+          "__editorItemTitle": "Item 5"
+        },
+        {
+          "order": 6,
+          "__editorItemTitle": "Item 6"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#dropdown-faq-content-2": {
+    "title": "Lista Desplegable 2",
+    "props": {
+      "blockClass": "container-dropdown-list-faq"
+    },
+    "children": ["disposition-layout#dropdown-faq-content-2"]
+  },
+
+  "disposition-layout#dropdown-faq-content-2": {
+    "title": "Mostrar / Ocultar / Reorganizar",
+    "children": [
+      "disclosure-layout#faq-menu-1",
+      "disclosure-layout#faq-menu-2",
+      "disclosure-layout#faq-menu-3",
+      "disclosure-layout#faq-menu-4",
+      "disclosure-layout#faq-menu-5",
+      "disclosure-layout#faq-menu-6"
+    ],
+    "props": {
+      "disposition": [
+        {
+          "order": 1,
+          "__editorItemTitle": "Item 1"
+        },
+        {
+          "order": 2,
+          "__editorItemTitle": "Item 2"
+        },
+        {
+          "order": 3,
+          "__editorItemTitle": "Item 3"
+        },
+        {
+          "order": 4,
+          "__editorItemTitle": "Item 4"
+        },
+        {
+          "order": 5,
+          "__editorItemTitle": "Item 5"
+        },
+        {
+          "order": 6,
+          "__editorItemTitle": "Item 6"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#dropdown-faq-content-3": {
+    "title": "Lista Desplegable 3",
+    "props": {
+      "blockClass": "container-dropdown-list-faq"
+    },
+    "children": ["disposition-layout#dropdown-faq-content-3"]
+  },
+
+  "disposition-layout#dropdown-faq-content-3": {
+    "title": "Mostrar / Ocultar / Reorganizar",
+    "children": [
+      "disclosure-layout#faq-menu-1",
+      "disclosure-layout#faq-menu-2",
+      "disclosure-layout#faq-menu-3",
+      "disclosure-layout#faq-menu-4",
+      "disclosure-layout#faq-menu-5",
+      "disclosure-layout#faq-menu-6"
+    ],
+    "props": {
+      "disposition": [
+        {
+          "order": 1,
+          "__editorItemTitle": "Item 1"
+        },
+        {
+          "order": 2,
+          "__editorItemTitle": "Item 2"
+        },
+        {
+          "order": 3,
+          "__editorItemTitle": "Item 3"
+        },
+        {
+          "order": 4,
+          "__editorItemTitle": "Item 4"
+        },
+        {
+          "order": 5,
+          "__editorItemTitle": "Item 5"
+        },
+        {
+          "order": 6,
+          "__editorItemTitle": "Item 6"
+        }
+      ]
+    }
+  },
+
+
+
+  // CONTENT
+
+  "disclosure-layout#faq-menu-1": {
+    "title": "Menu 1",
+    "children": [
+      "disclosure-trigger#title-faq-menu",
+      "disclosure-content#content-faq-menu"
+    ]
+  },
+  "disclosure-layout#faq-menu-2": {
+    "title": "Menu 2",
+    "children": [
+      "disclosure-trigger#title-faq-menu",
+      "disclosure-content#content-faq-menu"
+    ]
+  },
+  "disclosure-layout#faq-menu-3": {
+    "title": "Menu 3",
+    "children": [
+      "disclosure-trigger#title-faq-menu",
+      "disclosure-content#content-faq-menu"
+    ]
+  },
+  "disclosure-layout#faq-menu-4": {
+    "title": "Menu 4",
+    "children": [
+      "disclosure-trigger#title-faq-menu",
+      "disclosure-content#content-faq-menu"
+    ]
+  },
+  "disclosure-layout#faq-menu-5": {
+    "title": "Menu 5",
+    "children": [
+      "disclosure-trigger#title-faq-menu",
+      "disclosure-content#content-faq-menu"
+    ]
+  },
+  "disclosure-layout#faq-menu-6": {
+    "title": "Menu 6",
+    "children": [
+      "disclosure-trigger#title-faq-menu",
+      "disclosure-content#content-faq-menu"
+    ]
+  },
+
+  "disclosure-trigger#title-faq-menu": {
+    "props":{
+      "blockClass" :"container-title__faq"
+    },
+    "children": ["rich-text#title-faq-menu-1"]
+  },
+  "disclosure-content#content-faq-menu": {
+    "props":{
+      "blockClass" :"container-content__faq"
+    },
+    "children": [
+      "rich-text#content-faq-menu-1",
+      "rich-text#content-faq-menu-2",
+      "rich-text#content-faq-menu-3",
+      "rich-text#content-faq-menu-4"
+    ]
+  },
+
+  "rich-text#title-faq-menu-1": {
+    "title": "Titulo",
+    "props": {
+      "text": "Acerca de Quest",
+      "blockClass": "title-faq-menu"
+    }
+  },
+
+  "rich-text#content-faq-menu-1": {
+    "title": "Contenido 1",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non porta dolor. Aenean ante enim, mollis nec dui at, facilisis blandit augue.",
+      "blockClass": "content-faq-menu"
+    }
+  },
+  "rich-text#content-faq-menu-2": {
+    "title": "Contenido 2",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non porta dolor. Aenean ante enim, mollis nec dui at, facilisis blandit augue.",
+      "blockClass": "content-faq-menu"
+    }
+  },
+  "rich-text#content-faq-menu-3": {
+    "title": "Contenido 3",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non porta dolor. Aenean ante enim, mollis nec dui at, facilisis blandit augue.",
+      "blockClass": "content-faq-menu"
+    }
+  },
+  "rich-text#content-faq-menu-4": {
+    "title": "Contenido 4",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non porta dolor. Aenean ante enim, mollis nec dui at, facilisis blandit augue.",
+      "blockClass": "content-faq-menu"
+    }
+  }
+  // CONTENT
+}

@@ -1,0 +1,13 @@
+.groupName {
+  font-size: 1.25rem;
+  font-family: "TitilliumWeb-Regular";
+}
+
+.specificationName {
+  font-weight: bold;
+  font-family: "TitilliumWeb-Regular";
+}
+
+.specificationValue{
+  font-family: "TitilliumWeb-Regular";
+}

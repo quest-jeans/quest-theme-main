@@ -1,0 +1,39 @@
+{
+  "store.custom#static-content-iframe": {
+    "title": "Contenido Estático Iframe",
+    "blocks": [
+      "custom-metas-injection#static-content-iframe",
+      "flex-layout.row#static-content-iframe"
+    ]
+  },
+  "custom-metas-injection#static-content-iframe": {
+    "title": "Custom Meta Tags - Contenido Estático",
+    "props": {
+      "metas": [
+        {
+          "property": "og:image",
+          "content": ""
+        }
+      ]
+    }
+  },
+  "flex-layout.row#static-content-iframe": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "iframeRow-static-content"
+    },
+    "children": ["iframe#static-content-iframe"]
+  },
+
+  "iframe#static-content-iframe": {
+    "title": "Iframe",
+    "props": {
+      "src": "",
+      "width": "100%",
+      "height": 790,
+      "blockClass": ["iframe-static-content"],
+      "htmlId": "iframe-static-content",
+      "className": "iframe-static-content"
+    }
+  }
+}

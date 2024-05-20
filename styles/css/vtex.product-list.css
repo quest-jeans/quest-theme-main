@@ -1,0 +1,68 @@
+.quantitySelectorDecrease--selector__quantity {
+  background-color: #dfdfdf;
+  border-radius: 15px 0 0 15px;
+  border: none;
+  color: #666666;
+}
+
+.quantitySelectorIncrease--selector__quantity {
+  background-color: #dfdfdf;
+  border-radius: 0 15px 15px 0;
+  border: none;
+  height: 40px;
+  color: #666666;
+}
+
+.quantitySelectorIncrease--selector__quantity:hover,
+.quantitySelectorDecrease--selector__quantity:hover {
+  transition: all 0.3s;
+  opacity: 0.8;
+  background-color: #dfdfdf !important;
+}
+.quantitySelectorContainer--selector__quantity {
+  margin: 10px 0;
+}
+
+.quantitySelectorContainer--selector__quantity {
+  width: unset !important;
+}
+
+.inputContainer {
+  width: 62px !important;
+  height: 40px !important;
+  background-color: #f6f6f6;
+  border: none;
+}
+
+.price--price__minicart,
+.currencyContainer--price__minicart {
+  width: auto !important;
+}
+
+.currencyContainer--price__minicart {
+  color: #828282;
+  text-align: right;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.price--price__minicart {
+  color: #353835;
+  text-align: right;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.productPriceContainer--price__minicart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 100%;
+}

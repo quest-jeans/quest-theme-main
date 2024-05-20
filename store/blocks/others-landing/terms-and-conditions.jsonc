@@ -1,0 +1,52 @@
+{
+  "store.custom#static-content__terminos": {
+    "blocks": [
+      "custom-metas-injection#content__terminos",
+      "flex-layout.row#static-content-title",
+      "flex-layout.row#static-content-wrapper"
+    ]
+  },
+  "custom-metas-injection#content__terminos": {
+    "title": "Custom Meta Tags - Terminos",
+    "props": {
+      "metas": [
+        {
+          "property": "og:image",
+          "content": ""
+        }
+      ]
+    }
+  },
+  "flex-layout.row#static-content-title": {
+    "title": "Titulo",
+    "props": {
+      "blockClass": ["row__title", "fixed--static-content-title"]
+    },
+    "children": ["rich-text#static-content-title"]
+  },
+  "rich-text#static-content-title": {
+    "title": "Titulo Terminos",
+    "props": {
+      "blockClass": ["static-content-title"],
+      "text": "## Terminos y condiciones",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#static-content-wrapper": {
+    "title": "Texto contenido",
+    "props": {
+      "blockClass": ["row__wrapper", "fixed--static-content"]
+    },
+    "children": ["rich-text#static-content-text"]
+  },
+  "rich-text#static-content-text": {
+    "title": "Contenido Terminos",
+    "props": {
+      "blockClass": ["static-content-text"],
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  }
+}

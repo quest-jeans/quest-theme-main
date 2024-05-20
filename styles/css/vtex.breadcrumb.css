@@ -1,0 +1,61 @@
+.homeIcon,
+.caretIcon,
+.termArrow,
+.caretIcon {
+  display: none;
+}
+
+.container {
+  padding: 0;
+}
+
+.homeLink::before {
+  content: "Home /";
+  color: #bdbdbd;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.homeLink:hover {
+  color: #ffffff;
+}
+
+.homeLink {
+  padding-bottom: 5px;
+}
+
+.arrow::after {
+  content: "/";
+  color: #bdbdbd;
+}
+
+.link {
+  color: #bdbdbd;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.term {
+  color: #333;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.link:hover {
+  color: #333;
+}
+
+@media screen and (max-width: 1024px) {
+  .term {
+    display: none;
+  }
+}

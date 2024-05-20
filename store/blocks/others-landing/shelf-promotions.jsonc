@@ -1,0 +1,18 @@
+{
+  "store.custom#shelf-promotions": {
+    "title": "Promociones Vigentes",
+    "blocks": [
+      "rich-text#title-shelf-promotion",
+      "shelf-promotions"
+    ]
+  },
+
+  "rich-text#title-shelf-promotion": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Promociones Vigentes",
+      "blockClass": "title-home"
+    }
+  }
+}

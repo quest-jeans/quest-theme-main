@@ -1,0 +1,15 @@
+{
+    "store.custom#landing-coming-soon": {
+        "title": "Landing coming soon",
+        "children": [
+            "landing-move-elements",
+            "responsive-layout.desktop#landing-coming-soon",
+            "responsive-layout.mobile#landing-coming-soon",
+            "responsive-layout.tablet#landing-coming-soon"
+        ],
+        "props":{
+            "blockClass": "landing-coming-soon"
+        }
+    }
+  }
+  

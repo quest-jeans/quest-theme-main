@@ -1,0 +1,42 @@
+.container--texto-logo-quest {
+    max-width: 500px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: "TitilliumWeb-Regular";
+    line-height: 36px;
+}
+
+.paragraph--texto-invitacion{
+    font-size: 40px;
+    font-family: "TitilliumWeb-Regular";
+    margin-bottom: 0px;
+}
+
+.headingLevel2--texto-datos-personales{
+    font-size: 80px;
+    color: #FFFFFF;
+    font-family: "TitilliumWeb-Bold";
+    letter-spacing: normal;
+    line-height: 90px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 768px){
+    .container--texto-logo-quest {
+        padding: 0px 15px;
+        font-size: 22px;
+    }
+
+    .paragraph--texto-invitacion{
+        font-size: 24px;
+        padding: 0px 20px;
+        line-height: 30px;
+    }
+    
+    .headingLevel2--texto-datos-personales{
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 110px;
+    }
+}

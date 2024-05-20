@@ -1,0 +1,17 @@
+.flexRow--productSpecificationGroup:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.flexRow--productSpecificationGroupName {
+  background-color: #ffffff;
+  padding: 0.5rem 1rem;
+}
+
+.flexCol--productSpecificationName,
+.flexCol--productSpecificationValue {
+  padding: 10px 0;
+}
+
+.flexRow--productSpecification:nth-child(even) {
+  background-color: #ffffff;
+}

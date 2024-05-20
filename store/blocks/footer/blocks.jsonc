@@ -1,0 +1,447 @@
+{
+  "disclosure-layout-group#footer-menu": {
+    "title": "Menu Footer Mobile",
+    "props": {
+      "blockClass": "disclosure-footer__mobile",
+      "maxVisible": "one"
+    },
+    "children": ["disposition-layout#footer"]
+  },
+
+  "disposition-layout#footer": {
+    "title": "Mostrar / Ocultar / Reorganizar",
+    "children": [
+      "disclosure-layout#footer__content__1",
+      "disclosure-layout#footer__content__2",
+      "disclosure-layout#footer__content__3",
+      "disclosure-layout#footer__content__4",
+      "disclosure-layout#footer__content__5"
+    ],
+    "props": {
+      "disposition": [
+        {
+          "order": 1,
+          "__editorItemTitle": "Menu Item 1"
+        },
+        {
+          "order": 2,
+          "__editorItemTitle": "Menu Item 2"
+        },
+        {
+          "order": 3,
+          "__editorItemTitle": "Menu Item 3"
+        },
+        {
+          "order": 4,
+          "__editorItemTitle": "Menu Item 4"
+        },
+        {
+          "order": 5,
+          "__editorItemTitle": "Menu Item 5"
+        },
+        {
+          "order": 6,
+          "__editorItemTitle": "Menu Item 6"
+        }
+      ]
+    }
+  },
+
+  "disclosure-layout#footer__content__1": {
+    "title": "Menu 1",
+    "props": {
+      "blockClass": "footer__content",
+      "initialVisibility": "visible"
+    },
+    "children": [
+      "disclosure-trigger#title-footer__content-1",
+      "disclosure-content#footer__content-1"
+    ]
+  },
+  "disclosure-layout#footer__content__2": {
+    "title": "Menu 2",
+    "props": {
+      "blockClass": "footer__content"
+    },
+    "children": [
+      "disclosure-trigger#title-footer__content-2",
+      "disclosure-content#footer__content-2"
+    ]
+  },
+  "disclosure-layout#footer__content__3": {
+    "title": "Menu 3",
+    "props": {
+      "blockClass": "footer__content"
+    },
+    "children": [
+      "disclosure-trigger#title-footer__content-3",
+      "disclosure-content#footer__content-3"
+    ]
+  },
+  "disclosure-layout#footer__content__4": {
+    "title": "Menu 4",
+    "props": {
+      "blockClass": "footer__content"
+    },
+    "children": [
+      "disclosure-trigger#title-footer__content-4",
+      "disclosure-content#footer__content-4"
+    ]
+  },
+
+  "disclosure-layout#footer__content__5": {
+    "title": "Menu 5",
+    "props": {
+      "blockClass": "footer__content"
+    },
+    "children": [
+      "disclosure-trigger#title-footer__content-5",
+      "disclosure-content#footer__content-5"
+    ]
+  },
+
+  "disclosure-layout#footer__content__6": {
+    "title": "Menu 6",
+    "props": {
+      "blockClass": "footer__content"
+    },
+    "children": [
+      "disclosure-trigger#title-footer__content-6",
+      "disclosure-content#footer__content-6"
+    ]
+  },
+
+  "disclosure-trigger#title-footer__content-1": {
+    "title": "Título",
+    "props": {
+      "blockClass": "footer__terms"
+    },
+    "children": ["menu-item#title-menu__footer-1"]
+  },
+  "menu-item#title-menu__footer-1": {
+    "title": "Asignación Titulo",
+    "props": {
+      "blockClass": "footer__menu-text",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "Acerca de Quest"
+      }
+    }
+  },
+
+  "disclosure-trigger#title-footer__content-2": {
+    "title": "Título",
+    "props": {
+      "blockClass": "footer__terms"
+    },
+    "children": ["menu-item#title-menu__footer-2"]
+  },
+  "menu-item#title-menu__footer-2": {
+    "title": "Asignación Titulo",
+    "props": {
+      "blockClass": "footer__menu-text",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "Enlace de Interés"
+      }
+    }
+  },
+
+  "disclosure-trigger#title-footer__content-3": {
+    "title": "Título",
+    "props": {
+      "blockClass": "footer__terms"
+    },
+    "children": ["menu-item#title-menu__footer-3"]
+  },
+  "menu-item#title-menu__footer-3": {
+    "title": "Asignación Titulo",
+    "props": {
+      "blockClass": "footer__menu-text",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "Términos y Condiciones"
+      }
+    }
+  },
+
+
+  "disclosure-trigger#title-footer__content-4": {
+    "title": "Título",
+    "props": {
+      "blockClass": "footer__terms"
+    },
+    "children": ["menu-item#title-menu__footer-4"]
+  },
+  "menu-item#title-menu__footer-4": {
+    "title": "Asignación Titulo",
+    "props": {
+      "blockClass": "footer__menu-text",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": "Blog"
+      }
+    }
+  },
+
+  "disclosure-trigger#title-footer__content-5": {
+    "title": "Título",
+    "props": {
+      "blockClass": "footer__terms"
+    },
+    "children": ["menu-item#title-menu__footer-5"]
+  },
+  "menu-item#title-menu__footer-5": {
+    "title": "Asignación Titulo",
+    "props": {
+      "blockClass": "footer__menu-text",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": ""
+      }
+    }
+  },
+
+  "disclosure-trigger#title-footer__content-6": {
+    "title": "Título",
+    "props": {
+      "blockClass": "footer__terms"
+    },
+    "children": ["menu-item#title-menu__footer-6"]
+  },
+  "menu-item#title-menu__footer-6": {
+    "title": "Asignación Titulo",
+    "props": {
+      "blockClass": "footer__menu-text",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": ""
+      }
+    }
+  },
+
+  "disclosure-content#footer__content-1": {
+    "title": "Categorias",
+    "children": ["vtex.menu@2.x:menu#category__list-1"],
+    "props": {
+      "blockClass": "footer__terms"
+    }
+  },
+
+  "vtex.menu@2.x:menu#category__list-1": {
+    "title": "Listado",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer__menu-list",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#"
+      }
+    },
+    "children": []
+  },
+
+  "disclosure-content#footer__content-2": {
+    "title": "Categorias",
+    "children": ["vtex.menu@2.x:menu#category__list-2"],
+    "props": {
+      "blockClass": "footer__terms"
+    }
+  },
+
+  "vtex.menu@2.x:menu#category__list-2": {
+    "title": "Listado",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer__menu-list",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#"
+      }
+    },
+    "children": []
+  },
+
+  "disclosure-content#footer__content-3": {
+    "title": "Categorias",
+    "children": ["vtex.menu@2.x:menu#category__list-3"],
+    "props": {
+      "blockClass": "footer__terms"
+    }
+  },
+
+  "vtex.menu@2.x:menu#category__list-3": {
+    "title": "Listado",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer__menu-list",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#"
+      }
+    },
+    "children": []
+  },
+
+  "disclosure-content#footer__content-4": {
+    "title": "Categorias",
+    "children": ["vtex.menu@2.x:menu#category__list-4"],
+    "props": {
+      "blockClass": "footer__terms"
+    }
+  },
+
+  "vtex.menu@2.x:menu#category__list-4": {
+    "title": "Listado",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer__menu-list",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#"
+      }
+    },
+    "children": []
+  },
+
+  "disclosure-content#footer__content-5": {
+    "title": "Categorias",
+    "children": ["vtex.menu@2.x:menu#category__list-5"],
+    "props": {
+      "blockClass": "footer__terms"
+    }
+  },
+
+  "vtex.menu@2.x:menu#category__list-5": {
+    "title": "Listado",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer__menu-list",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#"
+      }
+    },
+    "children": []
+  },
+
+  "disclosure-content#footer__content-6": {
+    "title": "Categorias",
+    "children": ["vtex.menu@2.x:menu#category__list-6"],
+    "props": {
+      "blockClass": "footer__terms"
+    }
+  },
+
+  "vtex.menu@2.x:menu#category__list-6": {
+    "title": "Listado",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer__menu-list",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#"
+      }
+    },
+    "children": []
+  },
+
+  "flex-layout.row#social-networks": {
+    "title": "Iconos Redes Sociales",
+    "props": {
+      "blockClass": "container-social-networks"
+    },
+    "children": [
+      "image#logo__socialNetworks-1",
+      "image#logo__socialNetworks-2",
+      "image#logo__socialNetworks-3",
+      "image#logo__socialNetworks-4"
+    ]
+  },
+  "image#logo__socialNetworks-1": {
+    "title": "Youtube",
+    "props": {
+      "blockClass": "icon-social-networks",
+      "src": "assets/svg/Icon-Quest-Youtube.svg",
+      "link": {
+        "url": "https://www.youtube.com/channel/UCkR0QnbfslEb_7qxrHG8U4A",
+        "newTab": true
+      }
+    }
+  },
+  "image#logo__socialNetworks-2": {
+    "title": "Facebook",
+    "props": {
+      "blockClass": "icon-social-networks",
+      "src": "assets/svg/Icon-Quest-Facebook.svg",
+      "link": {
+        "url": "https://www.facebook.com/QuestJeans/",
+        "newTab": true
+      }
+    }
+  },
+  "image#logo__socialNetworks-3": {
+    "title": "Instagram",
+    "props": {
+      "blockClass": "icon-social-networks",
+      "src": "assets/svg/Icon-Quest-Intagram.svg",
+      "link": {
+        "url": "https://www.instagram.com/questoficial_",
+        "newTab": true
+      }
+    }
+  },
+  "image#logo__socialNetworks-4": {
+    "title": "Tik Tok",
+    "props": {
+      "blockClass": "icon-social-networks",
+      "src": "assets/svg/Icon-Quest-TikTok.svg",
+      "link": {
+        "url": "https://www.tiktok.com/@questoficial_",
+        "newTab": true
+      }
+    }
+  }
+}

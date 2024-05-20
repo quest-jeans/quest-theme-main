@@ -1,0 +1,162 @@
+
+.flexRowContent--landing-since{
+    overflow: hidden;
+}
+
+.flexRowContent--landing-since-v2{
+    background-image: url(/arquivos/since-landing-v2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.flexRowContent--landing-since-v2 :global(.vtex-rich-text-0-x-container--texto-logo-quest){
+    color: #FFFFFF;
+}
+
+.flexRow--landing-image-form{
+    overflow: hidden;
+    padding-top: 150px;
+    min-height: 700px;
+}
+
+.flexRowContent--landing-image-form{
+    background-image: url(/arquivos/suscribete-background-landing.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 700px;
+}
+
+.flexRowContent--landing-image-form-v2{
+    background-image: url(/arquivos/suscribete-background-landing-v2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 700px;
+}
+
+
+.flexColChild--landing-image-form-formulario :global(.vtex-input){
+    padding-bottom: 10px;
+    display: block;
+}
+
+.flexColChild--landing-image-form-formulario :global(.vtex-input__label){
+    display: none;
+}
+
+.flexColChild--landing-image-form-formulario :global(.vtex-input-prefix__group){
+    border: none;
+}
+
+.flexColChild--landing-image-form-formulario :global(.vtex-styleguide-9-x-input){
+    border-radius: 5px;
+    font-family: "TitilliumWeb-Regular";
+}
+.flexColChild--landing-image-form-formulario :global(.vtex-button__label){
+    font-family: "TitilliumWeb-Bold";
+}
+
+.flexCol--landing-since-image-text{
+    right: -1000px;
+    position: relative;
+}
+
+.flexCol--landing-image-form-formulario{
+    right: -1000px;
+    position: relative;
+}
+
+.flexColChild--landing-since-image-text{
+    padding-top: 20px;
+}
+
+.flexRow--landing-video :global(.vtex-store-components-3-x-container),
+.flexRow--landing-since :global(.vtex-store-components-3-x-container),
+/*.flexRow--landing-carousel-image :global(.vtex-store-components-3-x-container),*/
+.flexRow--landing-image-form :global(.vtex-store-components-3-x-container),
+.flexRow--landing-banner-footer :global(.vtex-store-components-3-x-container),
+.flexRow--banner-product :global(.vtex-store-components-3-x-container)
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+
+.flexRowContent--landing-text-invitacion{
+    margin-bottom: 0px;
+}
+
+
+.flexRow--landing-carousel-image :global(.vtex-store-components-3-x-container){
+    max-width: 1100px !important;
+}
+
+@media only screen and (max-width: 768px){
+
+    
+    .flexRow--landing-image-form{
+        overflow: initial;
+        padding-top: 0px;
+        min-height: initial;
+    }
+
+    .flexCol--landing-image-form-image{
+        padding: 0px 15px;
+    }
+
+    .flexRowContent--landing-image-form{
+        max-height: fit-content;
+        padding-bottom: 20px;
+    }
+
+    .flexRowContent--landing-image-form-v2{
+        max-height: fit-content;
+        padding-bottom: 20px;
+    }
+
+    .flexColChild--landing-image-form-image{
+        max-height: 200px !important;
+    }
+
+    .flexColChild--landing-image-form-formulario :global(.vtex-store-form-0-x-formSubmitContainer--buttonCustom){
+        display: flex;
+        justify-content: center;
+    }
+    .flexRow--landing-carousel-image{
+        padding: 0px
+    }
+
+    .flexRowContent--landing-since-v2{
+        background-image: url(/arquivos/since-landing-v2-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .flexCol--landing-since-image-text{
+        right: initial;
+        position: initial;
+    }
+
+    .flexCol--landing-image-form-formulario{
+        right: initial;
+        position: initial;
+    }
+    
+    .flexCol--landing-since-image-text{
+        left: 500px;
+        position: relative;
+    }
+    
+    .flexRow--landing-image-player{
+        overflow: hidden;
+    }
+    .flexRowContent--landing-carousel-image{
+        padding-bottom: 0px;
+    }
+
+    .flexRowContent--landing-text-invitacion{
+        margin-bottom: 80px;
+        margin-top: 0px;
+    }
+}

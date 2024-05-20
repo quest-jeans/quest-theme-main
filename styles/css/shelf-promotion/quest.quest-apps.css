@@ -1,0 +1,55 @@
+.spContainerPromotions {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 25px auto;
+  max-width: 1250px;
+}
+
+.spContainerPromotion {
+  width: calc(33% - 4px);
+  text-decoration: none;
+}
+
+.spContainerPromotion .imageElement {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 25px;
+  background: #ccc;
+  box-shadow: 0 0 3px #afaeb4;
+}
+
+.spTitlePromotion {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1300px) {
+  .spContainerPromotions {
+    margin: 20px;
+  }
+
+  .spContainerPromotion {
+    width: calc(50% - 6px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .spContainerPromotions {
+    margin: 12px;
+  }
+
+  .spContainerPromotion {
+    width: 100%;
+  }
+}

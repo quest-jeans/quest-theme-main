@@ -1,0 +1,364 @@
+{
+  // BANNER
+  "list-context.image-list#banner-static-content": {
+    "title": "Banner",
+    "children": ["slider-layout#banner-principal"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+        }
+      ]
+    }
+  },
+
+  // BANNER
+  // TEXTOS ESTATICOS
+
+  "flex-layout.row#text-static-content1": {
+    "title": "Texto 1",
+    "props": {
+      "blockClass": "containerText-statis-content"
+    },
+    "children": ["rich-text#text-static-content1"]
+  },
+
+  "flex-layout.row#text-static-content2": {
+    "title": "Texto 2",
+    "props": {
+      "blockClass": "containerText-statis-content"
+    },
+    "children": ["rich-text#text-static-content1"]
+  },
+
+  "flex-layout.row#text-static-content3": {
+    "title": "Texto 3",
+    "props": {
+      "blockClass": "containerText-statis-content"
+    },
+    "children": ["rich-text#text-static-content1"]
+  },
+  "flex-layout.row#text-static-content4": {
+    "title": "Texto 4",
+    "props": {
+      "blockClass": "containerText-statis-content"
+    },
+    "children": ["rich-text#text-static-content1"]
+  },
+
+  "flex-layout.row#text-static-content-1-1": {
+    "title": "Texto 2",
+    "props": {
+      "blockClass": "containerText-statis-content"
+    },
+    "children": ["rich-text#text-static-content1"]
+  },
+
+  "rich-text#text-static-content1": {
+    "title": "Texto",
+    "props": {
+      "textPosition": "CENTER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur, mi risus vestibulum nisl, a pulvinar magna nunc sed ligula. Curabitur eget elementum ex. Quisque quam dolor, gravida ullamcorper ante eu, tincidunt auctor turpis. Aenean sodales suscipit mauris eu scelerisque. Morbi lacinia vel ligula ornare lobortis. Suspendisse potenti. Maecenas commodo elementum metus et tincidunt. In hac habitasse platea dictumst. Vestibulum iaculis diam at libero rutrum, a faucibus quam faucibus. Quisque venenatis rhoncus facilisis. Sed convallis metus arcu. Aliquam ornare nulla vitae bibendum placerat. In lorem eros, mollis nec tincidunt placerat, ultrices nec nibh. Integer quis felis imperdiet, semper lorem non, suscipit mi. Donec suscipit eros at odio blandit mattis",
+      "blockClass": "text-static-content"
+    }
+  },
+
+  "rich-text#text-static-content1_justified": {
+    "title": "Texto 1",
+    "props": {
+      "textPosition": "CENTER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur, mi risus vestibulum nisl, a pulvinar magna nunc sed ligula. Curabitur eget elementum ex. Quisque quam dolor, gravida ullamcorper ante eu, tincidunt auctor turpis. Aenean sodales suscipit mauris eu scelerisque. Morbi lacinia vel ligula ornare lobortis. Suspendisse potenti. Maecenas commodo elementum metus et tincidunt. In hac habitasse platea dictumst. Vestibulum iaculis diam at libero rutrum, a faucibus quam faucibus. Quisque venenatis rhoncus facilisis. Sed convallis metus arcu. Aliquam ornare nulla vitae bibendum placerat. In lorem eros, mollis nec tincidunt placerat, ultrices nec nibh. Integer quis felis imperdiet, semper lorem non, suscipit mi. Donec suscipit eros at odio blandit mattis",
+      "blockClass": "text-static-content"
+    }
+  },
+
+  "rich-text#text-static-content2_justified": {
+    "title": "Texto 2",
+    "props": {
+      "textPosition": "CENTER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur, mi risus vestibulum nisl, a pulvinar magna nunc sed ligula. Curabitur eget elementum ex. Quisque quam dolor, gravida ullamcorper ante eu, tincidunt auctor turpis. Aenean sodales suscipit mauris eu scelerisque. Morbi lacinia vel ligula ornare lobortis. Suspendisse potenti. Maecenas commodo elementum metus et tincidunt. In hac habitasse platea dictumst. Vestibulum iaculis diam at libero rutrum, a faucibus quam faucibus. Quisque venenatis rhoncus facilisis. Sed convallis metus arcu. Aliquam ornare nulla vitae bibendum placerat. In lorem eros, mollis nec tincidunt placerat, ultrices nec nibh. Integer quis felis imperdiet, semper lorem non, suscipit mi. Donec suscipit eros at odio blandit mattis",
+      "blockClass": "text-static-content"
+    }
+  },
+
+  "rich-text#text-static-content3_justified": {
+    "title": "Texto 3",
+    "props": {
+      "textPosition": "CENTER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur, mi risus vestibulum nisl, a pulvinar magna nunc sed ligula. Curabitur eget elementum ex. Quisque quam dolor, gravida ullamcorper ante eu, tincidunt auctor turpis. Aenean sodales suscipit mauris eu scelerisque. Morbi lacinia vel ligula ornare lobortis. Suspendisse potenti. Maecenas commodo elementum metus et tincidunt. In hac habitasse platea dictumst. Vestibulum iaculis diam at libero rutrum, a faucibus quam faucibus. Quisque venenatis rhoncus facilisis. Sed convallis metus arcu. Aliquam ornare nulla vitae bibendum placerat. In lorem eros, mollis nec tincidunt placerat, ultrices nec nibh. Integer quis felis imperdiet, semper lorem non, suscipit mi. Donec suscipit eros at odio blandit mattis",
+      "blockClass": "text-static-content"
+    }
+  },
+
+  "rich-text#text-static-content4_justified": {
+    "title": "Texto 4",
+    "props": {
+      "textPosition": "CENTER",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur, mi risus vestibulum nisl, a pulvinar magna nunc sed ligula. Curabitur eget elementum ex. Quisque quam dolor, gravida ullamcorper ante eu, tincidunt auctor turpis. Aenean sodales suscipit mauris eu scelerisque. Morbi lacinia vel ligula ornare lobortis. Suspendisse potenti. Maecenas commodo elementum metus et tincidunt. In hac habitasse platea dictumst. Vestibulum iaculis diam at libero rutrum, a faucibus quam faucibus. Quisque venenatis rhoncus facilisis. Sed convallis metus arcu. Aliquam ornare nulla vitae bibendum placerat. In lorem eros, mollis nec tincidunt placerat, ultrices nec nibh. Integer quis felis imperdiet, semper lorem non, suscipit mi. Donec suscipit eros at odio blandit mattis",
+      "blockClass": "text-static-content"
+    }
+  },
+
+  "rich-text#text-static-content1_center": {
+    "title": "Texto 1",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur, mi risus vestibulum nisl, a pulvinar magna nunc sed ligula. Curabitur eget elementum ex. Quisque quam dolor, gravida ullamcorper ante eu, tincidunt auctor turpis. Aenean sodales suscipit mauris eu scelerisque. Morbi lacinia vel ligula ornare lobortis. Suspendisse potenti. Maecenas commodo elementum metus et tincidunt. In hac habitasse platea dictumst. Vestibulum iaculis diam at libero rutrum, a faucibus quam faucibus. Quisque venenatis rhoncus facilisis. Sed convallis metus arcu. Aliquam ornare nulla vitae bibendum placerat. In lorem eros, mollis nec tincidunt placerat, ultrices nec nibh. Integer quis felis imperdiet, semper lorem non, suscipit mi. Donec suscipit eros at odio blandit mattis",
+      "blockClass": "text-static-content-center"
+    }
+  },
+
+  "rich-text#text-static-content2_center": {
+    "title": "Texto 2",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur, mi risus vestibulum nisl, a pulvinar magna nunc sed ligula. Curabitur eget elementum ex. Quisque quam dolor, gravida ullamcorper ante eu, tincidunt auctor turpis. Aenean sodales suscipit mauris eu scelerisque. Morbi lacinia vel ligula ornare lobortis. Suspendisse potenti. Maecenas commodo elementum metus et tincidunt. In hac habitasse platea dictumst. Vestibulum iaculis diam at libero rutrum, a faucibus quam faucibus. Quisque venenatis rhoncus facilisis. Sed convallis metus arcu. Aliquam ornare nulla vitae bibendum placerat. In lorem eros, mollis nec tincidunt placerat, ultrices nec nibh. Integer quis felis imperdiet, semper lorem non, suscipit mi. Donec suscipit eros at odio blandit mattis",
+      "blockClass": "text-static-content-center"
+    }
+  },
+
+  "rich-text#text-static-content3_center": {
+    "title": "Texto 3",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur, mi risus vestibulum nisl, a pulvinar magna nunc sed ligula. Curabitur eget elementum ex. Quisque quam dolor, gravida ullamcorper ante eu, tincidunt auctor turpis. Aenean sodales suscipit mauris eu scelerisque. Morbi lacinia vel ligula ornare lobortis. Suspendisse potenti. Maecenas commodo elementum metus et tincidunt. In hac habitasse platea dictumst. Vestibulum iaculis diam at libero rutrum, a faucibus quam faucibus. Quisque venenatis rhoncus facilisis. Sed convallis metus arcu. Aliquam ornare nulla vitae bibendum placerat. In lorem eros, mollis nec tincidunt placerat, ultrices nec nibh. Integer quis felis imperdiet, semper lorem non, suscipit mi. Donec suscipit eros at odio blandit mattis",
+      "blockClass": "text-static-content-center"
+    }
+  },
+
+  "rich-text#text-static-content4_center": {
+    "title": "Texto 4",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur, mi risus vestibulum nisl, a pulvinar magna nunc sed ligula. Curabitur eget elementum ex. Quisque quam dolor, gravida ullamcorper ante eu, tincidunt auctor turpis. Aenean sodales suscipit mauris eu scelerisque. Morbi lacinia vel ligula ornare lobortis. Suspendisse potenti. Maecenas commodo elementum metus et tincidunt. In hac habitasse platea dictumst. Vestibulum iaculis diam at libero rutrum, a faucibus quam faucibus. Quisque venenatis rhoncus facilisis. Sed convallis metus arcu. Aliquam ornare nulla vitae bibendum placerat. In lorem eros, mollis nec tincidunt placerat, ultrices nec nibh. Integer quis felis imperdiet, semper lorem non, suscipit mi. Donec suscipit eros at odio blandit mattis",
+      "blockClass": "text-static-content-center"
+    }
+  },
+
+  "rich-text#text-static-content1_left": {
+    "title": "Texto 1",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur, mi risus vestibulum nisl, a pulvinar magna nunc sed ligula. Curabitur eget elementum ex. Quisque quam dolor, gravida ullamcorper ante eu, tincidunt auctor turpis. Aenean sodales suscipit mauris eu scelerisque. Morbi lacinia vel ligula ornare lobortis. Suspendisse potenti. Maecenas commodo elementum metus et tincidunt. In hac habitasse platea dictumst. Vestibulum iaculis diam at libero rutrum, a faucibus quam faucibus. Quisque venenatis rhoncus facilisis. Sed convallis metus arcu. Aliquam ornare nulla vitae bibendum placerat. In lorem eros, mollis nec tincidunt placerat, ultrices nec nibh. Integer quis felis imperdiet, semper lorem non, suscipit mi. Donec suscipit eros at odio blandit mattis",
+      "blockClass": "text-static-content-left"
+    }
+  },
+
+  "rich-text#text-static-content2_left": {
+    "title": "Texto 2",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur, mi risus vestibulum nisl, a pulvinar magna nunc sed ligula. Curabitur eget elementum ex. Quisque quam dolor, gravida ullamcorper ante eu, tincidunt auctor turpis. Aenean sodales suscipit mauris eu scelerisque. Morbi lacinia vel ligula ornare lobortis. Suspendisse potenti. Maecenas commodo elementum metus et tincidunt. In hac habitasse platea dictumst. Vestibulum iaculis diam at libero rutrum, a faucibus quam faucibus. Quisque venenatis rhoncus facilisis. Sed convallis metus arcu. Aliquam ornare nulla vitae bibendum placerat. In lorem eros, mollis nec tincidunt placerat, ultrices nec nibh. Integer quis felis imperdiet, semper lorem non, suscipit mi. Donec suscipit eros at odio blandit mattis",
+      "blockClass": "text-static-content-left"
+    }
+  },
+
+  "rich-text#text-static-content3_left": {
+    "title": "Texto 3",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur, mi risus vestibulum nisl, a pulvinar magna nunc sed ligula. Curabitur eget elementum ex. Quisque quam dolor, gravida ullamcorper ante eu, tincidunt auctor turpis. Aenean sodales suscipit mauris eu scelerisque. Morbi lacinia vel ligula ornare lobortis. Suspendisse potenti. Maecenas commodo elementum metus et tincidunt. In hac habitasse platea dictumst. Vestibulum iaculis diam at libero rutrum, a faucibus quam faucibus. Quisque venenatis rhoncus facilisis. Sed convallis metus arcu. Aliquam ornare nulla vitae bibendum placerat. In lorem eros, mollis nec tincidunt placerat, ultrices nec nibh. Integer quis felis imperdiet, semper lorem non, suscipit mi. Donec suscipit eros at odio blandit mattis",
+      "blockClass": "text-static-content-left"
+    }
+  },
+
+  "rich-text#text-static-content4_left": {
+    "title": "Texto 4",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis est nisi, id feugiat diam finibus ac. Maecenas suscipit, massa in rhoncus consectetur, mi risus vestibulum nisl, a pulvinar magna nunc sed ligula. Curabitur eget elementum ex. Quisque quam dolor, gravida ullamcorper ante eu, tincidunt auctor turpis. Aenean sodales suscipit mauris eu scelerisque. Morbi lacinia vel ligula ornare lobortis. Suspendisse potenti. Maecenas commodo elementum metus et tincidunt. In hac habitasse platea dictumst. Vestibulum iaculis diam at libero rutrum, a faucibus quam faucibus. Quisque venenatis rhoncus facilisis. Sed convallis metus arcu. Aliquam ornare nulla vitae bibendum placerat. In lorem eros, mollis nec tincidunt placerat, ultrices nec nibh. Integer quis felis imperdiet, semper lorem non, suscipit mi. Donec suscipit eros at odio blandit mattis",
+      "blockClass": "text-static-content-left"
+    }
+  },
+
+  // TEXTOS ESTATICOS
+
+  // IMAGEN
+
+  "list-context.image-list#image-content-static": {
+    "title": "Imagen",
+    "children": ["slider-layout#banner-content-static"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "https://quest.vteximg.com.br/arquivos/static-content.png",
+          "mobileImage": ""
+        }
+      ]
+    }
+  },
+  "list-context.image-list#image-content-static-1": {
+    "title": "Imagen",
+    "children": ["slider-layout#banner-content-static"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "https://quest.vteximg.com.br/arquivos/static-content.png",
+          "mobileImage": ""
+        }
+      ]
+    }
+  },
+  "list-context.image-list#image-content-static-2": {
+    "title": "Imagen",
+    "children": ["slider-layout#banner-content-static"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "https://quest.vteximg.com.br/arquivos/static-content.png",
+          "mobileImage": ""
+        }
+      ]
+    }
+  },
+  "list-context.image-list#image-content-static-3": {
+    "title": "Imagen",
+    "children": ["slider-layout#banner-content-static"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "https://quest.vteximg.com.br/arquivos/static-content.png",
+          "mobileImage": ""
+        }
+      ]
+    }
+  },
+
+  "list-context.image-list#image-content-static-4": {
+    "title": "Imagen",
+    "children": ["slider-layout#banner-content-static"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "https://quest.vteximg.com.br/arquivos/static-content.png",
+          "mobileImage": ""
+        }
+      ]
+    }
+  },
+
+  "list-context.image-list#image-content-static-5": {
+    "title": "Imagen",
+    "children": ["slider-layout#banner-content-static"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "https://quest.vteximg.com.br/arquivos/static-content.png",
+          "mobileImage": ""
+        }
+      ]
+    }
+  },
+
+  "slider-layout#banner-content-static": {
+    "title": "Slider",
+    "props": {
+      "blockClass": "carousel__home",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      }
+    }
+  },
+
+  // IMAGEN
+  // TEXTO - PRODUCTO
+
+  "list-context.product-list#collection-blog": {
+    "title": "Vitrina",
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#products-blog"],
+    "props": {
+      "collection": "",
+      "hideUnavailableItems": true,
+      "skusFilter": "FIRST_AVAILABLE",
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "ProducBlog"
+    }
+  },
+  "slider-layout#products-blog": {
+    "title": "Slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "sliderProducBlog"
+    }
+  },
+
+  "list-context.product-list#collection-blog-2": {
+    "title": "Vitrina",
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#products-blog-2"],
+    "props": {
+      "collection": "",
+      "hideUnavailableItems": true,
+      "skusFilter": "FIRST_AVAILABLE",
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "ProducBlog"
+    }
+  },
+  "slider-layout#products-blog-2": {
+    "title": "Slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "sliderProducBlog2"
+    }
+  },
+  // TEXTO - PRODUCTO
+
+  // BOTON
+
+  "rich-text#boton-1-blogs": {
+    "title": "Boton",
+    "props": {
+      "text": "[Botón](/)",
+      "blockClass": "button-1-blogs"
+    }
+  },
+
+  "rich-text#boton-2-blogs": {
+    "title": "Boton",
+    "props": {
+      "text": "[Botón](/)",
+      "blockClass": "button-2-blogs"
+    }
+  },
+
+  // BOTON
+
+  "image#blogs": {
+    "title": "Imagen",
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "blockClass": "image-blog"
+    }
+  }
+}

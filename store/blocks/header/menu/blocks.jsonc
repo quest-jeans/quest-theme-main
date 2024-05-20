@@ -1,0 +1,761 @@
+{
+  // CATEGORY 1
+
+  "vtex.menu@2.x:menu#category-menu1": {
+    "title": "Menu 1",
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "menu-header"
+    },
+    "children": ["menu-item#menu-category-1"]
+  },
+
+  "menu-item#menu-category-1": {
+    "props": {
+      "id": "Mujer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "onMountBehavior": "closed",
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Nueva colección",
+        "text": "Nueva colección"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#content-category"]
+  },
+
+  // CATEGORY 1
+  // CATEGORY 2
+
+  "vtex.menu@2.x:menu#category-menu2": {
+    "title": "Menu 2",
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "menu-header"
+    },
+    "children": ["menu-item#menu-category-2"]
+  },
+
+  "menu-item#menu-category-2": {
+    "props": {
+      "id": "menu-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "onMountBehavior": "closed",
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Hombre",
+        "text": "Hombre"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#content-category"]
+  },
+
+  // CATEGORY 2
+  // CATEGORY 3
+
+  "vtex.menu@2.x:menu#category-menu3": {
+    "title": "Menu 3",
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "menu-header"
+    },
+    "children": ["menu-item#menu-category-3"]
+  },
+
+  "menu-item#menu-category-3": {
+    "props": {
+      "id": "menu-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "onMountBehavior": "closed",
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Mujer",
+        "text": "Mujer"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#content-category"]
+  },
+
+  // CATEGORY 3
+  // CATEGORY 4
+
+  "vtex.menu@2.x:menu#category-menu4": {
+    "title": "Menu 4",
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "menu-header"
+    },
+    "children": ["menu-item#menu-category-4"]
+  },
+
+  "menu-item#menu-category-4": {
+    "props": {
+      "id": "menu-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "onMountBehavior": "closed",
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#content-category"]
+  },
+
+  // CATEGORY 4
+
+  // CATEGORY 5
+
+  "vtex.menu@2.x:menu#category-menu5": {
+    "title": "Menu 5",
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "menu-header"
+    },
+    "children": ["menu-item#menu-category-5"]
+  },
+
+  "menu-item#menu-category-5": {
+    "props": {
+      "id": "menu-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "onMountBehavior": "closed",
+      "itemProps": {
+        "type": "internal",
+        "href": "/jefferson-lerma",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": "By Lerma"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#content-category"]
+  },
+
+  // CATEGORY 5
+
+  // CATEGORY 6
+
+  "vtex.menu@2.x:menu#category-menu6": {
+    "title": "Menu 6",
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "menu-header"
+    },
+    "children": ["menu-item#menu-category-6"]
+  },
+
+  "menu-item#menu-category-6": {
+    "props": {
+      "id": "menu-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "onMountBehavior": "closed",
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": ""
+      }
+    }
+  },
+
+  // CATEGORY 6
+
+  "vtex.menu@2.x:submenu#content-category": {
+    "title": "Contenido",
+    "props": {
+      "width": "100%",
+      "blockClass": "container-submenu-item"
+    },
+    "children": [
+      "flex-layout.col#sub-menu-items",
+      "flex-layout.col#sub-menu-images"
+    ]
+  },
+
+  "flex-layout.col#sub-menu-items": {
+    "title": "Contenido Menu",
+    "props": {
+      "blockClass": "containerCol--sub-menu-items"
+    },
+    "children": [
+      "flex-layout.row#title-category-menu",
+      "flex-layout.row#submenu-items"
+    ]
+  },
+
+  "flex-layout.row#title-category-menu": {
+    "title": "Titulo Categoría",
+    "props": {
+      "blockClass": "containerRow--title-category-menu"
+    },
+    "children": ["rich-text#title-category"]
+  },
+
+  "rich-text#title-category": {
+    "title": "Texto",
+    "props": {
+      "text": "[Nueva colección](/)",
+      "blockClass": "text--title-category"
+    }
+  },
+
+  "flex-layout.row#submenu-items": {
+    "title": "Contenedor Menu",
+    "props": {
+      "blockClass": "containerRow--content-sub-menu"
+    },
+    "children": [
+      "flex-layout.col#sub-1-menu-column-1",
+      "flex-layout.col#sub-2-menu-column-2",
+      "flex-layout.col#sub-3-menu-column-3",
+      "flex-layout.col#sub-4-menu-column-4"
+    ]
+  },
+
+  // BLOQUE 1
+
+  "flex-layout.col#sub-1-menu-column-1": {
+    "title": "Bloque 1",
+    "props": {
+      "blockClass": "containerCol--sub-menu-1"
+    },
+    "children": [
+      "flex-layout.row#title-menu-category",
+      "disposition-layout#menu-order-desktop"
+    ]
+  },
+  // BLOQUE 1
+  // BLOQUE 2
+  "flex-layout.col#sub-2-menu-column-2": {
+    "title": "Bloque 2",
+    "props": {
+      "blockClass": "containerCol--sub-menu-1"
+    },
+    "children": [
+      "flex-layout.row#title-menu-category",
+      "disposition-layout#menu-order-desktop"
+    ]
+  },
+  // BLOQUE 2
+  // BLOQUE 3
+  "flex-layout.col#sub-3-menu-column-3": {
+    "title": "Bloque 3",
+    "props": {
+      "blockClass": "containerCol--sub-menu-1"
+    },
+    "children": [
+      "flex-layout.row#title-menu-category",
+      "disposition-layout#menu-order-desktop"
+    ]
+  },
+  // BLOQUE 3
+  // BLOQUE 4
+  "flex-layout.col#sub-4-menu-column-4": {
+    "title": "Bloque 4",
+    "props": {
+      "blockClass": "containerCol--sub-menu-1"
+    },
+    "children": [
+      "flex-layout.row#title-menu-category",
+      "disposition-layout#menu-order-desktop"
+    ]
+  },
+  // BLOQUE 4
+
+  // ITEMS MENU
+
+  "disposition-layout#menu-order-desktop": {
+    "title": "Sub Menu - Mostrar / Ocultar / Reorganizar",
+    "children": [
+      "menu-item#menu-1-item_1",
+      "menu-item#menu-1-item_2",
+      "menu-item#menu-1-item_3",
+      "menu-item#menu-1-item_4",
+      "menu-item#menu-1-item_5",
+      "menu-item#menu-1-item_6",
+      "menu-item#menu-1-item_7",
+      "menu-item#menu-1-item_8",
+      "menu-item#menu-1-item_9",
+      "menu-item#menu-1-item_10",
+      "menu-item#menu-1-item_11",
+      "menu-item#menu-1-item_12",
+      "menu-item#menu-1-item_13",
+      "rich-text#text-title-category-1",
+      "rich-text#text-title-category-2",
+      "rich-text#text-title-category-3",
+      "rich-text#see-everything-1",
+      "rich-text#see-everything-2",
+      "rich-text#see-everything-3"
+    ],
+    "props": {
+      "blockClass": "mega-menu",
+      "disposition": [
+        {
+          "order": 1,
+          "__editorItemTitle": "Categoria 1"
+        },
+        {
+          "order": 2,
+          "__editorItemTitle": "Categoria 2"
+        },
+        {
+          "order": 3,
+          "__editorItemTitle": "Categoria 3"
+        },
+        {
+          "order": 4,
+          "__editorItemTitle": "Categoria 4"
+        },
+        {
+          "order": 5,
+          "__editorItemTitle": "Categoria 5"
+        },
+        {
+          "order": 6,
+          "__editorItemTitle": "Categoria 6"
+        },
+        {
+          "order": 7,
+          "__editorItemTitle": "Categoria 7"
+        },
+        {
+          "order": 8,
+          "__editorItemTitle": "Categoria 8"
+        },
+        {
+          "order": 9,
+          "__editorItemTitle": "Categoria 9"
+        },
+        {
+          "order": 10,
+          "__editorItemTitle": "Categoria 10"
+        },
+        {
+          "order": 11,
+          "__editorItemTitle": "Categoria 11"
+        },
+        {
+          "order": 12,
+          "__editorItemTitle": "Categoria 12"
+        },
+        {
+          "order": 13,
+          "__editorItemTitle": "Categoria 13"
+        },
+        {
+          "order": 14,
+          "__editorItemTitle": "Titulo 1"
+        },
+        {
+          "order": 15,
+          "__editorItemTitle": "Titulo 2"
+        },
+        {
+          "order": 16,
+          "__editorItemTitle": "Ver todo 1"
+        },
+        {
+          "order": 17,
+          "__editorItemTitle": "Ver todo 2"
+        },
+        {
+          "order": 18,
+          "__editorItemTitle": "Item extra 1"
+        },
+        {
+          "order": 19,
+          "__editorItemTitle": "Item extra 2"
+        },
+        {
+          "order": 20,
+          "__editorItemTitle": "Item extra 3"
+        },
+        {
+          "order": 21,
+          "__editorItemTitle": "Item extra 4"
+        }
+      ]
+    }
+  },
+
+  // ITEMS MENU
+
+  // TITLE
+
+  "flex-layout.row#title-menu-category": {
+    "title": "Titulo",
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": ["rich-text#text-title-category"]
+  },
+
+  "rich-text#text-title-category": {
+    "title": "Titulo Bloque",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Mujer",
+      "blockClass": "title--menu-category"
+    }
+  },
+
+  "rich-text#text-title-category-1": {
+    "title": "Titulo 1",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "",
+      "blockClass": "title--menu-category"
+    }
+  },
+
+  "rich-text#text-title-category-2": {
+    "title": "Titulo 2",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "",
+      "blockClass": "title--menu-category"
+    }
+  },
+
+  "rich-text#text-title-category-3": {
+    "title": "Titulo 3",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "",
+      "blockClass": "title--menu-category"
+    }
+  },
+  // TITLE
+
+  // SEE EVERYTHING
+
+  "rich-text#see-everything-1": {
+    "title": "Texto Ver todo 1",
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": "text--see-everything"
+    }
+  },
+
+  "rich-text#see-everything-2": {
+    "title": "Texto Ver todo 2",
+    "props": {
+      "text": "[](/)",
+      "blockClass": "text--see-everything"
+    }
+  },
+
+  "rich-text#see-everything-3": {
+    "title": "Texto Ver todo 3",
+    "props": {
+      "text": "[](/)",
+      "blockClass": "text--see-everything"
+    }
+  },
+
+  // SEE EVERYTHING
+
+  // IMAGES MENU
+
+  "flex-layout.col#sub-menu-images": {
+    "title": "Menu Imagenes / Textos",
+    "props": {
+      "blockClass": "containerCol--sub-menu-2"
+    },
+    "children": ["flex-layout.row#category-images"]
+  },
+
+  "flex-layout.row#category-images": {
+    "props": {
+      "blockClass": "container--image-text"
+    },
+    "children": [
+      "flex-layout.col#category-image-1",
+      "flex-layout.col#category-image-2",
+      "flex-layout.col#category-image-3"
+    ]
+  },
+
+  "flex-layout.col#category-image-1": {
+    "props": {
+      "blockClass": "contentCol--image-text"
+    },
+    "children": ["image#menu-header-image"]
+  },
+
+  "flex-layout.col#category-image-2": {
+    "props": {
+      "blockClass": "contentCol--image-text"
+    },
+    "children": ["image#menu-header-image"]
+  },
+  "flex-layout.col#category-image-3": {
+    "props": {
+      "blockClass": "contentCol--image-text"
+    },
+    "children": ["image#menu-header-image"]
+  },
+
+  "image#menu-header-image": {
+    "title": "Imagen Sub Menu",
+    "props": {
+      "blockClass": "image--second-menu",
+      "src": "https://quest.vteximg.com.br/arquivos/gorras-quest-menu.png",
+      "maxHeight": 220,
+      "maxWidth": 350
+    }
+  },
+
+  // IMAGES MENU
+
+  // MENU ITEM
+  "menu-item#menu-1-item_1": {
+    "title": "MENU ITEM 1",
+    "props": {
+      "id": "menu-item-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "JEANS",
+        "text": "JEANS"
+      }
+    }
+  },
+
+  "menu-item#menu-1-item_2": {
+    "title": "MENU ITEM 2",
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "POLOS",
+        "text": "POLOS"
+      }
+    }
+  },
+  "menu-item#menu-1-item_3": {
+    "title": "MENU ITEM 3",
+    "props": {
+      "id": "menu-item-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "CAMISAS",
+        "text": "CAMISAS"
+      }
+    }
+  },
+  "menu-item#menu-1-item_4": {
+    "title": "MENU ITEM 4",
+    "props": {
+      "id": "menu-item-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "BUZOS",
+        "text": "BUZOS"
+      }
+    }
+  },
+  "menu-item#menu-1-item_5": {
+    "title": "MENU ITEM 5",
+    "props": {
+      "id": "menu-item-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "CAMISETAS",
+        "text": "CAMISETAS"
+      }
+    }
+  },
+  "menu-item#menu-1-item_6": {
+    "title": "MENU ITEM 6",
+    "props": {
+      "id": "menu-item-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "CAMISETAS PREMIUM",
+        "text": "CAMISETAS PREMIUM"
+      }
+    }
+  },
+  "menu-item#menu-1-item_7": {
+    "title": "MENU ITEM 7",
+    "props": {
+      "id": "menu-item-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "CHAQUETAS",
+        "text": "CHAQUETAS"
+      }
+    }
+  },
+  "menu-item#menu-1-item_8": {
+    "title": "MENU ITEM 8",
+    "props": {
+      "id": "menu-item-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "CHALECOS",
+        "text": "CHALECOS"
+      }
+    }
+  },
+  "menu-item#menu-1-item_9": {
+    "title": "MENU ITEM 9",
+    "props": {
+      "id": "menu-item-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "PANTALONES",
+        "text": "PANTALONES"
+      }
+    }
+  },
+  "menu-item#menu-1-item_10": {
+    "title": "MENU ITEM 10",
+    "props": {
+      "id": "menu-item-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "PANTALONETAS",
+        "text": "PANTALONETAS"
+      }
+    }
+  },
+  "menu-item#menu-1-item_11": {
+    "title": "MENU ITEM 11",
+    "props": {
+      "id": "menu-item-11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "BERMUDAS",
+        "text": "BERMUDAS"
+      }
+    }
+  },
+  "menu-item#menu-1-item_12": {
+    "title": "MENU ITEM 12",
+    "props": {
+      "id": "menu-item-12",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "SWEATER",
+        "text": "SWEATER"
+      }
+    }
+  },
+  "menu-item#menu-1-item_13": {
+    "title": "MENU ITEM 13",
+    "props": {
+      "id": "menu-item-13",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu--item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": ""
+      }
+    }
+  }
+  // MENU ITEM
+}

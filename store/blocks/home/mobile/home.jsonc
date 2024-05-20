@@ -1,0 +1,296 @@
+{
+  "responsive-layout.mobile": {
+    "title": "Content Mobile",
+    "children": [
+      "list-context.image-list#banner-principal",
+      "flex-layout.row#detach-home",
+      "responsive-layout.phone#about-categories",
+      "flex-layout.row#banner-extra1",
+      "flex-layout.row#banner-extra2",
+      "flex-layout.row#collection",
+      "flex-layout.row#cross-selling-block-home",
+      "flex-layout.row#promotion-home",
+      "responsive-layout.mobile#banner--benefit-mobile__home",
+      "flex-layout.row#container-text-seo",
+      "flex-layout.row#banner-last-news",
+      "flex-layout.row#newsletterCustom",
+      "flex-layout.row#cross-selling-form-home"
+    ]
+  },
+
+  // BANNER PRINCIPAL
+
+  "responsive-layout.phone#banner-principal-mobile": {
+    "children": ["flex-layout.row#slider-principal-mobile"],
+    "props": {
+      "blockClass": "content-banner-principal"
+    }
+  },
+
+  "flex-layout.row#slider-principal-mobile": {
+    "children": ["slider-layout#banner-principal-mobile"],
+    "props": {
+      "blockClass": ["container-slider-banner", "row-home-content"],
+      "fullWidth": true
+    }
+  },
+  "slider-layout#banner-principal-mobile": {
+    "title": "Slide",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "flex-layout.row#banner-principal-mobile-1",
+      "flex-layout.row#banner-principal-mobile-2",
+      "flex-layout.row#banner-principal-mobile-3",
+      "flex-layout.row#banner-principal-mobile-4",
+      "flex-layout.row#banner-principal-mobile-5"
+    ]
+  },
+  // BANNER PRINCIPAL
+
+  // CATEGORIAS
+
+  "responsive-layout.phone#about-categories": {
+    "title": "Nuestras Categorias",
+    "props": {
+      "blockClass": "about-categories"
+    },
+    "children": ["flex-layout.row#categories"]
+  },
+  "flex-layout.row#categories": {
+    "props": {
+      "blockClass": ["categoriesRow-home", "row-home-content"],
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#categories"]
+  },
+  "flex-layout.col#categories": {
+    "props": {
+      "blockClass": "categoriesCol-home"
+    },
+    "children": [
+      "rich-text#categories-title",
+      "slider-layout#banner--categories-home"
+    ]
+  },
+  "rich-text#categories-title": {
+    "title": "Titulo Categorias",
+    "props": {
+      "text": "Nuestras Categorías",
+      "blockClass": "title-home"
+    }
+  },
+  "slider-layout#banner--categories-home": {
+    "title": "Slide",
+    "props": {
+      "blockClass": ["category-home"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "always",
+      "arrowSize": 25
+    },
+    "children": [
+      "flex-layout.row#category-1",
+      "flex-layout.row#category-2",
+      "flex-layout.row#category-3",
+      "flex-layout.row#category-4",
+      "flex-layout.row#category-5",
+      "flex-layout.row#category-6",
+      "flex-layout.row#category-7",
+      "flex-layout.row#category-8"
+      // "flex-layout.row#category-9",
+      // "flex-layout.row#category-10"
+    ]
+  },
+
+  // CATEGORIAS
+
+  // BANNER EXTRA
+
+  "flex-layout.row#banner-extra1": {
+    "children": ["image#banner-1", "flex-layout.row#text-banner-home-1"],
+    "props": {
+      "blockClass": ["container-banner-extra", "row-home-content"],
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#banner-extra2": {
+    "children": ["image#banner-2", "flex-layout.row#text-banner-home-2"],
+    "props": {
+      "blockClass": ["container-banner-extra", "row-home-content"],
+      "fullWidth": true
+    }
+  },
+
+  // BANNER EXTRA
+
+  // PROMOTION
+
+  "flex-layout.row#promotion-home": {
+    "children": ["flex-layout.col#promotion-home"],
+    "props": {
+      "blockClass": ["container-promotion-product", "row-home-content"]
+    }
+  },
+
+  "flex-layout.col#promotion-home": {
+    "children": [
+      "rich-text#promotion-title",
+      "list-context.product-list#promotion-home"
+    ]
+  },
+
+  "rich-text#promotion-title": {
+    "title": "Titulo Colecciones",
+    "props": {
+      "text": "Productos total black",
+      "blockClass": "title-home"
+    }
+  },
+
+  "list-context.product-list#promotion-home": {
+    "title": "Colección",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "collection": "1267",
+      "hideUnavailableItems": true,
+      "skusFilter": "FIRST_AVAILABLE",
+      "orderBy": "OrderByTopSaleDESC"
+    },
+    "children": ["slider-layout#home__shelf"]
+  },
+
+  // PROMOTION
+
+  //BENEFICIOS
+
+  "responsive-layout.mobile#banner--benefit-mobile__home": {
+    "title": "Banners Beneficios - Mobile",
+    "props": {
+      "blockClass": "container-banner-benefit-mobile"
+    },
+    "children": ["slider-layout#banner--benefit-mobile__home"]
+  },
+
+  "slider-layout#banner--benefit-mobile__home": {
+    "title": "Slide",
+    "props": {
+      "blockClass": ["benefit-mobile"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "arrowSize": 25
+    },
+    "children": [
+      "flex-layout.row#benefit-1",
+      "flex-layout.row#benefit-2",
+      "flex-layout.row#benefit-3",
+      "flex-layout.row#benefit-4"
+    ]
+  },
+
+  //BENEFICIOS
+
+  // TEXTOS SEO
+
+  "flex-layout.row#text-seo-home-1": {
+    "children": ["flex-layout.col#text-seo-home-1"],
+    "props": {
+      "blockClass": "container-text-seo",
+      "htmlId": "viewMore-custom"
+    }
+  },
+  "flex-layout.col#text-seo-home-1": {
+    "children": [
+      "rich-text#title-text-seo-1",
+      "rich-text#text-seo-home-1",
+      "rich-text#title-text-seo-2",
+      "rich-text#text-seo-home-2",
+      "rich-text#title-text-seo-3",
+      "rich-text#text-seo-home-3",
+      "rich-text#title-text-seo-4",
+      "rich-text#text-seo-home-4"
+    ],
+    "props": {
+      "blockclass": "textColumn-seo",
+      "preventVerticalStretch": true
+    }
+  },
+
+  // TEXTOS SEO
+
+  // TEXTOS ONLINE
+  "flex-layout.row#shop-online-link": {
+    "props": {
+      "blockClass": "shop-online-link",
+      "htmlId": "viewMore-custom2"
+    },
+    "children": ["flex-layout.col#shop-online-link"]
+  },
+
+  "flex-layout.col#shop-online-link": {
+    "props": {
+      "blockClass": "shop-online-link"
+    },
+    "children": [
+      "rich-text#link-shop-title",
+      "flex-layout.row#content-link-shop"
+    ]
+  },
+
+  "rich-text#link-shop-title": {
+    "title": "Titulo Compra Online",
+    "props": {
+      "text": "Compra online en quest",
+      "blockClass": "title-link-shop"
+    }
+  },
+
+  "flex-layout.row#content-link-shop": {
+    "props": {
+      "blockClass": "container-text-link"
+    },
+    "children": ["rich-text#text-link-1", "rich-text#text-link-2"]
+  },
+
+  "rich-text#text-link-1": {
+    "title": "Text bloque 1",
+    "props": {
+      "text": "[Enlace de SEO](https://developers.vtex.com/vtex-developer-docs/docs/welcome) \n [Enlace de SEO](https://developers.vtex.com/vtex-developer-docs/docs/welcome) \n [Enlace de SEO](https://developers.vtex.com/vtex-developer-docs/docs/welcome) \n [Enlace de SEO](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+      "blockClass": "text-link__home"
+    }
+  },
+  "rich-text#text-link-2": {
+    "title": "Text bloque 2",
+    "props": {
+      "text": "[Enlace de SEO](https://developers.vtex.com/vtex-developer-docs/docs/welcome) \n [Enlace de SEO](https://developers.vtex.com/vtex-developer-docs/docs/welcome) \n [Enlace de SEO](https://developers.vtex.com/vtex-developer-docs/docs/welcome) \n [Enlace de SEO](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+      "blockClass": "text-link__home"
+    }
+  }
+
+  // TEXTOS ONLINE
+}

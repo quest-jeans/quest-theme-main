@@ -1,0 +1,729 @@
+{
+  "store.home": {
+    "title": "Home",
+    "blocks": ["responsive-layout.desktop", "responsive-layout.mobile"]
+  },
+  "responsive-layout.desktop": {
+    "title": "Home Desktop",
+    "children": [
+      "list-context.image-list#banner-principal",
+      "flex-layout.row#detach-home",
+      "flex-layout.row#about-categories",
+      "flex-layout.row#banner-extra-home",
+      "flex-layout.row#collection-especial",
+      "flex-layout.row#collection",
+      "flex-layout.row#cross-selling-block-home",
+      "flex-layout.row#collection-especial-2",
+      "flex-layout.row#banner-benefit",
+      "flex-layout.row#container-text-seo",
+      "button-view-more-seo",
+      "flex-layout.row#banner-last-news",
+      "flex-layout.row#newsletterCustom",
+      "flex-layout.row#cross-selling-form-home"
+    ]
+  },
+
+  // BANNER PRINCIPAL
+
+  "list-context.image-list#banner-principal": {
+    "children": ["slider-layout#banner-principal"],
+    "props": {
+      "height": 570,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/BKG-Sldr-dk-1.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+        },
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/BKG-Sldr-dk-2.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+        },
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/BKG-Sldr-dk-3.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-principal": {
+    "title": "Slide",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "carousel"
+    }
+  },
+
+  // BANNER PRINCIPAL
+
+  // DESTACADOS
+
+  "flex-layout.row#detach-home": {
+    "title": "Contenido Destacado",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["container-detach"]
+    },
+    "children": ["flex-layout.col#detach-home"]
+  },
+
+  "flex-layout.col#detach-home": {
+    "children": [
+      "rich-text#detach-title",
+      "flex-layout.row#detach-home-collection"
+    ]
+  },
+
+  "rich-text#detach-title": {
+    "title": "Titulo Destacados",
+    "props": {
+      "text": "Productos Destacados",
+      "blockClass": ["title-home", "title-detach"]
+    }
+  },
+
+  "flex-layout.row#detach-home-collection": {
+    "props": {
+      "blockClass": "container-collection-detach"
+    },
+    "children": ["tab-layout#detach-home"]
+  },
+
+  "tab-layout#detach-home": {
+    "children": ["tab-list#detach-home", "tab-content#detach-home"],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "item1"
+    }
+  },
+  "tab-list#detach-home": {
+    "children": [
+      "tab-list.item#home1",
+      "tab-list.item#home2",
+      "tab-list.item#home3"
+    ]
+  },
+
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "item1",
+      "label": "Nuevo",
+      "blockClass": "tab-item-home",
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "item2",
+      "label": "Más vendidos",
+      "blockClass": "tab-item-home"
+    }
+  },
+
+  "tab-list.item#home3": {
+    "props": {
+      "tabId": "item3",
+      "label": "Sale",
+      "blockClass": "tab-item-home"
+    }
+  },
+
+  "tab-content#detach-home": {
+    "children": [
+      "tab-content.item#detach-home1",
+      "tab-content.item#detach-home2",
+      "tab-content.item#detach-home3"
+    ]
+  },
+
+  "tab-content.item#detach-home1": {
+    "children": ["flex-layout.col#detach-home-1"],
+    "props": {
+      "tabId": "item1"
+    }
+  },
+
+  "tab-content.item#detach-home2": {
+    "children": ["flex-layout.col#detach-home-2"],
+    "props": {
+      "tabId": "item2"
+    }
+  },
+
+  "tab-content.item#detach-home3": {
+    "children": ["flex-layout.col#detach-home-3"],
+    "props": {
+      "tabId": "item3"
+    }
+  },
+
+  // DESTACADOS
+
+  // CATEGORIAS
+
+  "flex-layout.row#about-categories": {
+    "title": "Categorias",
+    "props": {
+      "blockClass": "container-images-categories"
+    },
+    "children": [
+      "flex-layout.row#about-container-vategory-1",
+      "flex-layout.row#about-container-vategory-2"
+    ]
+  },
+
+  "flex-layout.row#about-container-vategory-1": {
+    "title": "Categoria 1",
+    "props": {
+      "blockClass": "containerRow-category-image-1"
+    },
+    "children": ["flex-layout.col#about-container-vategory-1"]
+  },
+
+  "flex-layout.col#about-container-vategory-1": {
+    "title": "Contenido",
+    "props": {
+      "blockClass": "containerRow-category-image-1"
+    },
+    "children": ["image#category-1", "flex-layout.row#text-button__category"]
+  },
+
+  "flex-layout.row#about-container-vategory-2": {
+    "title": "Categoria 2",
+    "props": {
+      "blockClass": "containerRow-category-image-2"
+    },
+    "children": [
+      "flex-layout.col#about-container-vategory-2",
+      "flex-layout.row#about-container-vategory-3"
+    ]
+  },
+
+  "flex-layout.col#about-container-vategory-2": {
+    "title": "Contenido",
+    "props": {
+      "blockClass": "containerCol-category-image-2"
+    },
+    "children": [
+      "flex-layout.row#about-container-vategory-2-1",
+      "flex-layout.row#about-container-vategory-2-2"
+    ]
+  },
+
+  "flex-layout.row#about-container-vategory-2-1": {
+    "title": "Contenido",
+    "props": {},
+    "children": ["flex-layout.col#about-container-vategory-2-1"]
+  },
+
+  "flex-layout.col#about-container-vategory-2-1": {
+    "title": "Contenido",
+    "props": {
+      "blockClass": "containerRow-category-image-2-1"
+    },
+    "children": ["image#category-2", "flex-layout.row#text-button__category"]
+  },
+
+  "flex-layout.row#about-container-vategory-2-2": {
+    "title": "Contenido",
+    "props": {},
+    "children": ["flex-layout.col#about-container-vategory-2-2"]
+  },
+
+  "flex-layout.col#about-container-vategory-2-2": {
+    "title": "Contenido",
+    "props": {
+      "blockClass": "containerRow-category-image-2-2"
+    },
+    "children": ["image#category-3", "flex-layout.row#text-button__category"]
+  },
+
+  "flex-layout.row#about-container-vategory-3": {
+    "title": "Categoria 3",
+    "props": {
+      "blockClass": "containerRow-category-image-3"
+    },
+    "children": ["flex-layout.col#about-container-vategory-3"]
+  },
+
+  "flex-layout.col#about-container-vategory-3": {
+    "title": "Contenido",
+    "props": {
+      "blockClass": "containerRow-category-image-3"
+    },
+    "children": ["image#category-4", "flex-layout.row#text-button__category"]
+  },
+
+  "image#category-1": {
+    "title": "imagen",
+    "props": {
+      "src": "https://quest.vteximg.com.br/arquivos/Bnr-Categoria-1.png",
+      "blockClass": "image-category-1"
+    }
+  },
+
+  "image#category-2": {
+    "title": "imagen",
+    "props": {
+      "src": "https://quest.vteximg.com.br/arquivos/Bnr-Categoria-2.png",
+      "blockClass": "image-category-2"
+    }
+  },
+
+  "image#category-3": {
+    "title": "imagen",
+    "props": {
+      "src": "https://quest.vteximg.com.br/arquivos/Bnr-Categoria-3.png",
+      "blockClass": "image-category-3"
+    }
+  },
+
+  "image#category-4": {
+    "title": "imagen",
+    "props": {
+      "src": "https://quest.vteximg.com.br/arquivos/Bnr-Categoria-4.png",
+      "blockClass": "image-category-4"
+    }
+  },
+
+  "flex-layout.row#text-button__category": {
+    "props": {
+      "blockClass": "containerRow-text-button__category",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true,
+      "colGap": 0,
+      "rowGap": 0
+    },
+    "children": ["flex-layout.col#text-button__category"]
+  },
+
+  "flex-layout.col#text-button__category": {
+    "props": {
+      "blockClass": "containerCol-text-button__category",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": ["rich-text#banner-home-title", "rich-text#banner-home-button"]
+  },
+
+  "rich-text#banner-home-title": {
+    "title": "Titulo Colección Especial",
+    "props": {
+      "text": "Jeans",
+      "blockClass": "title-banner-home"
+    }
+  },
+
+  "rich-text#banner-home-button": {
+    "title": "Titulo Colección Especial",
+    "props": {
+      "text": "[Botón](/)",
+      "blockClass": "button-banner-category-home"
+    }
+  },
+
+  // CATEGORIAS
+
+  // BANNER'S
+
+  "flex-layout.row#banner-extra-home": {
+    "title": "Banner Extra",
+    "props": {
+      "blockClass": "container-images-banner-extra"
+    },
+    "children": ["image#banner-extra-1", "image#banner-extra-2"]
+  },
+
+  "image#banner-extra-1": {
+    "title": "imagen",
+    "props": {
+      "src": "https://quest.vteximg.com.br/arquivos/Bnr-dk-1.png",
+      "blockClass": "banner-extra-home"
+    }
+  },
+
+  "image#banner-extra-2": {
+    "title": "imagen",
+    "props": {
+      "src": "https://quest.vteximg.com.br/arquivos/Bnr-dk-2.png",
+      "blockClass": "banner-extra-home"
+    }
+  },
+
+  // BANNER'S
+
+  // ESPECIAL
+
+  "flex-layout.row#collection-especial": {
+    "title": "Collecion Especial",
+    "props": {
+      "blockClass": "container-collection-especial"
+    },
+    "children": ["flex-layout.col#collection-especial"]
+  },
+
+  "flex-layout.col#collection-especial": {
+    "title": "Collecion Especial",
+    "props": {
+      "blockClass": "container-collection-especial"
+    },
+    "children": [
+      "rich-text#collection-especial-title",
+      "list-context.product-list#collection-especial"
+    ]
+  },
+
+  "rich-text#collection-especial-title": {
+    "title": "Titulo Colección Especial",
+    "props": {
+      "text": "Especial de black friday",
+      "blockClass": "title-home"
+    }
+  },
+
+  "list-context.product-list#collection-especial": {
+    "title": "Colección",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "collection": "1267",
+      "hideUnavailableItems": true,
+      "skusFilter": "FIRST_AVAILABLE",
+      "orderBy": "OrderByTopSaleDESC"
+    },
+    "children": ["slider-layout#home__shelf"]
+  },
+
+  // ESPECIAL
+
+  // COLECCIONES
+  "flex-layout.row#collection": {
+    "title": "Colleciones",
+    "props": {
+      "fullWidth": true,
+      "blockClass": "container-slide-collection"
+    },
+    "children": ["flex-layout.col#collection"]
+  },
+  "flex-layout.col#collection": {
+    "children": [
+      "rich-text#collection-title",
+      "list-context.media-list#banner-collection"
+    ]
+  },
+  "rich-text#collection-title": {
+    "title": "Titulo Colecciones",
+    "props": {
+      "text": "Colecciones",
+      "blockClass": "title-home"
+    }
+  },
+  "list-context.media-list#banner-collection": {
+    "title": "Banner Media",
+    "children": ["slider-layout#banner-collection"],
+    "props": {
+      "height": 700,
+      "preload": true,
+      "mediaList": [
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/Bnr-special-dk-1.png",
+          "mobileImage": "https://quest.vteximg.com.br/arquivos/BKG-Sldr-Collection-home-mb-1.png"
+        },
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/Bnr-special-dk-2.png",
+          "mobileImage": "https://quest.vteximg.com.br/arquivos/BKG-Sldr-Collection-home-mb-2.png"
+        },
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/Bnr-special-dk-3.png",
+          "mobileImage": "https://quest.vteximg.com.br/arquivos/BKG-Sldr-Collection-home-mb-3.png"
+        },
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/Bnr-special-dk-1.png",
+          "mobileImage": "https://quest.vteximg.com.br/arquivos/BKG-Sldr-Collection-home-mb-1.png"
+        },
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/Bnr-special-dk-2.png",
+          "mobileImage": "https://quest.vteximg.com.br/arquivos/BKG-Sldr-Collection-home-mb-2.png"
+        },
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/Bnr-special-dk-3.png",
+          "mobileImage": "https://quest.vteximg.com.br/arquivos/BKG-Sldr-Collection-home-mb-3.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-collection": {
+    "title": "Slide",
+    "props": {
+      "blockClass": ["home__collection"],
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "arrowSize": 25
+    }
+  },
+  // COLECCIONES
+
+  // CONECTIF
+
+  "flex-layout.row#cross-selling-block-home": {
+    "title": "Connectif Productos",
+    "props": {
+      "blockClass": "row-search-result"
+    },
+    "children": ["connectif#cross-selling-block-home"]
+  },
+
+  "connectif#cross-selling-block-home": {
+    "props": {
+      "classId": "cross-selling-block-home",
+      "elementId": "cross-selling-block-elem-id-home"
+    }
+  },
+
+  // CONECTIF
+
+  // ESPECIAL 2
+
+  "flex-layout.row#collection-especial-2": {
+    "title": "Collecion Especial",
+    "props": {
+      "blockClass": "container-collection-especial"
+    },
+    "children": ["flex-layout.col#collection-especial-2"]
+  },
+
+  "flex-layout.col#collection-especial-2": {
+    "title": "Collecion Especial",
+    "props": {
+      "blockClass": "container-collection-especial"
+    },
+    "children": [
+      "rich-text#collection-especial-2-title",
+      "list-context.product-list#collection-especial-2"
+    ]
+  },
+
+  "rich-text#collection-especial-2-title": {
+    "title": "Titulo Colección Especial",
+    "props": {
+      "text": "Especial de verano",
+      "blockClass": "title-home"
+    }
+  },
+
+  "list-context.product-list#collection-especial-2": {
+    "title": "Colección",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "collection": "1268",
+      "hideUnavailableItems": true,
+      "skusFilter": "FIRST_AVAILABLE",
+      "orderBy": "OrderByTopSaleDESC"
+    },
+    "children": ["slider-layout#home__shelf"]
+  },
+
+  // ESPECIAL 2
+
+  // ULTIMAS NOTICIAS
+  "flex-layout.row#banner-last-news": {
+    "title": "Banner Blogs",
+    "props": {
+      "fullWidth": true,
+      "blockClass": "container-last-news"
+    },
+    "children": ["flex-layout.col#banner-last-news"]
+  },
+  "flex-layout.col#banner-last-news": {
+    "children": [
+      "rich-text#title-last-news",
+      "list-context.media-list#banner-last-news"
+    ]
+  },
+  "rich-text#title-last-news": {
+    "title": "Titulo Blog",
+    "props": {
+      "text": "Entérate de nuestras últimas noticias",
+      "blockClass": "title-home"
+    }
+  },
+  "list-context.media-list#banner-last-news": {
+    "title": "Banner Blogs",
+    "children": ["slider-layout#banner-last-news"],
+    "props": {
+      "height": 700,
+      "preload": true,
+      "mediaList": [
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-1.jpg",
+          "mobileImage": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-1.jpg"
+        },
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-2.jpg",
+          "mobileImage": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-2.jpg"
+        },
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-3.jpg",
+          "mobileImage": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-3.jpg"
+        },
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-4.jpg",
+          "mobileImage": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-4.jpg"
+        },
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-1.jpg",
+          "mobileImage": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-1.jpg"
+        },
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-2.jpg",
+          "mobileImage": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-2.jpg"
+        },
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-3.jpg",
+          "mobileImage": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-3.jpg"
+        },
+        {
+          "image": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-4.jpg",
+          "mobileImage": "https://quest.vteximg.com.br/arquivos/Carrusel-UltimasNoticias-4.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-last-news": {
+    "title": "Slide",
+    "props": {
+      "blockClass": ["home__collection"],
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "arrowSize": 25
+    }
+  },
+  // ULTIMAS NOTICIAS
+
+  // BENEFICIOS
+  "flex-layout.row#banner-benefit": {
+    "title": "Beneficios",
+    "props": {
+      "horizontalAlign": "center",
+      "marginTop": 20,
+      "marginBottom": 20,
+      "blockClass": "container-benefits"
+    },
+    "children": [
+      "flex-layout.row#benefit-1",
+      "flex-layout.row#benefit-2",
+      "flex-layout.row#benefit-3",
+      "flex-layout.row#benefit-4"
+    ]
+  },
+  // BENEFICIOS
+
+  // TEXTOS SEO
+  "flex-layout.row#container-text-seo": {
+    "props": {
+      "blockClass": "home-container-text-seo",
+      "htmlId": "viewMore-custom"
+    },
+    "children": ["flex-layout.col#text-seo"]
+  },
+  "flex-layout.col#text-seo": {
+    "title": "Textos SEO",
+    "props": {
+      "blockClass": "home-container-text-seo"
+    },
+    "children": ["seo-context#home"]
+  },
+  "seo-context#home": {
+    "title": "Contenido",
+    "props": {
+      "isHome": true
+    },
+    "children": ["seo-long-text", "seo-paragraph", "seo-links"]
+  },
+  // TEXTOS SEO
+
+  // NEWSLETTER
+  "flex-layout.row#newsletterCustom": {
+    "title": "Newsletter",
+    "children": ["flex-layout.col#newsletterCustom"],
+    "props": {
+      "blockClass": ["nes"],
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#newsletterCustom": {
+    "title": "Contenido",
+    "children": ["flex-layout.row#text-newsletter", "custom-newsletter-form"],
+    "props": {
+      "blockClass": ["newsletterCustom"]
+    }
+  },
+
+  "flex-layout.row#text-newsletter": {
+    "title": "Textos",
+    "children": ["rich-text#newsletter", "rich-text#newsletter2"],
+    "props": {
+      "blockClass": ["newsletterCustom"]
+    }
+  },
+
+  "rich-text#newsletter": {
+    "title": "Texto Newsletter",
+    "props": {
+      "width": "100%",
+      "textAlign": "center",
+      "textPosition": "center",
+      "blockClass": "textNewsletter1",
+      "text": "20%"
+    }
+  },
+
+  "rich-text#newsletter2": {
+    "title": "Texto Newsletter",
+    "props": {
+      "width": "100%",
+      "textAlign": "center",
+      "textPosition": "center",
+      "blockClass": "textNewsletter2",
+      "text": "de descuento en tu \n **Primera compra** \n en nueva colección"
+    }
+  },
+
+  // CONECTIF
+
+  "flex-layout.row#cross-selling-form-home": {
+    "title": "Connectif Formulario",
+    "props": {
+      "blockClass": "row-search-result"
+    },
+    "children": ["connectif#cross-selling-form-home"]
+  },
+
+  "connectif#cross-selling-form-home": {
+    "props": {
+      "classId": "cross-selling-form",
+      "elementId": "cross-selling-block-elem-id-form"
+    }
+  }
+
+  // CONECTIF
+}

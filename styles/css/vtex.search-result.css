@@ -1,0 +1,189 @@
+.galleryLayoutOptionButton {
+  background-color: #f0f0f0;
+  color: #3f3f40;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #3f3f40;
+  color: #ffffff;
+}
+
+.galleryLayoutSwitcher {
+  border-radius: 4px 4px 4px 4px;
+  justify-content: center;
+  overflow: hidden;
+  width: auto !important;
+  align-self: center;
+}
+
+.galleryItem--list {
+  border-bottom: 1px #e7e9ee solid;
+}
+
+.flexRowContent--flexRow-order-filter {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filterPopupArrowIcon {
+  display: none;
+}
+
+.filterPopupButton::before {
+  content: "\e909";
+  color: #fff;
+  font-family: "Icons";
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.buttonShowMore--button-view-more :global(.vtex-button__label) {
+  color: #fff;
+  text-align: center;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.galleryTitle--layout {
+  color: #000;
+  text-align: center;
+  font-family: "CitrusGothic-Regular";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.orderByText,
+.filterPopupTitle {
+  color: #000000;
+  text-align: center;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+
+.filterPopupTitle::after {
+  content: "\e910";
+  font-family: "Icons";
+  font-size: 16px;
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.orderByText::after {
+  content: ":";
+  padding: 0px 2px;
+}
+
+.orderByDropdown {
+  margin-right: 40px;
+}
+
+.filterPopupTitle:first-child {
+  font-weight: 400;
+}
+
+.filterMessage {
+  color: #000;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.filterIsOpen .filterTitleSpan {
+  color: #000;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.filterTitleSpan {
+  color: #aaa;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.filterIsOpen .caretIcon {
+  color: #000;
+}
+
+.caretIcon {
+  color: #aaa;
+}
+
+:global(.vtex-slider__right-value),
+:global(.vtex-slider__left-value) {
+  color: #aaa;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  .filterPopupButton,
+  .orderByButton {
+    border-radius: 10px;
+    background: #555;
+    padding: 0 10px;
+    height: 40px;
+    justify-content: center;
+  }
+
+  .orderByText,
+  .filterPopupTitle {
+    color: #fff;
+    font-size: 13px;
+  }
+
+  .orderByDropdown {
+    margin-right: 0px;
+  }
+  .galleryItem--grid {
+    padding: 5px 1.5px;
+  }
+}
+
+/* BEGIN - plp */
+
+.galleryItem--grid {
+  padding: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+  :global(.vtex-search-result-3-x-searchResultContainer) {
+    padding: 0;
+  }
+  :global(.vtex-search-result-3-x-searchResultContainer)
+    :global(.vtex-store-components-3-x-container) {
+    padding: 0 1px;
+  }
+
+  :global(.vtex-search-result-3-x-gallery--grid) {
+    padding: 0;
+  }
+}
+
+/* END - plp */

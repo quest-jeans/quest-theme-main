@@ -1,0 +1,44 @@
+{
+  "flex-layout.row#flags": {
+    "title":"Flags",
+    "props": {
+      "blockClass": "container-flags",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "colGap": 2
+
+    },
+    "children": [
+      "vtex.product-highlights@2.x:product-highlights#basicos",
+      "vtex.product-highlights@2.x:product-highlights#basicos-qst",
+      "vtex.product-highlights@2.x:product-highlights#free-shipping",
+      "vtex.product-highlights@2.x:product-highlights#varios"
+    ]
+  },
+
+  "flex-layout.row#flags-pdp-images": {
+    "title":"Flags",
+    "props": {
+      "blockClass": "container-flags-pdp"
+
+    },
+    "children": [
+      "flex-layout.col#flags"
+    ]
+  },
+
+  "flex-layout.col#flags": {
+    "title":"Flags",
+    "props": {
+      "blockClass": "containerCol-flags",
+      "rowGap": 4
+    },
+    "children": [
+      "vtex.product-highlights@2.x:product-highlights#basicos",
+      "vtex.product-highlights@2.x:product-highlights#basicos-qst",
+      "vtex.product-highlights@2.x:product-highlights#free-shipping",
+      "vtex.product-highlights@2.x:product-highlights#varios"
+    ]
+  }
+}

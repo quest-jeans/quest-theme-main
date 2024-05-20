@@ -1,0 +1,26 @@
+.stackItem--product {
+  width: 100%;
+  min-height: 257px;
+}
+
+.stackItem--quickview {
+  right: 0;
+  top: 0;
+  left: auto;
+}
+
+.stackItem--stack-image-product--containerCol-flags {
+  padding-top: 10px;
+}
+
+
+.stackItem--stack-image-product--container-flags {
+  top: 100%;
+  left: 2%;
+}
+
+@media screen and (max-width: 1024px) {
+  .stackItem--stack-image-product--container-flags {
+    left: 0%;
+  }
+}

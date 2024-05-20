@@ -1,0 +1,1133 @@
+{
+  // BANNER PRINCIPAL
+
+  // SLIDE 1
+
+  "flex-layout.row#banner-principal-mobile-1": {
+    "props": {
+      "blockClass": "container-banner-principal",
+      "fullWidth": false
+    },
+    "children": ["flex-layout.col#banner-principal-mobile-1"]
+  },
+  "flex-layout.col#banner-principal-mobile-1": {
+    "props": {
+      "blockClass": "bannerPrincipal-home"
+    },
+    "children": [
+      "media#media-banner-principal1",
+      "flex-layout.row#content-text-mobile-1"
+    ]
+  },
+
+  "flex-layout.row#content-text-mobile-1": {
+    "props": {
+      "blockClass": "container-text-banner-home"
+    },
+    "children": ["flex-layout.col#content-text-mobile-1"]
+  },
+
+  "flex-layout.col#content-text-mobile-1": {
+    "children": [
+      "rich-text#text-banner-principal",
+      "flex-layout.row#button-banner-principal-mobile-1"
+    ]
+  },
+
+  "flex-layout.row#button-banner-principal-mobile-1": {
+    "props": {
+      "blockClass": "container-button-banner-home"
+    },
+    "children": ["rich-text#button-home-1", "rich-text#button-home-2"]
+  },
+
+  // SLIDE 1
+  // SLIDE 2
+
+  "flex-layout.row#banner-principal-mobile-2": {
+    "props": {
+      "blockClass": "container-banner-principal",
+      "fullWidth": false
+    },
+    "children": ["flex-layout.col#banner-principal-mobile-2"]
+  },
+  "flex-layout.col#banner-principal-mobile-2": {
+    "props": {
+      "blockClass": "bannerPrincipal-home"
+    },
+    "children": [
+      "media#media-banner-principal2",
+      "flex-layout.row#content-text-mobile-2"
+    ]
+  },
+
+  "flex-layout.row#content-text-mobile-2": {
+    "props": {
+      "blockClass": "container-text-banner-home"
+    },
+    "children": ["flex-layout.col#content-text-mobile-2"]
+  },
+
+  "flex-layout.col#content-text-mobile-2": {
+    "children": [
+      "rich-text#text-banner-principal",
+      "flex-layout.row#button-banner-principal-mobile-2"
+    ]
+  },
+
+  "flex-layout.row#button-banner-principal-mobile-2": {
+    "props": {
+      "blockClass": "container-button-banner-home"
+    },
+    "children": ["rich-text#button-home-1", "rich-text#button-home-2"]
+  },
+
+  // SLIDE 2
+  // SLIDE 3
+
+  "flex-layout.row#banner-principal-mobile-3": {
+    "props": {
+      "blockClass": "container-banner-principal",
+      "fullWidth": false
+    },
+    "children": ["flex-layout.col#banner-principal-mobile-3"]
+  },
+  "flex-layout.col#banner-principal-mobile-3": {
+    "props": {
+      "blockClass": "bannerPrincipal-home"
+    },
+    "children": [
+      "media#media-banner-principal3",
+      "flex-layout.row#content-text-mobile-3"
+    ]
+  },
+
+  "flex-layout.row#content-text-mobile-3": {
+    "props": {
+      "blockClass": "container-text-banner-home"
+    },
+    "children": ["flex-layout.col#content-text-mobile-3"]
+  },
+
+  "flex-layout.col#content-text-mobile-3": {
+    "children": [
+      "rich-text#text-banner-principal",
+      "flex-layout.row#button-banner-principal-mobile-3"
+    ]
+  },
+
+  "flex-layout.row#button-banner-principal-mobile-3": {
+    "props": {
+      "blockClass": "container-button-banner-home"
+    },
+    "children": ["rich-text#button-home-1", "rich-text#button-home-2"]
+  },
+
+  // SLIDE 3
+  // SLIDE 4
+
+  "flex-layout.row#banner-principal-mobile-4": {
+    "props": {
+      "blockClass": "container-banner-principal",
+      "fullWidth": false
+    },
+    "children": ["flex-layout.col#banner-principal-mobile-4"]
+  },
+  "flex-layout.col#banner-principal-mobile-4": {
+    "props": {
+      "blockClass": "bannerPrincipal-home"
+    },
+    "children": [
+      "media#media-banner-principal4",
+      "flex-layout.row#content-text-mobile-4"
+    ]
+  },
+
+  "flex-layout.row#content-text-mobile-4": {
+    "props": {
+      "blockClass": "container-text-banner-home"
+    },
+    "children": ["flex-layout.col#content-text-mobile-4"]
+  },
+
+  "flex-layout.col#content-text-mobile-4": {
+    "children": [
+      "rich-text#text-banner-principal",
+      "flex-layout.row#button-banner-principal-mobile-4"
+    ]
+  },
+
+  "flex-layout.row#button-banner-principal-mobile-4": {
+    "props": {
+      "blockClass": "container-button-banner-home"
+    },
+    "children": ["rich-text#button-home-1", "rich-text#button-home-2"]
+  },
+
+  // SLIDE 4
+  // SLIDE 5
+
+  "flex-layout.row#banner-principal-mobile-5": {
+    "props": {
+      "blockClass": "container-banner-principal",
+      "fullWidth": false
+    },
+    "children": ["flex-layout.col#banner-principal-mobile-5"]
+  },
+  "flex-layout.col#banner-principal-mobile-5": {
+    "props": {
+      "blockClass": "bannerPrincipal-home"
+    },
+    "children": [
+      "media#media-banner-principal5",
+      "flex-layout.row#content-text-mobile-5"
+    ]
+  },
+
+  "flex-layout.row#content-text-mobile-5": {
+    "props": {
+      "blockClass": "container-text-banner-home"
+    },
+    "children": ["flex-layout.col#content-text-mobile-5"]
+  },
+
+  "flex-layout.col#content-text-mobile-5": {
+    "children": [
+      "rich-text#text-banner-principal",
+      "flex-layout.row#button-banner-principal-mobile-5"
+    ]
+  },
+
+  "flex-layout.row#button-banner-principal-mobile-5": {
+    "props": {
+      "blockClass": "container-button-banner-home"
+    },
+    "children": ["rich-text#button-home-1", "rich-text#button-home-2"]
+  },
+
+  // SLIDE 5
+
+  // BLOCKS
+
+  "media#media-banner-principal1": {
+    "props": {
+      "src": "https://quest.vteximg.com.br/arquivos/BKG-Sldr-mb-1.png",
+      "blockClass": "media-banner",
+      "height": 550
+    }
+  },
+  "media#media-banner-principal2": {
+    "props": {
+      "src": "https://quest.vteximg.com.br/arquivos/BKG-Sldr-mb-2.png",
+      "blockClass": "media-banner",
+      "height": 550
+    }
+  },
+
+  "media#media-banner-principal3": {
+    "props": {
+      "src": "https://quest.vteximg.com.br/arquivos/BKG-Sldr-mb-3.png",
+      "blockClass": "media-banner",
+      "height": 550
+    }
+  },
+
+  "media#media-banner-principal4": {
+    "props": {
+      "src": "https://quest.vteximg.com.br/arquivos/BKG-Sldr-mb-1.png",
+      "blockClass": "media-banner",
+      "height": 550
+    }
+  },
+
+  "media#media-banner-principal5": {
+    "props": {
+      "src": "https://quest.vteximg.com.br/arquivos/BKG-Sldr-mb-2.png",
+      "blockClass": "media-banner",
+      "height": 550
+    }
+  },
+
+  "rich-text#text-banner-principal": {
+    "props": {
+      "text": "**LA** VIDA **ES** JEANS \n NUEVA COLECCIÓN",
+      "blockClass": "text-banner-home"
+    }
+  },
+
+  "rich-text#button-home-1": {
+    "props": {
+      "text": "HOMBRE",
+      "blockClass": "button-banner-principal-home"
+    }
+  },
+  "rich-text#button-home-2": {
+    "props": {
+      "text": "MUJER",
+      "blockClass": "button-banner-principal-home"
+    }
+  },
+
+  // BLOCKS
+
+  // BANNER PRINCIPAL
+
+  // DESTACADOS
+
+  // COLLECTION 1
+
+  "flex-layout.col#detach-home-1": {
+    "children": ["list-context.product-list#detach-home-1"]
+  },
+
+  "list-context.product-list#detach-home-1": {
+    "title": "Colección",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "collection": "1267",
+      "hideUnavailableItems": true,
+      "skusFilter": "FIRST_AVAILABLE",
+      "orderBy": "OrderByTopSaleDESC"
+    },
+    "children": ["slider-layout#home__shelf"]
+  },
+
+  // COLLECTION 1
+
+  // COLLECTION 2
+
+  "flex-layout.col#detach-home-2": {
+    "children": ["list-context.product-list#detach-home-2"]
+  },
+
+  "list-context.product-list#detach-home-2": {
+    "title": "Colección",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "collection": "1266",
+      "hideUnavailableItems": true,
+      "skusFilter": "FIRST_AVAILABLE",
+      "orderBy": "OrderByTopSaleDESC"
+    },
+    "children": ["slider-layout#home__shelf"]
+  },
+
+  // COLLECTION 2
+
+  // COLLECTION 3
+
+  "flex-layout.col#detach-home-3": {
+    "children": ["list-context.product-list#detach-home-3"]
+  },
+
+  "list-context.product-list#detach-home-3": {
+    "title": "Colección",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "collection": "1265",
+      "hideUnavailableItems": true,
+      "skusFilter": "FIRST_AVAILABLE",
+      "orderBy": "OrderByTopSaleDESC"
+    },
+    "children": ["slider-layout#home__shelf"]
+  },
+
+  // COLLECTION 3
+
+  "slider-layout#home__shelf": {
+    "title": "Slide",
+    "props": {
+      "blockClass": ["home__shelf"],
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "always",
+      "showNavigationArrows": "always",
+      "arrowSize": 25,
+      "centerMode": "to-the-left",
+      "centerModeSlidesGap": 20
+    }
+  },
+
+  // DESTACADOS
+
+  // CATEGORIAS
+
+  "flex-layout.row#category-1": {
+    "title": "Categoria 1",
+    "props": {
+      "blockClass": "contentRow-categories",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#category-1"]
+  },
+
+  "flex-layout.col#category-1": {
+    "props": {
+      "blockClass": "contentCol-categories"
+    },
+    "children": ["image#category", "flex-layout.row#text-category-1"]
+  },
+
+  "flex-layout.row#text-category-1": {
+    "title": "Textos Categoria 1",
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["flex-layout.col#text-category-1"]
+  },
+
+  "flex-layout.col#text-category-1": {
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["rich-text#category1", "rich-text#button-category1"]
+  },
+
+  "flex-layout.row#category-2": {
+    "title": "Categoria 2",
+    "props": {
+      "blockClass": "contentRow-categories",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#category-2"]
+  },
+
+  "flex-layout.col#category-2": {
+    "props": {
+      "blockClass": "contentCol-categories"
+    },
+    "children": [
+      "image#category",
+      "rich-text#category2",
+      "rich-text#button-category2"
+    ]
+  },
+
+  "flex-layout.row#text-category-2": {
+    "title": "Textos Categoria 2",
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["flex-layout.col#text-category-2"]
+  },
+
+  "flex-layout.col#text-category-2": {
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["rich-text#category2", "rich-text#button-category2"]
+  },
+
+  "flex-layout.row#category-3": {
+    "title": "Categoria 3",
+    "props": {
+      "blockClass": "contentRow-categories",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#category-3"]
+  },
+
+  "flex-layout.col#category-3": {
+    "props": {
+      "blockClass": "contentCol-categories"
+    },
+    "children": [
+      "image#category",
+      "rich-text#category3",
+      "rich-text#button-category3"
+    ]
+  },
+
+  "flex-layout.row#text-category-3": {
+    "title": "Textos Categoria 3",
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["flex-layout.col#text-category-3"]
+  },
+
+  "flex-layout.col#text-category-3": {
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["rich-text#category3", "rich-text#button-category3"]
+  },
+
+  "flex-layout.row#category-4": {
+    "title": "Categoria 4",
+    "props": {
+      "blockClass": "contentRow-categories",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#category-4"]
+  },
+
+  "flex-layout.col#category-4": {
+    "props": {
+      "blockClass": "contentCol-categories"
+    },
+    "children": [
+      "image#category",
+      "rich-text#category4",
+      "rich-text#button-category4"
+    ]
+  },
+
+  "flex-layout.row#text-category-4": {
+    "title": "Textos Categoria 4",
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["flex-layout.col#text-category-4"]
+  },
+
+  "flex-layout.col#text-category-4": {
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["rich-text#category4", "rich-text#button-category4"]
+  },
+
+  "flex-layout.row#category-5": {
+    "title": "Categoria 5",
+    "props": {
+      "blockClass": "contentRow-categories",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#category-5"]
+  },
+
+  "flex-layout.col#category-5": {
+    "props": {
+      "blockClass": "contentCol-categories"
+    },
+    "children": [
+      "image#category",
+      "rich-text#category5",
+      "rich-text#button-category5"
+    ]
+  },
+
+  "flex-layout.row#text-category-5": {
+    "title": "Textos Categoria 5",
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["flex-layout.col#text-category-5"]
+  },
+
+  "flex-layout.col#text-category-5": {
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["rich-text#category5", "rich-text#button-category5"]
+  },
+
+  "flex-layout.row#category-6": {
+    "title": "Categoria 6",
+    "props": {
+      "blockClass": "contentRow-categories",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#category-6"]
+  },
+
+  "flex-layout.col#category-6": {
+    "props": {
+      "blockClass": "contentCol-categories"
+    },
+    "children": [
+      "image#category",
+      "rich-text#category6",
+      "rich-text#button-category6"
+    ]
+  },
+
+  "flex-layout.row#text-category-6": {
+    "title": "Textos Categoria 6",
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["flex-layout.col#text-category-6"]
+  },
+
+  "flex-layout.col#text-category-6": {
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["rich-text#category6", "rich-text#button-category6"]
+  },
+
+  "flex-layout.row#category-7": {
+    "title": "Categoria 7",
+    "props": {
+      "blockClass": "contentRow-categories",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#category-7"]
+  },
+
+  "flex-layout.col#category-7": {
+    "props": {
+      "blockClass": "contentCol-categories"
+    },
+    "children": ["image#category", "flex-layout.row#text-category-7"]
+  },
+
+  "flex-layout.row#text-category-7": {
+    "title": "Textos Categoria 7",
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["flex-layout.col#text-category-7"]
+  },
+
+  "flex-layout.col#text-category-7": {
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["rich-text#category7", "rich-text#button-category7"]
+  },
+
+  "flex-layout.row#category-8": {
+    "title": "Categoria 8",
+    "props": {
+      "blockClass": "contentRow-categories",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#category-8"]
+  },
+
+  "flex-layout.col#category-8": {
+    "props": {
+      "blockClass": "contentCol-categories"
+    },
+    "children": ["image#category", "flex-layout.row#text-category-8"]
+  },
+
+  "flex-layout.row#text-category-8": {
+    "title": "Textos Categoria 8",
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["flex-layout.col#text-category-8"]
+  },
+
+  "flex-layout.col#text-category-8": {
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["rich-text#category8", "rich-text#button-category8"]
+  },
+
+  "flex-layout.row#category-9": {
+    "title": "Categoria 9",
+    "props": {
+      "blockClass": "contentRow-categories",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#category-9"]
+  },
+
+  "flex-layout.col#category-9": {
+    "props": {
+      "blockClass": "contentCol-categories"
+    },
+    "children": ["image#category", "flex-layout.row#text-category-9"]
+  },
+
+  "flex-layout.row#text-category-9": {
+    "title": "Textos Categoria 9",
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["flex-layout.col#text-category-9"]
+  },
+
+  "flex-layout.col#text-category-9": {
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["rich-text#category9", "rich-text#button-category9"]
+  },
+
+  "flex-layout.row#category-10": {
+    "title": "Categoria 10",
+    "props": {
+      "blockClass": "contentRow-categories",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#category-10"]
+  },
+
+  "flex-layout.col#category-10": {
+    "props": {
+      "blockClass": "contentCol-categories"
+    },
+    "children": ["image#category", "flex-layout.row#text-category-10"]
+  },
+
+  "flex-layout.row#text-category-10": {
+    "title": "Textos Categoria 10",
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["flex-layout.col#text-category-10"]
+  },
+
+  "flex-layout.col#text-category-10": {
+    "props": {
+      "blockClass": "contentText-categories"
+    },
+    "children": ["rich-text#category10", "rich-text#button-category10"]
+  },
+
+  "rich-text#category1": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "Jeans",
+      "blockClass": "text-title-categories",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#category2": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "Polos",
+      "blockClass": "text-title-categories",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#category3": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "Camisetas Premium",
+      "blockClass": "text-title-categories",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#category4": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "Zapatos",
+      "blockClass": "text-title-categories",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#category5": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "Básico Hombre",
+      "blockClass": "text-title-categories",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#category6": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "Chaquetas",
+      "blockClass": "text-title-categories",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#category7": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "Accesorios",
+      "blockClass": "text-title-categories",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#category8": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "Test1",
+      "blockClass": "text-title-categories",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#category9": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "Test1",
+      "blockClass": "text-title-categories",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#category10": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "Test1",
+      "blockClass": "text-title-categories",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#button-category1": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "CTA",
+      "blockClass": "button-category",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#button-category2": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "CTA",
+      "blockClass": "button-category",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#button-category3": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "CTA",
+      "blockClass": "button-category",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#button-category4": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "CTA",
+      "blockClass": "button-category",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#button-category5": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "CTA",
+      "blockClass": "button-category",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#button-category6": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "CTA",
+      "blockClass": "button-category",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#button-category7": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "CTA",
+      "blockClass": "button-category",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#button-category8": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "CTA",
+      "blockClass": "button-category",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#button-category9": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "CTA",
+      "blockClass": "button-category",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#button-category10": {
+    "title": "Titulo Categoria",
+    "props": {
+      "text": "CTA",
+      "blockClass": "button-category",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "image#category": {
+    "title": "Image Categoria",
+    "props": {
+      "src": "https://quest.vteximg.com.br/arquivos/jeans-home.png",
+      "blockClass": "image-categories"
+    }
+  },
+  // CATEGORIAS
+
+  // BENEFICIOS
+
+  "flex-layout.row#benefit-1": {
+    "title": "Beneficio 1",
+    "props": {
+      "blockClass": "content-benefits"
+    },
+    "children": ["image#benefit-1", "rich-text#benefit-1"]
+  },
+  "flex-layout.row#benefit-2": {
+    "title": "Beneficio 2",
+    "props": {
+      "blockClass": "content-benefits"
+    },
+    "children": ["image#benefit-2", "rich-text#benefit-2"]
+  },
+  "flex-layout.row#benefit-3": {
+    "title": "Beneficio 3",
+    "props": {
+      "blockClass": "content-benefits"
+    },
+    "children": ["image#benefit-3", "rich-text#benefit-3"]
+  },
+  "flex-layout.row#benefit-4": {
+    "title": "Beneficio 4",
+    "props": {
+      "blockClass": "content-benefits"
+    },
+    "children": ["image#benefit-4", "rich-text#benefit-4"]
+  },
+  "image#benefit-1": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/images/Icon-Quest-Beneficios.png",
+      "maxHeight": 50,
+      "maxWidth": 80,
+      "blockClass": "image-benefits"
+    }
+  },
+  "image#benefit-2": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/images/Icon-Quest-Seguro.png",
+      "maxHeight": 50,
+      "maxWidth": 80,
+      "blockClass": "image-benefits"
+    }
+  },
+  "image#benefit-3": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/images/Icon-Quest-Asesor.png",
+      "maxHeight": 50,
+      "maxWidth": 80,
+      "blockClass": "image-benefits"
+    }
+  },
+  "image#benefit-4": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/images/Icon-Quest-Metodos-de-pago.png",
+      "maxHeight": 55,
+      "maxWidth": 80,
+      "blockClass": "image-benefits"
+    }
+  },
+  "rich-text#benefit-1": {
+    "title": "Texto Beneficios",
+    "props": {
+      "text": "Seguimiento de mis pedidos",
+      "blockClass": "text-benefits"
+    }
+  },
+  "rich-text#benefit-2": {
+    "title": "Texto Beneficios",
+    "props": {
+      "text": "Compra rápido y seguro",
+      "blockClass": "text-benefits"
+    }
+  },
+  "rich-text#benefit-3": {
+    "title": "Texto Beneficios",
+    "props": {
+      "text": "Asesoría personalizada",
+      "blockClass": "text-benefits"
+    }
+  },
+  "rich-text#benefit-4": {
+    "title": "Texto Beneficios",
+    "props": {
+      "text": "Múltiples medios de pago",
+      "blockClass": "text-benefits"
+    }
+  },
+
+  // BENEFICIOS
+
+  // TEXTOS SEO
+
+  "rich-text#title-text-seo-1": {
+    "props": {
+      "text": "# Sobre Quest",
+      "blockClass": "title-seo-home-mobile"
+    }
+  },
+
+  "rich-text#text-seo-home-1": {
+    "props": {
+      "text": "**Optimized store framework** \n Free your frontend with our React + Node store framework. Improve usability and SEO, while increasing conversion with modular components, single-page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+      "blockClass": "text-content-seo-mobile"
+    }
+  },
+
+  "rich-text#title-text-seo-2": {
+    "props": {
+      "text": "## Tienda de ropa para hombre",
+      "blockClass": "title-seo-home-mobile"
+    }
+  },
+
+  "rich-text#text-seo-home-2": {
+    "props": {
+      "text": "**Optimized store framework** \n Free your frontend with our React + Node store framework. Improve usability and SEO, while increasing conversion with modular components, single-page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+      "blockClass": "text-content-seo-mobile"
+    }
+  },
+
+  "rich-text#title-text-seo-3": {
+    "props": {
+      "text": "## Tienda de ropa para mujer",
+      "blockClass": "title-seo-home-mobile"
+    }
+  },
+
+  "rich-text#text-seo-home-3": {
+    "props": {
+      "text": "**Optimized store framework** \n Free your frontend with our React + Node store framework. Improve usability and SEO, while increasing conversion with modular components, single-page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+      "blockClass": "text-content-seo-mobile"
+    }
+  },
+
+  "rich-text#title-text-seo-4": {
+    "props": {
+      "text": "## Tienda de ropa para online",
+      "blockClass": "title-seo-home-mobile"
+    }
+  },
+
+  "rich-text#text-seo-home-4": {
+    "props": {
+      "text": "**Optimized store framework** \n Free your frontend with our React + Node store framework. Improve usability and SEO, while increasing conversion with modular components, single-page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+      "blockClass": "text-content-seo-mobile"
+    }
+  },
+
+  // TEXTOS SEO
+
+  // BANNER EXTRA
+
+  "flex-layout.row#text-banner-home-1": {
+    "children": ["flex-layout.col#text-banner-home-1"],
+    "props": {
+      "blockClass": ["contentText-banner-extra"],
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#text-banner-home-1": {
+    "children": [
+      "rich-text#text-banner-extra1",
+      "rich-text#button-banner-extra1"
+    ]
+  },
+
+  "flex-layout.row#text-banner-home-2": {
+    "children": ["flex-layout.col#text-banner-home-2"],
+    "props": {
+      "blockClass": ["contentText-banner-extra"],
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#text-banner-home-2": {
+    "children": [
+      "rich-text#text-banner-extra2",
+      "rich-text#button-banner-extra2"
+    ]
+  },
+
+  "rich-text#text-banner-extra1": {
+    "title": "Titulo Categorias",
+    "props": {
+      "text": "Texto HTML de apoyo \n sobre banner home",
+      "blockClass": "text-banner-extra",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#button-banner-extra1": {
+    "title": "Titulo Categorias",
+    "props": {
+      "text": "CTA",
+      "blockClass": "button-banner-home",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#text-banner-extra2": {
+    "title": "Titulo Categorias",
+    "props": {
+      "text": "Texto HTML de apoyo \n sobre banner home",
+      "blockClass": "text-banner-extra",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#button-banner-extra2": {
+    "title": "Titulo Categorias",
+    "props": {
+      "text": "CTA",
+      "blockClass": "button-banner-home",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "image#banner-1": {
+    "props": {
+      "src": "https://quest.vteximg.com.br/arquivos/banner-mb-1.png",
+      "blockClass": "image-banner-extra"
+    }
+  },
+
+  "image#banner-2": {
+    "props": {
+      "src": "https://quest.vteximg.com.br/arquivos/banner-mb-2.png",
+      "blockClass": "image-banner-extra"
+    }
+  }
+
+  // BANNER EXTRA
+}

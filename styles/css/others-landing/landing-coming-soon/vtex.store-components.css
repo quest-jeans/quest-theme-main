@@ -1,0 +1,35 @@
+.imageElement--suscription-form{
+    position: relative;
+    top: -240px;
+    left: -1000px;
+}
+
+.imageElement--carousel{
+    max-height: initial !important;
+}
+
+.imageElement--fondo-since{
+    bottom: -500px;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px){
+    .imageElement--texto-logo-quest-name{
+        max-width: 300px !important;
+        position: relative;
+        left: -500px;
+    }
+
+    .imageElement--texto-logo-quest{
+        max-width: 300px !important;
+    }
+
+    .imageElement--suscription-form{
+        top: -150px;
+        left: initial;
+    }
+
+    .imageElement--fondo-since{
+        bottom: initial;
+    }
+}

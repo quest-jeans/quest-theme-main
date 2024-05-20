@@ -1,0 +1,15 @@
+{
+    "store.custom#landing-pre-sale": {
+        "title": "Landing pre sale",
+        "children": [
+            "landing-move-elements",
+            "responsive-layout.desktop#landing-pre-sale",
+            "responsive-layout.mobile#landing-pre-sale",
+            "responsive-layout.tablet#landing-pre-sale"
+        ],
+        "props":{
+            "blockClass": "landing-coming-soon"
+        }
+    }
+  }
+  

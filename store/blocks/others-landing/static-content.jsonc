@@ -1,0 +1,21 @@
+{
+  "store.custom#landing-static-content": {
+    "title": "Contenido Estático",
+    "blocks": [
+      "custom-metas-injection#static-content",
+      "list-context.image-list#banner-static-content",
+      "flex-layout.row#text-static-content1"
+    ]
+  },
+  "custom-metas-injection#static-content": {
+    "title": "Custom Meta Tags - Contenido Estático",
+    "props": {
+      "metas": [
+        {
+          "property": "og:image",
+          "content": ""
+        }
+      ]
+    }
+  }
+}

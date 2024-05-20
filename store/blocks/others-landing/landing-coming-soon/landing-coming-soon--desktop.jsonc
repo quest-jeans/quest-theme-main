@@ -1,0 +1,300 @@
+{
+    "responsive-layout.desktop#landing-coming-soon":{
+        "title": "Desktop",
+        "children": [
+            "flex-layout.row#landing-video",
+            "flex-layout.row#landing-since",
+            "flex-layout.row#landing-carousel-image",
+            "flex-layout.row#landing-text-invitacion",
+            "flex-layout.row#landing-image-form",
+            "flex-layout.row#landing-banner-footer",
+            "flex-layout.row#newsletterCustom"
+        ]
+    },
+    "flex-layout.row#landing-video":{
+        "title": "Video",
+        "children":[
+            "iframe#landing-header"
+        ],
+        "props":{
+            "blockClass": "landing-video",
+            "marginBottom": "8",
+            "marginTop": "0"
+        }
+    },
+    "flex-layout.row#landing-video-v2":{
+        "title": "Video V2",
+        "children":[
+            "iframe#landing-header"
+        ],
+        "props":{
+            "blockClass": "landing-video",
+            "marginBottom": "8",
+            "marginTop": "8"
+        }
+    },
+    "iframe#landing-header":{
+        "title": "Video",
+        "props": {
+            "src": "https://www.youtube.com/embed/NVD9oZAL5j4?si=3zFtK7ZeBrmix0HvL",
+            "width": "100%",
+            "height": "700"
+          }
+    },
+    "flex-layout.row#landing-since":{
+        "title": "Texto since",
+        "children":[
+            "flex-layout.col#landing-since-empty",
+            "flex-layout.col#landing-since-image-text"
+        ],
+        "props":{
+            "blockClass": "landing-since",
+            "colSizing": "auto",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#landing-since-v2":{
+        "title": "Banner since",
+        "children":[
+            "image#fondo-since"
+        ],
+        "props":{
+            "blockClass": [
+                "landing-since"
+            ],
+            "colSizing": "auto",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#landing-since-v2-2":{
+        "title": "Banner since",
+        "children":[
+            "image#fondo-since"
+        ],
+        "props":{
+            "blockClass": [
+                "landing-since",
+                "landing-since-v2"
+            ],
+            "colSizing": "auto",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#landing-since-empty":{
+        "title": "Imagen",
+        "props":{
+            "blockClass": "landing-since-empty"
+        },
+        "children":[
+            "image#fondo-since"
+        ]
+    },
+    "image#fondo-since": {
+        "title": "Logo Quest",
+        "props": {
+          "src": "/arquivos/since-landing-1995.png",
+          "blockClass": "fondo-since"
+        }
+    },
+    "flex-layout.col#landing-since-image-text":{
+        "title": "Imagen y texto",
+        "children":[
+            "image#logo-quest",
+            "rich-text#texto-logo-quest"
+        ],
+        "props":{
+            "blockClass": "landing-since-image-text",
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#logo-quest": {
+        "title": "Logo Quest",
+        "props": {
+          "src": "/arquivos/since-landing-firma.png",
+          "blockClass": "texto-logo-quest",
+          "maxWidth": "330px"
+        }
+    },
+    "rich-text#texto-logo-quest": {
+        "props": {
+          "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.",
+          "blockClass": "texto-logo-quest"
+        }
+    },
+    "link#link-logo-quest": {
+        "props": {
+          "label": "SUSCRÍBETE",
+          "href": "#landing-image-form-v2",
+          "scrollTo" : "#landing-image-form-v2",
+          "displayMode": "anchor",
+          "blockClass": "link-suscribete"
+        }
+    },
+    "flex-layout.row#landing-carousel-image":{
+        "title": "Carrusel de imagenes",
+        "children":[
+            "landing-carousel-image"
+        ],
+        "props":{
+            "blockClass": "landing-carousel-image",
+            "paddingBottom": "8",
+            "paddingTop": "8"
+        }
+    },
+    "flex-layout.row#landing-text-invitacion":{
+        "title": "Texto invitacion",
+        "children":[
+            "rich-text#texto-invitacion"
+        ],
+        "props":{
+            "blockClass": "landing-text-invitacion",
+            "marginBottom": "10",
+            "marginTop": "7"
+        }
+    },
+    "rich-text#texto-invitacion":{
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Te invitamos a suscribirte** para conocer de forma exclusiva las prendas de esta colaboración.",
+            "blockClass": "texto-invitacion"
+        }
+    },
+    "flex-layout.row#landing-image-form":{
+        "title": "Imagen y formulario",
+        "children":[
+            "flex-layout.col#landing-image-form-image",
+            "flex-layout.col#landing-image-form-formulario"
+        ],
+        "props":{
+            "blockClass": "landing-image-form",
+            "paddingBottom": "0",
+            "paddingTop": "8"
+        }
+    },
+    "flex-layout.row#landing-image-form-v2":{
+        "title": "Imagen y formulario",
+        "children":[
+            "flex-layout.col#landing-image-form-image",
+            "flex-layout.col#landing-image-form-formulario"
+        ],
+        "props":{
+            "blockClass": [
+                "landing-image-form",
+                "landing-image-form-v2"
+            ],
+            "paddingBottom": "0",
+            "paddingTop": "8",
+            "htmlId": "landing-image-form-v2"
+        }
+    },
+    "flex-layout.col#landing-image-form-image":{
+        "title": "Imagen",
+        "children":[
+            "image#suscription-form"
+        ],
+        "props":{
+            "blockClass": "landing-image-form-image",
+            "paddingLeft": "8",
+            "paddingRight": "8"
+        }
+    },
+    "image#suscription-form": {
+        "title": "Imagen de suscripcion",
+        "props": {
+          "src": "/arquivos/jugador-landing.png?v=33",
+          "blockClass": "suscription-form"
+        }
+    },
+    "flex-layout.col#landing-image-form-formulario":{
+        "title": "Formulario",
+        "children":[
+            "rich-text#texto-datos-personales",
+            "form#landing-suscription"
+        ],
+        "props":{
+            "blockClass": "landing-image-form-formulario",
+            "paddingLeft": "8",
+            "paddingRight": "8",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#texto-datos-personales": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "## DATOS PERSONALES",
+          "blockClass": "texto-datos-personales"
+        }
+    },
+    "form#landing-suscription": {
+        "props": {
+            "entity": "landingsuscription",
+            "schema": "formlandingsuscription",
+            "blockClass": "landing-form-suscription"
+        },
+        "children": [
+            "form-input.text#landing-name",
+            "form-input.text#landing-email",
+            "form-input.text#landing-phone",
+            "form-submit#landing-submit"
+        ],
+        "blocks": [
+            "form-success#landing-success"
+        ]
+    },
+    "form-success#landing-success": {
+        "children": [
+            "rich-text#landing-successSubmit"
+        ]
+    },
+    "rich-text#landing-successSubmit": {
+        "props": {
+            "text": "Gracias, tus datos han sido enviados satisfactoriamente!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "successMenssage"
+        }
+    },
+    "form-input.text#landing-name": {
+        "props": {
+            "pointer": "#/properties/name",
+            "placeholder": "Nombre completo",
+            "blockClass": "inputCustom"
+        }
+    },
+    "form-input.text#landing-email": {
+        "props": {
+            "pointer": "#/properties/email",
+            "placeholder": "Correo electrónico",
+            "blockClass": "inputCustom"
+        }
+    },
+    "form-input.text#landing-phone": {
+        "props": {
+            "pointer": "#/properties/phone",
+            "placeholder": "Teléfono",
+            "blockClass": "inputCustom"
+        }
+    },
+    "form-submit#landing-submit": {
+        "props": {
+            "label": "Enviar",
+            "blockClass": "buttonCustom"
+        }
+    },
+    "flex-layout.row#landing-banner-footer":{
+        "title": "Banner footer",
+        "children":[
+            "list-context.image-list#banner-principal"
+        ],
+        "props":{
+            "marginTop": "8",
+            "marginBottom": "8",
+            "blockClass": "landing-banner-footer"
+        }
+
+    }
+}
+

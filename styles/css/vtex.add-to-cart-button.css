@@ -1,0 +1,12 @@
+.buttonDataContainer--buttonAddToCartProduct {
+  display: flex;
+  align-items: center;
+}
+
+.buttonDataContainer--buttonAddToCartProduct::before {
+  content: "\e938";
+  font-family: "Icons";
+  font-size: 40px;
+  color: #ffffff;
+  padding-right: 20px;
+}
